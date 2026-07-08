@@ -25,8 +25,8 @@ set "SPLIT_SCRIPT=%GIT_REPO%\split_large_logs.ps1"
 REM Fréquence : 1800 secondes = 30 minutes.
 if not defined SLEEP_SECONDS set "SLEEP_SECONDS=1800"
 
-REM Taille max cible par fichier : 70 MB environ, sous la limite GitHub de 100 MB.
-set "MAX_FILE_BYTES=73400320"
+REM Taille max cible par fichier : 45 MB environ, sous la recommandation GitHub de 50 MB.
+set "MAX_FILE_BYTES=47185920"
 
 :loop
 echo.
@@ -88,7 +88,7 @@ if errorlevel 1 (
     goto wait_next
 )
 
-echo Splitting large files over 70 MB in "%DAY_DIR%"...
+echo Splitting large files over 45 MB in "%DAY_DIR%"...
 
 powershell -NoProfile -ExecutionPolicy Bypass -File "%SPLIT_SCRIPT%" -Root "%DAY_DIR%" -MaxBytes %MAX_FILE_BYTES%
 
