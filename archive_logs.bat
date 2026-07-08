@@ -3,7 +3,7 @@ title Earendil Logs Archiver
 setlocal EnableExtensions EnableDelayedExpansion
 
 REM ==========================================================
-REM Earendil - hourly logs archival + git push
+REM Earendil - half-hourly logs archival + git push
 REM ==========================================================
 
 REM Dossier source où Earendil écrit les logs.
@@ -18,11 +18,12 @@ for %%I in ("%SCRIPT_DIR%.") do set "GIT_REPO=%%~fI"
 REM Les logs archivés sont copiés dans goblin-logs\logs\YYYY-MM-DD.
 set "ARCHIVE_ROOT=%GIT_REPO%\logs"
 
-REM Script PowerShell de split.
+REM Scripts PowerShell.
+set "COPY_SCRIPT=%GIT_REPO%\copy_active_logs.ps1"
 set "SPLIT_SCRIPT=%GIT_REPO%\split_large_logs.ps1"
 
-REM Fréquence : 3600 secondes = 1 heure.
-if not defined SLEEP_SECONDS set "SLEEP_SECONDS=3600"
+REM Fréquence : 1800 secondes = 30 minutes.
+if not defined SLEEP_SECONDS set "SLEEP_SECONDS=1800"
 
 REM Taille max cible par fichier : 70 MB environ, sous la limite GitHub de 100 MB.
 set "MAX_FILE_BYTES=73400320"
@@ -53,7 +54,12 @@ if not exist "%GIT_REPO%\.git" (
     goto wait_next
 )
 
-REM Vérifie le script de split.
+REM Vérifie les scripts auxiliaires.
+if not exist "%COPY_SCRIPT%" (
+    echo ERROR: COPY_SCRIPT does not exist: "%COPY_SCRIPT%"
+    goto wait_next
+)
+
 if not exist "%SPLIT_SCRIPT%" (
     echo ERROR: SPLIT_SCRIPT does not exist: "%SPLIT_SCRIPT%"
     goto wait_next
@@ -70,16 +76,15 @@ if not exist "%DAY_DIR%" (
     mkdir "%DAY_DIR%"
 )
 
-echo Copying logs from "%LOG_SOURCE%" to "%DAY_DIR%"
+echo Copying active log snapshots from "%LOG_SOURCE%" to "%DAY_DIR%"
 
-REM Copie snapshot des logs sans les supprimer côté Earendil.
-REM /E copie aussi les sous-dossiers éventuels.
-REM /R:2 /W:5 = 2 tentatives, 5 secondes d'attente.
-REM Robocopy retourne 0 à 7 pour succès / succès partiel non bloquant.
-robocopy "%LOG_SOURCE%" "%DAY_DIR%" *.* /E /R:2 /W:5 /NP
+REM Copie snapshot des logs sans les supprimer ni verrouiller côté Earendil.
+REM Le script PowerShell ouvre les fichiers avec FileShare ReadWrite/Delete,
+REM ce qui évite de bloquer le bot pendant qu'il écrit dans trades.jsonl.
+powershell -NoProfile -ExecutionPolicy Bypass -File "%COPY_SCRIPT%" -Source "%LOG_SOURCE%" -Destination "%DAY_DIR%"
 
-if %ERRORLEVEL% GEQ 8 (
-    echo ERROR: Robocopy failed with errorlevel %ERRORLEVEL%
+if errorlevel 1 (
+    echo ERROR: active log copy failed.
     goto wait_next
 )
 
