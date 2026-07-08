@@ -18,6 +18,9 @@ $files = Get-ChildItem -Path $Root -Recurse -File | Where-Object {
 foreach ($file in $files) {
     Write-Host "Splitting large file: $($file.FullName) size=$($file.Length)"
 
+    $existingPartsPattern = "{0}.part*{1}" -f $file.BaseName, $file.Extension
+    Get-ChildItem -Path $file.DirectoryName -File -Filter $existingPartsPattern | Remove-Item -Force
+
     $reader = [System.IO.StreamReader]::new($file.FullName, $encoding)
     $index = 1
     $currentBytes = 0
