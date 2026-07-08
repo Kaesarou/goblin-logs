@@ -64,11 +64,16 @@ if (-not (Test-Path $Destination)) {
     New-Item -ItemType Directory -Path $Destination -Force | Out-Null
 }
 
-$sourceRoot = (Resolve-Path $Source).Path.TrimEnd('\', '/')
-$destinationRoot = (Resolve-Path $Destination).Path.TrimEnd('\', '/')
+$pathSeparators = [char[]]@(
+    [System.IO.Path]::DirectorySeparatorChar,
+    [System.IO.Path]::AltDirectorySeparatorChar
+)
+
+$sourceRoot = (Resolve-Path $Source).Path.TrimEnd($pathSeparators)
+$destinationRoot = (Resolve-Path $Destination).Path.TrimEnd($pathSeparators)
 
 Get-ChildItem -Path $sourceRoot -File -Recurse | ForEach-Object {
-    $relativePath = $_.FullName.Substring($sourceRoot.Length).TrimStart('\', '/')
+    $relativePath = $_.FullName.Substring($sourceRoot.Length).TrimStart($pathSeparators)
     $destinationPath = Join-Path $destinationRoot $relativePath
 
     try {
