@@ -1,2 +1,392 @@
 2026-07-09 05:04:26,516 | INFO | __main__ | Starting Eärendil | broker=etoro_demo | strategy_profile=balanced | watchlist=['AIR.PA', 'SAF.PA', 'MC.PA', 'OR.PA', 'TTE.PA', 'BNP.PA', 'SAN.PA', 'AI.PA', 'SU.PA', 'DG.PA', 'CAP.PA', 'RI.PA', 'HO.PA', 'CS.PA', 'ACA.PA', 'EN.PA', 'VIE.PA', 'SGO.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'BN.PA', 'ORA.PA', 'ENGI.PA', 'LR.PA', 'ML.PA', 'SW.PA', 'ALO.PA', 'PUB.PA', 'WLN.PA', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'COST', 'PEP', 'KO', 'MCD', 'WMT', 'JPM', 'BAC', 'GS', 'V', 'MA', 'UNH', 'LLY', 'JNJ', 'XOM', 'HD', 'DIS', 'ABBV', 'ACN', 'AMAT', 'AMGN', 'AMT', 'AXP', 'BA', 'BKNG', 'BLK', 'BMY', 'C', 'CAT', 'CL', 'CMCSA', 'COF', 'COP', 'CSCO', 'CVS', 'DE', 'DHR', 'DUK', 'EMR', 'FDX', 'GD', 'GE', 'GEV', 'GILD', 'GM', 'HON', 'IBM', 'INTC', 'INTU', 'ISRG', 'LIN', 'LMT', 'LOW', 'LRCX', 'MDLZ', 'MMM', 'MO', 'MRK', 'MU', 'NEE', 'NKE', 'NOW', 'PFE', 'PG', 'PLTR', 'PM', 'QCOM', 'RTX', 'SBUX', 'SCHW', 'SO', 'SPG', 'TMO', 'TMUS', 'TXN', 'UBER', 'UNP', 'UPS', 'USB', 'VZ', 'WFC']
 2026-07-09 05:04:26,744 | INFO | app.runtime.position_lifecycle | No persisted open positions to restore
+2026-07-09 07:00:10,410 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AIR.PA | instrument_id=1234
+2026-07-09 07:00:10,749 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAF.PA | instrument_id=1261
+2026-07-09 07:00:11,072 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MC.PA | instrument_id=1253
+2026-07-09 07:00:11,269 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=OR.PA | instrument_id=1256
+2026-07-09 07:00:11,433 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TTE.PA | instrument_id=1246
+2026-07-09 07:00:11,764 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BNP.PA | instrument_id=1238
+2026-07-09 07:00:11,921 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAN.PA | instrument_id=1262
+2026-07-09 07:00:12,168 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AI.PA | instrument_id=1233
+2026-07-09 07:00:12,363 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SU.PA | instrument_id=1265
+2026-07-09 07:00:12,532 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DG.PA | instrument_id=1242
+2026-07-09 07:00:12,771 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CAP.PA | instrument_id=1240
+2026-07-09 07:00:12,920 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RI.PA | instrument_id=1259
+2026-07-09 07:00:13,073 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HO.PA | instrument_id=5040
+2026-07-09 07:00:13,214 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CS.PA | instrument_id=1241
+2026-07-09 07:00:13,377 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ACA.PA | instrument_id=1232
+2026-07-09 07:00:13,577 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EN.PA | instrument_id=1245
+2026-07-09 07:00:13,801 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=VIE.PA | instrument_id=1269
+2026-07-09 07:00:13,972 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SGO.PA | instrument_id=1263
+2026-07-09 07:00:14,139 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EL.PA | instrument_id=1244
+2026-07-09 07:00:14,302 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RMS.PA | instrument_id=1978
+2026-07-09 07:00:14,543 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=KER.PA | instrument_id=1250
+2026-07-09 07:00:14,683 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BN.PA | instrument_id=1237
+2026-07-09 07:00:14,835 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ORA.PA | instrument_id=1257
+2026-07-09 07:00:15,016 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENGI.PA | instrument_id=1249
+2026-07-09 07:00:15,172 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LR.PA | instrument_id=1252
+2026-07-09 07:00:15,322 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ML.PA | instrument_id=1254
+2026-07-09 07:00:15,475 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SW.PA | instrument_id=5002
+2026-07-09 07:00:15,630 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALO.PA | instrument_id=1235
+2026-07-09 07:00:15,771 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=PUB.PA | instrument_id=1258
+2026-07-09 07:00:15,923 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=WLN.PA | instrument_id=5779
+2026-07-09 07:01:03,549 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AIR.PA | open=199.28 | high=199.58 | low=199.28 | close=199.38 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,551 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AIR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=199.38
+2026-07-09 07:01:03,559 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,745 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAF.PA | open=337.0 | high=337.0 | low=336.2 | close=336.4 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,747 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAF.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=336.4
+2026-07-09 07:01:03,754 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,767 | INFO | app.runtime.symbol_flow | Candle closed | symbol=MC.PA | open=483.7 | high=487.4 | low=483.7 | close=485.55 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,771 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=MC.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=485.55
+2026-07-09 07:01:03,780 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,793 | INFO | app.runtime.symbol_flow | Candle closed | symbol=OR.PA | open=378.9 | high=379.4 | low=378.9 | close=379.2 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,797 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=OR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=379.2
+2026-07-09 07:01:03,808 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,820 | INFO | app.runtime.symbol_flow | Candle closed | symbol=TTE.PA | open=68.91 | high=68.91 | low=68.61 | close=68.61 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,824 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=TTE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=68.61
+2026-07-09 07:01:03,835 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,847 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BNP.PA | open=96.57 | high=99.46 | low=96.57 | close=99.46 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,849 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BNP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=99.46
+2026-07-09 07:01:03,863 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,873 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAN.PA | open=75.31 | high=75.94 | low=75.31 | close=75.94 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,875 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=75.94
+2026-07-09 07:01:03,890 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,901 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AI.PA | open=173.82 | high=173.82 | low=173.72 | close=173.8 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,903 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=173.8
+2026-07-09 07:01:03,915 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,926 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SU.PA | open=268.75 | high=268.75 | low=268.4 | close=268.4 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,927 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SU.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=268.4
+2026-07-09 07:01:03,941 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,957 | INFO | app.runtime.symbol_flow | Candle closed | symbol=DG.PA | open=118.85 | high=118.85 | low=118.5 | close=118.7 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,959 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=DG.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=118.7
+2026-07-09 07:01:03,968 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:03,983 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CAP.PA | open=89.64 | high=90.24 | low=89.64 | close=90.12 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:03,987 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CAP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=90.12
+2026-07-09 07:01:03,997 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,008 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RI.PA | open=63.84 | high=63.84 | low=63.84 | close=63.84 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,011 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=63.84
+2026-07-09 07:01:04,022 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,036 | INFO | app.runtime.symbol_flow | Candle closed | symbol=HO.PA | open=233.1 | high=233.1 | low=233.1 | close=233.1 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,040 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=HO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=233.1
+2026-07-09 07:01:04,049 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,062 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CS.PA | open=43.85 | high=44.08 | low=43.85 | close=44.08 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,066 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=44.08
+2026-07-09 07:01:04,075 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,088 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ACA.PA | open=17.385 | high=17.385 | low=17.33 | close=17.33 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,092 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ACA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=17.33
+2026-07-09 07:01:04,105 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,116 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EN.PA | open=46.36 | high=46.38 | low=46.27 | close=46.27 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,120 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=46.27
+2026-07-09 07:01:04,135 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,159 | INFO | app.runtime.symbol_flow | Candle closed | symbol=VIE.PA | open=36.67 | high=36.81 | low=36.67 | close=36.7 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,164 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=VIE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=36.7
+2026-07-09 07:01:04,174 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,196 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SGO.PA | open=75.0 | high=76.2 | low=75.0 | close=76.16 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,199 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SGO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=76.16
+2026-07-09 07:01:04,208 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,220 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EL.PA | open=169.6 | high=169.7 | low=169.55 | close=169.7 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,224 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EL.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=169.7
+2026-07-09 07:01:04,240 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,265 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RMS.PA | open=1587.5 | high=1591.0 | low=1587.5 | close=1591.0 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,269 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RMS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=1591.0
+2026-07-09 07:01:04,280 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,292 | INFO | app.runtime.symbol_flow | Candle closed | symbol=KER.PA | open=244.95 | high=245.05 | low=244.2 | close=244.2 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,296 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=KER.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=244.2
+2026-07-09 07:01:04,306 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,329 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BN.PA | open=73.1 | high=73.1 | low=73.06 | close=73.06 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,332 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=73.06
+2026-07-09 07:01:04,344 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,365 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ORA.PA | open=15.895 | high=15.95 | low=15.895 | close=15.95 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,368 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ORA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.95
+2026-07-09 07:01:04,377 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,397 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ENGI.PA | open=26.79 | high=26.81 | low=26.78 | close=26.81 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,402 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ENGI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=26.81
+2026-07-09 07:01:04,411 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,435 | INFO | app.runtime.symbol_flow | Candle closed | symbol=LR.PA | open=142.8 | high=143.25 | low=142.8 | close=143.25 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,439 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=LR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=143.25
+2026-07-09 07:01:04,447 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,460 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ML.PA | open=34.17 | high=34.46 | low=34.17 | close=34.44 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,471 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ML.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=34.44
+2026-07-09 07:01:04,482 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,503 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SW.PA | open=53.9 | high=54.0 | low=53.85 | close=53.85 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,508 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SW.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=53.85
+2026-07-09 07:01:04,518 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,530 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ALO.PA | open=15.82 | high=15.855 | low=15.775 | close=15.775 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,535 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ALO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.775
+2026-07-09 07:01:04,556 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,579 | INFO | app.runtime.symbol_flow | Candle closed | symbol=PUB.PA | open=83.6 | high=85.46 | low=83.6 | close=85.38 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,585 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=PUB.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=85.38
+2026-07-09 07:01:04,593 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:01:04,608 | INFO | app.runtime.symbol_flow | Candle closed | symbol=WLN.PA | open=10.042 | high=10.064 | low=10.042 | close=10.062 | opened_at=2026-07-09T07:00:00+00:00 | closed_at=2026-07-09T07:01:00+00:00
+2026-07-09 07:01:04,612 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=WLN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=10.062
+2026-07-09 07:01:04,622 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,595 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AIR.PA | open=199.06 | high=199.38 | low=198.96 | close=199.36 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,597 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AIR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=199.36
+2026-07-09 07:02:03,606 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,620 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAF.PA | open=336.4 | high=337.4 | low=336.4 | close=337.4 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,624 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAF.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=337.4
+2026-07-09 07:02:03,634 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,649 | INFO | app.runtime.symbol_flow | Candle closed | symbol=MC.PA | open=485.7 | high=486.55 | low=484.35 | close=486.55 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,653 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=MC.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=486.55
+2026-07-09 07:02:03,662 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,684 | INFO | app.runtime.symbol_flow | Candle closed | symbol=OR.PA | open=378.95 | high=379.45 | low=378.95 | close=379.45 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,688 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=OR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=379.45
+2026-07-09 07:02:03,700 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,714 | INFO | app.runtime.symbol_flow | Candle closed | symbol=TTE.PA | open=69.05 | high=69.15 | low=68.99 | close=69.06 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,725 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=TTE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=69.06
+2026-07-09 07:02:03,735 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,759 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BNP.PA | open=99.32 | high=99.56 | low=99.32 | close=99.56 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,764 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BNP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=99.56
+2026-07-09 07:02:03,773 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,784 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAN.PA | open=76.01 | high=76.17 | low=76.01 | close=76.04 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,787 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=76.04
+2026-07-09 07:02:03,803 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,826 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AI.PA | open=173.8 | high=173.8 | low=173.74 | close=173.76 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,830 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=173.76
+2026-07-09 07:02:03,843 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,864 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SU.PA | open=268.7 | high=269.35 | low=268.7 | close=269.05 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,867 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SU.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=269.05
+2026-07-09 07:02:03,879 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,891 | INFO | app.runtime.symbol_flow | Candle closed | symbol=DG.PA | open=118.65 | high=118.8 | low=118.65 | close=118.7 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,895 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=DG.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=118.7
+2026-07-09 07:02:03,907 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,928 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CAP.PA | open=90.02 | high=90.08 | low=89.56 | close=89.56 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,934 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CAP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=89.56
+2026-07-09 07:02:03,943 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:03,955 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RI.PA | open=63.62 | high=63.72 | low=63.56 | close=63.72 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:03,970 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=63.72
+2026-07-09 07:02:03,981 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,002 | INFO | app.runtime.symbol_flow | Candle closed | symbol=HO.PA | open=233.9 | high=233.9 | low=233.5 | close=233.7 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,007 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=HO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=233.7
+2026-07-09 07:02:04,017 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,029 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CS.PA | open=44.1 | high=44.15 | low=44.1 | close=44.15 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,032 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=44.15
+2026-07-09 07:02:04,048 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,066 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ACA.PA | open=17.33 | high=17.355 | low=17.33 | close=17.355 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,070 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ACA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=17.355
+2026-07-09 07:02:04,086 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,104 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EN.PA | open=46.29 | high=46.33 | low=46.26 | close=46.27 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,111 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=46.27
+2026-07-09 07:02:04,123 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,144 | INFO | app.runtime.symbol_flow | Candle closed | symbol=VIE.PA | open=36.7 | high=36.72 | low=36.7 | close=36.72 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,147 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=VIE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=36.72
+2026-07-09 07:02:04,156 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,167 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SGO.PA | open=75.94 | high=75.94 | low=75.84 | close=75.84 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,181 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SGO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=75.84
+2026-07-09 07:02:04,192 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,213 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EL.PA | open=169.5 | high=170.25 | low=169.3 | close=170.25 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,218 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EL.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=170.25
+2026-07-09 07:02:04,228 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,249 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RMS.PA | open=1586.0 | high=1586.0 | low=1582.5 | close=1586.0 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,255 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RMS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=1586.0
+2026-07-09 07:02:04,265 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,276 | INFO | app.runtime.symbol_flow | Candle closed | symbol=KER.PA | open=243.55 | high=244.35 | low=243.55 | close=244.35 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,280 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=KER.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=244.35
+2026-07-09 07:02:04,293 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,314 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BN.PA | open=73.08 | high=73.26 | low=73.08 | close=73.26 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,318 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=73.26
+2026-07-09 07:02:04,328 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,351 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ORA.PA | open=15.955 | high=15.955 | low=15.93 | close=15.93 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,356 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ORA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.93
+2026-07-09 07:02:04,366 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,389 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ENGI.PA | open=26.82 | high=26.86 | low=26.79 | close=26.79 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,394 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ENGI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=26.79
+2026-07-09 07:02:04,402 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,412 | INFO | app.runtime.symbol_flow | Candle closed | symbol=LR.PA | open=143.3 | high=143.8 | low=143.3 | close=143.8 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,416 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=LR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=143.8
+2026-07-09 07:02:04,434 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,456 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ML.PA | open=34.43 | high=34.43 | low=34.43 | close=34.43 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,465 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ML.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=34.43
+2026-07-09 07:02:04,473 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,496 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SW.PA | open=53.8 | high=53.85 | low=53.8 | close=53.85 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,501 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SW.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=53.85
+2026-07-09 07:02:04,511 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,522 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ALO.PA | open=15.79 | high=15.79 | low=15.765 | close=15.765 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,526 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ALO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.765
+2026-07-09 07:02:04,538 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,561 | INFO | app.runtime.symbol_flow | Candle closed | symbol=PUB.PA | open=85.34 | high=85.54 | low=85.3 | close=85.54 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,566 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=PUB.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=85.54
+2026-07-09 07:02:04,576 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:02:04,587 | INFO | app.runtime.symbol_flow | Candle closed | symbol=WLN.PA | open=10.062 | high=10.062 | low=10.062 | close=10.062 | opened_at=2026-07-09T07:01:00+00:00 | closed_at=2026-07-09T07:02:00+00:00
+2026-07-09 07:02:04,599 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=WLN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=10.062
+2026-07-09 07:02:04,612 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,577 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AIR.PA | open=199.36 | high=199.36 | low=199.02 | close=199.18 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,582 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AIR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=199.18
+2026-07-09 07:03:03,589 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,608 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAF.PA | open=337.4 | high=337.4 | low=336.8 | close=337.3 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,612 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAF.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=337.3
+2026-07-09 07:03:03,621 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,639 | INFO | app.runtime.symbol_flow | Candle closed | symbol=MC.PA | open=486.85 | high=488.25 | low=486.85 | close=488.25 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,644 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=MC.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=488.25
+2026-07-09 07:03:03,658 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,683 | INFO | app.runtime.symbol_flow | Candle closed | symbol=OR.PA | open=379.45 | high=379.95 | low=379.45 | close=379.9 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,687 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=OR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=379.9
+2026-07-09 07:03:03,700 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,725 | INFO | app.runtime.symbol_flow | Candle closed | symbol=TTE.PA | open=69.0 | high=69.14 | low=69.0 | close=69.14 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,729 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=TTE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=69.14
+2026-07-09 07:03:03,739 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,750 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BNP.PA | open=99.62 | high=99.66 | low=99.54 | close=99.54 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,754 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BNP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=99.54
+2026-07-09 07:03:03,766 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,788 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAN.PA | open=76.01 | high=76.01 | low=75.63 | close=75.73 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,793 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=75.73
+2026-07-09 07:03:03,803 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,825 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AI.PA | open=173.8 | high=173.8 | low=173.5 | close=173.6 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,829 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=173.6
+2026-07-09 07:03:03,840 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,861 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SU.PA | open=268.85 | high=268.85 | low=268.55 | close=268.65 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,866 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SU.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=268.65
+2026-07-09 07:03:03,877 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,898 | INFO | app.runtime.symbol_flow | Candle closed | symbol=DG.PA | open=118.8 | high=118.8 | low=118.65 | close=118.65 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,907 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=DG.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=118.65
+2026-07-09 07:03:03,921 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,956 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CAP.PA | open=89.58 | high=89.58 | low=89.56 | close=89.56 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,958 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CAP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=89.56
+2026-07-09 07:03:03,968 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:03,984 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RI.PA | open=63.74 | high=63.8 | low=63.66 | close=63.66 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:03,994 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=63.66
+2026-07-09 07:03:04,005 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,016 | INFO | app.runtime.symbol_flow | Candle closed | symbol=HO.PA | open=233.4 | high=233.5 | low=233.4 | close=233.5 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,020 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=HO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=233.5
+2026-07-09 07:03:04,031 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,051 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CS.PA | open=44.18 | high=44.18 | low=44.18 | close=44.18 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,055 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=44.18
+2026-07-09 07:03:04,068 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,089 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ACA.PA | open=17.355 | high=17.375 | low=17.355 | close=17.365 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,095 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ACA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=17.365
+2026-07-09 07:03:04,104 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,126 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EN.PA | open=46.27 | high=46.27 | low=46.27 | close=46.27 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,130 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=46.27
+2026-07-09 07:03:04,145 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,157 | INFO | app.runtime.symbol_flow | Candle closed | symbol=VIE.PA | open=36.81 | high=36.81 | low=36.75 | close=36.75 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,161 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=VIE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=36.75
+2026-07-09 07:03:04,177 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,196 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SGO.PA | open=75.98 | high=75.98 | low=75.88 | close=75.88 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,200 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SGO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=75.88
+2026-07-09 07:03:04,213 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,233 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EL.PA | open=170.45 | high=170.45 | low=170.15 | close=170.15 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,238 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EL.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=170.15
+2026-07-09 07:03:04,249 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,270 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RMS.PA | open=1589.5 | high=1593.0 | low=1589.5 | close=1593.0 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,275 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RMS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=1593.0
+2026-07-09 07:03:04,283 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,296 | INFO | app.runtime.symbol_flow | Candle closed | symbol=KER.PA | open=244.35 | high=244.35 | low=243.9 | close=244.3 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,298 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=KER.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=244.3
+2026-07-09 07:03:04,312 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,332 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BN.PA | open=73.22 | high=73.22 | low=73.08 | close=73.12 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,334 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=73.12
+2026-07-09 07:03:04,345 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,359 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ORA.PA | open=15.94 | high=15.94 | low=15.93 | close=15.93 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,361 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ORA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.93
+2026-07-09 07:03:04,377 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,399 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ENGI.PA | open=26.79 | high=26.79 | low=26.79 | close=26.79 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,401 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ENGI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=26.79
+2026-07-09 07:03:04,414 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,429 | INFO | app.runtime.symbol_flow | Candle closed | symbol=LR.PA | open=143.8 | high=144.1 | low=143.8 | close=144.1 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,431 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=LR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=144.1
+2026-07-09 07:03:04,442 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,461 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ML.PA | open=34.41 | high=34.41 | low=34.36 | close=34.41 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,464 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ML.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=34.41
+2026-07-09 07:03:04,478 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,491 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SW.PA | open=53.9 | high=54.0 | low=53.9 | close=53.95 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,495 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SW.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=53.95
+2026-07-09 07:03:04,508 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,534 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ALO.PA | open=15.765 | high=15.765 | low=15.705 | close=15.75 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,538 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ALO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.75
+2026-07-09 07:03:04,549 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,569 | INFO | app.runtime.symbol_flow | Candle closed | symbol=PUB.PA | open=85.56 | high=85.56 | low=85.54 | close=85.54 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,573 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=PUB.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=85.54
+2026-07-09 07:03:04,582 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:03:04,593 | INFO | app.runtime.symbol_flow | Candle closed | symbol=WLN.PA | open=10.062 | high=10.062 | low=10.048 | close=10.048 | opened_at=2026-07-09T07:02:00+00:00 | closed_at=2026-07-09T07:03:00+00:00
+2026-07-09 07:03:04,603 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=WLN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=10.048
+2026-07-09 07:03:04,616 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,165 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AIR.PA | open=199.34 | high=199.34 | low=198.74 | close=198.74 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,168 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AIR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=198.74
+2026-07-09 07:04:04,174 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,191 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAF.PA | open=337.4 | high=337.4 | low=337.2 | close=337.2 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,195 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAF.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=337.2
+2026-07-09 07:04:04,205 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,220 | INFO | app.runtime.symbol_flow | Candle closed | symbol=MC.PA | open=488.35 | high=488.35 | low=486.4 | close=486.4 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,224 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=MC.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=486.4
+2026-07-09 07:04:04,240 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,258 | INFO | app.runtime.symbol_flow | Candle closed | symbol=OR.PA | open=380.2 | high=380.2 | low=379.45 | close=379.45 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,263 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=OR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=379.45
+2026-07-09 07:04:04,276 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,299 | INFO | app.runtime.symbol_flow | Candle closed | symbol=TTE.PA | open=69.13 | high=69.2 | low=69.07 | close=69.08 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,302 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=TTE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=69.08
+2026-07-09 07:04:04,313 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,326 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BNP.PA | open=99.62 | high=99.65 | low=99.56 | close=99.65 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,329 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BNP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=99.65
+2026-07-09 07:04:04,347 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,359 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SAN.PA | open=75.75 | high=75.97 | low=75.61 | close=75.61 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,362 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SAN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=75.61
+2026-07-09 07:04:04,375 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,396 | INFO | app.runtime.symbol_flow | Candle closed | symbol=AI.PA | open=173.6 | high=173.6 | low=173.36 | close=173.44 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,399 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=AI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=173.44
+2026-07-09 07:04:04,411 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,423 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SU.PA | open=269.0 | high=269.15 | low=268.75 | close=268.75 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,434 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SU.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=268.75
+2026-07-09 07:04:04,448 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,458 | INFO | app.runtime.symbol_flow | Candle closed | symbol=DG.PA | open=118.7 | high=118.7 | low=118.55 | close=118.55 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,460 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=DG.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=118.55
+2026-07-09 07:04:04,480 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,495 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CAP.PA | open=89.56 | high=89.56 | low=88.9 | close=88.9 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,499 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CAP.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=88.9
+2026-07-09 07:04:04,510 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,531 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RI.PA | open=63.7 | high=63.74 | low=63.58 | close=63.58 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,536 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=63.58
+2026-07-09 07:04:04,546 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,569 | INFO | app.runtime.symbol_flow | Candle closed | symbol=HO.PA | open=233.6 | high=233.6 | low=232.8 | close=232.8 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,573 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=HO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=232.8
+2026-07-09 07:04:04,583 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,605 | INFO | app.runtime.symbol_flow | Candle closed | symbol=CS.PA | open=44.18 | high=44.18 | low=44.18 | close=44.18 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,609 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=CS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=44.18
+2026-07-09 07:04:04,621 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,631 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ACA.PA | open=17.38 | high=17.38 | low=17.37 | close=17.38 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,633 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ACA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=17.38
+2026-07-09 07:04:04,652 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,662 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EN.PA | open=46.28 | high=46.28 | low=46.27 | close=46.27 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,664 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=46.27
+2026-07-09 07:04:04,683 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,695 | INFO | app.runtime.symbol_flow | Candle closed | symbol=VIE.PA | open=36.76 | high=36.76 | low=36.72 | close=36.73 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,713 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=VIE.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=36.73
+2026-07-09 07:04:04,722 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,734 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SGO.PA | open=75.88 | high=75.88 | low=75.68 | close=75.68 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,740 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SGO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=75.68
+2026-07-09 07:04:04,749 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,765 | INFO | app.runtime.symbol_flow | Candle closed | symbol=EL.PA | open=170.15 | high=170.15 | low=169.65 | close=169.65 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,767 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=EL.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=169.65
+2026-07-09 07:04:04,779 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,805 | INFO | app.runtime.symbol_flow | Candle closed | symbol=RMS.PA | open=1593.5 | high=1593.5 | low=1586.5 | close=1586.5 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,808 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=RMS.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=1586.5
+2026-07-09 07:04:04,818 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,839 | INFO | app.runtime.symbol_flow | Candle closed | symbol=KER.PA | open=244.0 | high=244.0 | low=243.25 | close=243.25 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,843 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=KER.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=243.25
+2026-07-09 07:04:04,854 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,869 | INFO | app.runtime.symbol_flow | Candle closed | symbol=BN.PA | open=73.12 | high=73.12 | low=72.96 | close=72.96 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,873 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=BN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=72.96
+2026-07-09 07:04:04,887 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,909 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ORA.PA | open=15.93 | high=15.93 | low=15.93 | close=15.93 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,912 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ORA.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.93
+2026-07-09 07:04:04,922 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,946 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ENGI.PA | open=26.8 | high=26.85 | low=26.79 | close=26.85 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,951 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ENGI.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=26.85
+2026-07-09 07:04:04,961 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:04,982 | INFO | app.runtime.symbol_flow | Candle closed | symbol=LR.PA | open=144.4 | high=144.45 | low=144.2 | close=144.25 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:04,987 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=LR.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=144.25
+2026-07-09 07:04:04,998 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:05,008 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ML.PA | open=34.41 | high=34.41 | low=34.31 | close=34.31 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:05,020 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ML.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=34.31
+2026-07-09 07:04:05,033 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:05,056 | INFO | app.runtime.symbol_flow | Candle closed | symbol=SW.PA | open=54.0 | high=54.0 | low=53.95 | close=54.0 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:05,061 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=SW.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=54.0
+2026-07-09 07:04:05,071 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:05,092 | INFO | app.runtime.symbol_flow | Candle closed | symbol=ALO.PA | open=15.75 | high=15.785 | low=15.75 | close=15.785 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:05,096 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=ALO.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=15.785
+2026-07-09 07:04:05,107 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:05,119 | INFO | app.runtime.symbol_flow | Candle closed | symbol=PUB.PA | open=85.52 | high=85.52 | low=85.3 | close=85.3 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:05,123 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=PUB.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=85.3
+2026-07-09 07:04:05,134 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
+2026-07-09 07:04:05,157 | INFO | app.runtime.symbol_flow | Candle closed | symbol=WLN.PA | open=10.048 | high=10.06 | low=10.048 | close=10.06 | opened_at=2026-07-09T07:03:00+00:00 | closed_at=2026-07-09T07:04:00+00:00
+2026-07-09 07:04:05,160 | INFO | app.runtime.symbol_flow | Strategy signal | symbol=WLN.PA | action=HOLD | confidence=0.0 | reason=warming_up_candles | candle_close=10.06
+2026-07-09 07:04:05,172 | INFO | app.runtime.symbol_flow | Trade rejected: warming_up_candles
