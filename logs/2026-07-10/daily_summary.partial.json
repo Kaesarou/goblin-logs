@@ -11,63 +11,63 @@
       "runtime_started": 1,
       "session_started": 115,
       "session_state_changed": 350,
-      "market_snapshot": 58541,
-      "candle_closed": 11020,
-      "decision": 10792,
-      "session_heartbeat": 38,
+      "market_snapshot": 66901,
+      "candle_closed": 12725,
+      "decision": 12475,
+      "session_heartbeat": 44,
       "session_trades_reset": 1,
-      "candidate_detected": 238,
-      "candidate_economics": 60,
-      "candidate_tp_feasibility": 60,
-      "candidate_selection": 60,
-      "candidate_ranking": 7,
-      "order_submitted": 9,
-      "order_filled": 9,
-      "position_opened": 9,
-      "trade_cooldown_registered": 9,
-      "position_closed": 9,
-      "cooldown_blocked": 20
+      "candidate_detected": 261,
+      "candidate_economics": 76,
+      "candidate_tp_feasibility": 76,
+      "candidate_selection": 76,
+      "candidate_ranking": 8,
+      "order_submitted": 10,
+      "order_filled": 10,
+      "position_opened": 10,
+      "trade_cooldown_registered": 10,
+      "position_closed": 10,
+      "cooldown_blocked": 21
     }
   },
   "market_data": {
-    "snapshots": 58541,
-    "candles_closed": 11020
+    "snapshots": 66901,
+    "candles_closed": 12725
   },
   "decisions": {
-    "total": 10792,
-    "hold_total": 10771,
-    "candidate_total": 238,
-    "selected_total": 10,
-    "rejected_total": 220,
-    "orders_submitted": 9,
+    "total": 12475,
+    "hold_total": 12453,
+    "candidate_total": 261,
+    "selected_total": 11,
+    "rejected_total": 241,
+    "orders_submitted": 10,
     "orders_failed": 0,
-    "orders_filled": 9
+    "orders_filled": 10
   },
   "hold_reasons": {
     "warming_up_candles": 3450,
-    "market_regime_dead_market": 3338,
-    "bullish_breakout_not_confirmed": 934,
-    "snapshot_bearish_momentum_not_confirmed": 117,
-    "snapshot_bullish_momentum_not_confirmed": 156,
-    "bearish_trend_not_confirmed": 323,
-    "market_regime_ranging": 1233,
-    "bearish_breakdown_not_confirmed": 822,
+    "market_regime_dead_market": 4253,
+    "bullish_breakout_not_confirmed": 1076,
+    "snapshot_bearish_momentum_not_confirmed": 147,
+    "snapshot_bullish_momentum_not_confirmed": 173,
+    "bearish_trend_not_confirmed": 390,
+    "market_regime_ranging": 1512,
+    "bearish_breakdown_not_confirmed": 974,
     "candle_range_too_small": 9,
     "short_candle_not_red": 13,
-    "bullish_trend_not_confirmed": 306,
-    "short_close_not_near_low": 38,
-    "long_close_not_near_high": 29,
-    "long_candle_not_green": 3
+    "bullish_trend_not_confirmed": 377,
+    "short_close_not_near_low": 41,
+    "long_close_not_near_high": 31,
+    "long_candle_not_green": 7
   },
   "rejections": {
-    "total": 220,
+    "total": 241,
     "by_reason": {
       "too_close_to_session_end": 7,
       "force_close_before_session_end": 4,
-      "candidate_selection_score_too_low": 208,
+      "candidate_selection_score_too_low": 229,
       "cooldown_after_stop_loss": 16,
       "spread_too_high": 1,
-      "cooldown_after_take_profit": 4
+      "cooldown_after_take_profit": 5
     },
     "top_rejected_candidates": [
       {
@@ -195,13 +195,13 @@
     }
   ],
   "orders": {
-    "submitted": 9,
-    "filled": 9,
+    "submitted": 10,
+    "filled": 10,
     "failed": 0,
     "by_symbol": {
       "PLTR": 2,
       "NVDA": 2,
-      "MU": 4,
+      "MU": 6,
       "NOW": 2,
       "AMAT": 2,
       "TSLA": 2,
@@ -210,25 +210,25 @@
     }
   },
   "positions": {
-    "opened": 9,
-    "closed": 9,
+    "opened": 10,
+    "closed": 10,
     "restored": 0,
     "force_closed": 0
   },
   "pnl": {
-    "gross_estimated": -20.0853,
-    "estimated_costs": 22.8524,
-    "net_estimated": -42.9378,
+    "gross_estimated": -13.6435,
+    "estimated_costs": 25.3395,
+    "net_estimated": -38.9832,
     "net_estimated_available": true
   },
   "cooldown": {
-    "blocked_total": 20,
+    "blocked_total": 21,
     "by_symbol": {
       "NVDA": 1,
       "PLTR": 6,
       "NOW": 4,
       "AMAT": 3,
-      "MU": 4,
+      "MU": 5,
       "META": 2
     }
   },
