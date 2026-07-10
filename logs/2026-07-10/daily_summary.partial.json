@@ -11,57 +11,67 @@
       "runtime_started": 1,
       "session_started": 55,
       "session_state_changed": 115,
-      "market_snapshot": 12981,
-      "candle_closed": 2475,
-      "decision": 2468,
-      "session_heartbeat": 8,
-      "candidate_detected": 7,
-      "candidate_economics": 3,
-      "candidate_tp_feasibility": 3,
-      "pending_entry_registered": 7,
-      "candidate_selection": 3,
-      "pending_entry_retest_detected": 7,
-      "pending_entry_invalidated": 3
+      "market_snapshot": 21671,
+      "candle_closed": 4125,
+      "decision": 4114,
+      "session_heartbeat": 14,
+      "candidate_detected": 11,
+      "candidate_economics": 7,
+      "candidate_tp_feasibility": 7,
+      "pending_entry_registered": 11,
+      "candidate_selection": 7,
+      "pending_entry_retest_detected": 16,
+      "pending_entry_invalidated": 5,
+      "pending_entry_expired": 6
     }
   },
   "market_data": {
-    "snapshots": 12981,
-    "candles_closed": 2475
+    "snapshots": 21671,
+    "candles_closed": 4125
   },
   "decisions": {
-    "total": 2468,
-    "hold_total": 2468,
-    "candidate_total": 7,
+    "total": 4114,
+    "hold_total": 4114,
+    "candidate_total": 11,
     "selected_total": 0,
-    "rejected_total": 7,
+    "rejected_total": 11,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 0,
-    "wait_confirmation_total": 7,
+    "wait_confirmation_total": 11,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 7
+      "severe_feasibility_penalty": 11
     }
   },
   "hold_reasons": {
     "warming_up_candles": 1650,
-    "market_regime_dead_market": 549,
-    "bearish_breakdown_not_confirmed": 47,
-    "bullish_breakout_not_confirmed": 38,
-    "market_regime_ranging": 147,
-    "bullish_trend_not_confirmed": 22,
-    "bearish_trend_not_confirmed": 5,
-    "snapshot_bearish_momentum_not_confirmed": 8,
-    "snapshot_bullish_momentum_not_confirmed": 1,
-    "short_close_not_near_low": 1
+    "market_regime_dead_market": 1723,
+    "bearish_breakdown_not_confirmed": 166,
+    "bullish_breakout_not_confirmed": 155,
+    "market_regime_ranging": 310,
+    "bullish_trend_not_confirmed": 35,
+    "bearish_trend_not_confirmed": 21,
+    "snapshot_bearish_momentum_not_confirmed": 26,
+    "snapshot_bullish_momentum_not_confirmed": 17,
+    "short_close_not_near_low": 4,
+    "long_candle_not_green": 1,
+    "long_close_not_near_high": 5,
+    "candle_range_too_small": 1
   },
   "rejections": {
-    "total": 7,
+    "total": 11,
     "by_reason": {
-      "severe_feasibility_penalty": 7
+      "severe_feasibility_penalty": 11
     },
     "top_rejected_candidates": [
+      {
+        "symbol": "META",
+        "side": "BUY",
+        "score": 95.0,
+        "reason": "severe_feasibility_penalty"
+      },
       {
         "symbol": "TSLA",
         "side": "BUY",
@@ -72,6 +82,12 @@
         "symbol": "META",
         "side": "BUY",
         "score": 66.8006,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "COF",
+        "side": "BUY",
+        "score": 64.2758,
         "reason": "severe_feasibility_penalty"
       },
       {
@@ -87,6 +103,18 @@
         "reason": "severe_feasibility_penalty"
       },
       {
+        "symbol": "AVGO",
+        "side": "SELL",
+        "score": 60.0,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "LRCX",
+        "side": "SELL",
+        "score": 58.6088,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
         "symbol": "AMD",
         "side": "SELL",
         "score": 55.885,
@@ -96,12 +124,6 @@
         "symbol": "FDX",
         "side": "SELL",
         "score": 43.0797,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "DHR",
-        "side": "SELL",
-        "score": 37.3963,
         "reason": "severe_feasibility_penalty"
       }
     ]
@@ -121,12 +143,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 7,
+    "registered": 11,
     "confirmed": 0,
-    "expired": 0,
-    "invalidated": 3,
+    "expired": 6,
+    "invalidated": 5,
     "updated": 0,
-    "retest_detected": 7
+    "retest_detected": 16
   },
   "pnl": {
     "gross_estimated": 0.0,
