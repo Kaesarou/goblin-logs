@@ -11,125 +11,155 @@
       "runtime_started": 1,
       "session_started": 115,
       "session_state_changed": 350,
-      "market_snapshot": 23946,
-      "candle_closed": 4420,
-      "decision": 4420,
-      "session_heartbeat": 14,
-      "session_trades_reset": 1
+      "market_snapshot": 32691,
+      "candle_closed": 6070,
+      "decision": 6050,
+      "session_heartbeat": 20,
+      "session_trades_reset": 1,
+      "candidate_detected": 22,
+      "candidate_economics": 4,
+      "candidate_tp_feasibility": 4,
+      "candidate_selection": 4,
+      "candidate_ranking": 2,
+      "order_submitted": 2,
+      "order_filled": 2,
+      "position_opened": 2,
+      "trade_cooldown_registered": 1,
+      "position_closed": 1
     }
   },
   "market_data": {
-    "snapshots": 23946,
-    "candles_closed": 4420
+    "snapshots": 32691,
+    "candles_closed": 6070
   },
   "decisions": {
-    "total": 4420,
-    "hold_total": 4409,
-    "candidate_total": 0,
-    "selected_total": 0,
-    "rejected_total": 11,
-    "orders_submitted": 0,
+    "total": 6050,
+    "hold_total": 6037,
+    "candidate_total": 22,
+    "selected_total": 2,
+    "rejected_total": 31,
+    "orders_submitted": 2,
     "orders_failed": 0,
-    "orders_filled": 0
+    "orders_filled": 2
   },
   "hold_reasons": {
-    "warming_up_candles": 2020,
-    "market_regime_dead_market": 1592,
-    "bullish_breakout_not_confirmed": 142,
-    "snapshot_bearish_momentum_not_confirmed": 53,
-    "snapshot_bullish_momentum_not_confirmed": 65,
-    "bearish_trend_not_confirmed": 29,
-    "market_regime_ranging": 416,
-    "bearish_breakdown_not_confirmed": 89,
+    "warming_up_candles": 3450,
+    "market_regime_dead_market": 1635,
+    "bullish_breakout_not_confirmed": 180,
+    "snapshot_bearish_momentum_not_confirmed": 55,
+    "snapshot_bullish_momentum_not_confirmed": 68,
+    "bearish_trend_not_confirmed": 43,
+    "market_regime_ranging": 454,
+    "bearish_breakdown_not_confirmed": 120,
     "candle_range_too_small": 2,
-    "short_candle_not_red": 1
+    "short_candle_not_red": 2,
+    "bullish_trend_not_confirmed": 24,
+    "short_close_not_near_low": 3,
+    "long_close_not_near_high": 1
   },
   "rejections": {
-    "total": 11,
+    "total": 31,
     "by_reason": {
       "too_close_to_session_end": 7,
-      "force_close_before_session_end": 4
+      "force_close_before_session_end": 4,
+      "candidate_selection_score_too_low": 20
     },
     "top_rejected_candidates": [
       {
-        "symbol": "BAYN.DE",
+        "symbol": "META",
         "side": "BUY",
-        "score": null,
-        "reason": "too_close_to_session_end"
+        "score": 98.7799,
+        "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "BAYN.DE",
-        "side": "BUY",
-        "score": null,
-        "reason": "too_close_to_session_end"
-      },
-      {
-        "symbol": "WLN.PA",
+        "symbol": "NOW",
         "side": "SELL",
-        "score": null,
-        "reason": "too_close_to_session_end"
+        "score": 94.1895,
+        "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "REP.MC",
+        "symbol": "PEP",
+        "side": "BUY",
+        "score": 92.2797,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "CAT",
+        "side": "BUY",
+        "score": 92.0763,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "MU",
+        "side": "BUY",
+        "score": 91.9414,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "MSFT",
         "side": "SELL",
-        "score": null,
-        "reason": "too_close_to_session_end"
+        "score": 91.2632,
+        "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "VOW3.DE",
+        "symbol": "NFLX",
         "side": "SELL",
-        "score": null,
-        "reason": "too_close_to_session_end"
+        "score": 87.9498,
+        "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "AIR.PA",
+        "symbol": "CAT",
         "side": "BUY",
-        "score": null,
-        "reason": "too_close_to_session_end"
+        "score": 85.0978,
+        "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "SAN.PA",
-        "side": "SELL",
-        "score": null,
-        "reason": "too_close_to_session_end"
-      },
-      {
-        "symbol": "GLE.PA",
+        "symbol": "NKE",
         "side": "BUY",
-        "score": null,
-        "reason": "force_close_before_session_end"
+        "score": 83.2077,
+        "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "AIR.PA",
+        "symbol": "TXN",
         "side": "BUY",
-        "score": null,
-        "reason": "force_close_before_session_end"
-      },
-      {
-        "symbol": "RMS.PA",
-        "side": "BUY",
-        "score": null,
-        "reason": "force_close_before_session_end"
+        "score": 78.8275,
+        "reason": "candidate_selection_score_too_low"
       }
     ]
   },
-  "selected_candidates": [],
+  "selected_candidates": [
+    {
+      "symbol": "PLTR",
+      "side": "SELL",
+      "score": 110.0,
+      "reason": "score=167.9777 | base_score=175.1777 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=7.2 | late_entry_risk=40.0 | late_entry_severity=MEDIUM | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=167.9777 | score_after_late_entry_cap=167.9777 | sell_specific_penalty=0.0 | sell_score_cap=None | sell_rejection_reason=None | sell_components=['breakdown_ok', 'short_snapshot_momentum_ok', 'sell_close_quality_ok'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.5329 | short_snapshot_momentum=0.6643 | sell_close_quality=100.0 | remaining_move_quality=ACCEPTABLE | exhaustion_components=('extended_move', 'near_trade_extreme') | action=SELL | session_move=-3.666 | trend_strength=-0.6429 | breakout=0.0 | breakdown=0.5329 | candle_range=0.3533 | close_position=0.0 | spread=0.0157;tp_feasibility_penalty=45.00,runway=10.00,score_before_tp_feasibility=167.98,score_after_tp_penalty=122.98,sl_tp_mode=dynamic,sl_tp_source=dynamic_floor,score_cap=110.00;tp_before_sl_probability=0.56,tp_probability_band=GOOD,tp_probability_model=heuristic_v1"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "BUY",
+      "score": 108.0134,
+      "reason": "score=153.0134 | base_score=155.4988 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=2.4854 | late_entry_risk=13.808 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=153.0134 | score_after_late_entry_cap=153.0134 | remaining_move_quality=GOOD | exhaustion_components=('extended_move', 'near_trade_extreme') | action=BUY | session_move=2.1904 | trend_strength=0.3375 | breakout=0.0964 | breakdown=0.0 | candle_range=0.1399 | close_position=100.0 | spread=0.0096;tp_feasibility_penalty=45.00,runway=10.00,score_before_tp_feasibility=153.01,score_after_tp_penalty=108.01,sl_tp_mode=dynamic,sl_tp_source=dynamic_floor,score_cap=110.00;tp_before_sl_probability=0.54,tp_probability_band=MEDIUM,tp_probability_model=heuristic_v1"
+    }
+  ],
   "orders": {
-    "submitted": 0,
-    "filled": 0,
+    "submitted": 2,
+    "filled": 2,
     "failed": 0,
-    "by_symbol": {}
+    "by_symbol": {
+      "PLTR": 2,
+      "NVDA": 2
+    }
   },
   "positions": {
-    "opened": 0,
-    "closed": 0,
+    "opened": 2,
+    "closed": 1,
     "restored": 0,
     "force_closed": 0
   },
   "pnl": {
-    "gross_estimated": 0.0,
-    "estimated_costs": 0.0,
-    "net_estimated": 0.0,
+    "gross_estimated": -3.3956,
+    "estimated_costs": 2.3504,
+    "net_estimated": -5.7461,
     "net_estimated_available": true
   },
   "cooldown": {
