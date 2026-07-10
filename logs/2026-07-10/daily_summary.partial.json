@@ -11,37 +11,100 @@
       "runtime_started": 1,
       "session_started": 55,
       "session_state_changed": 115,
-      "market_snapshot": 4291,
-      "candle_closed": 825,
-      "decision": 825,
-      "session_heartbeat": 2
+      "market_snapshot": 12981,
+      "candle_closed": 2475,
+      "decision": 2468,
+      "session_heartbeat": 8,
+      "candidate_detected": 7,
+      "candidate_economics": 3,
+      "candidate_tp_feasibility": 3,
+      "pending_entry_registered": 7,
+      "candidate_selection": 3,
+      "pending_entry_retest_detected": 7,
+      "pending_entry_invalidated": 3
     }
   },
   "market_data": {
-    "snapshots": 4291,
-    "candles_closed": 825
+    "snapshots": 12981,
+    "candles_closed": 2475
   },
   "decisions": {
-    "total": 825,
-    "hold_total": 825,
-    "candidate_total": 0,
+    "total": 2468,
+    "hold_total": 2468,
+    "candidate_total": 7,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 7,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 0,
-    "wait_confirmation_total": 0,
+    "wait_confirmation_total": 7,
     "rejected_by_feasibility_total": 0,
-    "wait_confirmation_by_reason": {}
+    "wait_confirmation_by_reason": {
+      "severe_feasibility_penalty": 7
+    }
   },
   "hold_reasons": {
-    "warming_up_candles": 825
+    "warming_up_candles": 1650,
+    "market_regime_dead_market": 549,
+    "bearish_breakdown_not_confirmed": 47,
+    "bullish_breakout_not_confirmed": 38,
+    "market_regime_ranging": 147,
+    "bullish_trend_not_confirmed": 22,
+    "bearish_trend_not_confirmed": 5,
+    "snapshot_bearish_momentum_not_confirmed": 8,
+    "snapshot_bullish_momentum_not_confirmed": 1,
+    "short_close_not_near_low": 1
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": []
+    "total": 7,
+    "by_reason": {
+      "severe_feasibility_penalty": 7
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "TSLA",
+        "side": "BUY",
+        "score": 68.8389,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "META",
+        "side": "BUY",
+        "score": 66.8006,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "INTC",
+        "side": "SELL",
+        "score": 60.0,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "MU",
+        "side": "SELL",
+        "score": 60.0,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "AMD",
+        "side": "SELL",
+        "score": 55.885,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "FDX",
+        "side": "SELL",
+        "score": 43.0797,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "DHR",
+        "side": "SELL",
+        "score": 37.3963,
+        "reason": "severe_feasibility_penalty"
+      }
+    ]
   },
   "selected_candidates": [],
   "orders": {
@@ -58,12 +121,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 0,
+    "registered": 7,
     "confirmed": 0,
     "expired": 0,
-    "invalidated": 0,
+    "invalidated": 3,
     "updated": 0,
-    "retest_detected": 0
+    "retest_detected": 7
   },
   "pnl": {
     "gross_estimated": 0.0,
