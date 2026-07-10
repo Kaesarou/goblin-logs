@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "strategy": "TrendStrategy",
+  "profile": "balanced",
+  "journal_detail_level": "normal",
+  "started_at": "2026-07-10T08:03:49.662483+00:00",
+  "ended_at": null,
+  "events": {
+    "by_type": {
+      "session_started": 60,
+      "session_state_changed": 55,
+      "decision": 841
+    }
+  },
+  "market_data": {
+    "snapshots": 0,
+    "candles_closed": 0
+  },
+  "decisions": {
+    "total": 841,
+    "hold_total": 841,
+    "candidate_total": 0,
+    "selected_total": 0,
+    "rejected_total": 0,
+    "orders_submitted": 0,
+    "orders_failed": 0,
+    "orders_filled": 0
+  },
+  "hold_reasons": {
+    "warming_up_candles": 841
+  },
+  "rejections": {
+    "total": 0,
+    "by_reason": {},
+    "top_rejected_candidates": [],
+    "best_hold_candidates": [
+      {
+        "symbol": "AC.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "AI.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "AIR.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "ALO.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "CS.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "BNP.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "CAP.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "ACA.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "DSY.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      },
+      {
+        "symbol": "EDEN.PA",
+        "side": "HOLD",
+        "score": null,
+        "reason": "warming_up_candles"
+      }
+    ]
+  },
+  "selected_candidates": [],
+  "orders": {
+    "submitted": 0,
+    "filled": 0,
+    "failed": 0,
+    "by_symbol": {}
+  },
+  "positions": {
+    "opened": 0,
+    "closed": 0,
+    "restored": 0,
+    "force_closed": 0
+  },
+  "pnl": {
+    "gross_estimated": 0.0,
+    "net_estimated": 0.0
+  },
+  "cooldown": {
+    "blocked_total": 0,
+    "by_symbol": {}
+  },
+  "runtime": {
+    "session_transitions": [
+      {
+        "symbol": "AAPL",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "MSFT",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "NVDA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AMZN",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "META",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "GOOGL",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "TSLA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AVGO",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AMD",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "NFLX",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      }
+    ]
+  },
+  "errors": {
+    "total": 0,
+    "by_type": {},
+    "samples": []
+  }
+}
