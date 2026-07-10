@@ -11,33 +11,75 @@
       "runtime_started": 1,
       "session_started": 60,
       "session_state_changed": 175,
-      "market_snapshot": 4801,
-      "candle_closed": 900,
-      "decision": 900,
-      "session_heartbeat": 2
+      "market_snapshot": 14401,
+      "candle_closed": 2700,
+      "decision": 2700,
+      "session_heartbeat": 8
     }
   },
   "market_data": {
-    "snapshots": 4801,
-    "candles_closed": 900
+    "snapshots": 14401,
+    "candles_closed": 2700
   },
   "decisions": {
-    "total": 900,
-    "hold_total": 900,
+    "total": 2700,
+    "hold_total": 2695,
     "candidate_total": 0,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 5,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 900
+    "warming_up_candles": 1800,
+    "market_regime_dead_market": 621,
+    "bullish_breakout_not_confirmed": 45,
+    "snapshot_bearish_momentum_not_confirmed": 28,
+    "snapshot_bullish_momentum_not_confirmed": 19,
+    "bearish_trend_not_confirmed": 13,
+    "market_regime_ranging": 145,
+    "bearish_breakdown_not_confirmed": 22,
+    "candle_range_too_small": 1,
+    "short_candle_not_red": 1
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": []
+    "total": 5,
+    "by_reason": {
+      "too_close_to_session_end": 5
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "BAYN.DE",
+        "side": "BUY",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "BAYN.DE",
+        "side": "BUY",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "WLN.PA",
+        "side": "SELL",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "REP.MC",
+        "side": "SELL",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "VOW3.DE",
+        "side": "SELL",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      }
+    ]
   },
   "selected_candidates": [],
   "orders": {

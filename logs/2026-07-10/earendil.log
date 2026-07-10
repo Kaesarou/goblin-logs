@@ -633,3 +633,13 @@
 2026-07-10 12:24:21,606 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=1620 | candles=300 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-10 12:29:32,190 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=3300 | candles=600 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-10 12:34:37,079 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=4920 | candles=900 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 12:39:45,884 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=6540 | candles=1200 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 12:44:53,693 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=8160 | candles=1500 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 12:50:02,031 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=9780 | candles=1860 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 12:53:10,109 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BAYN.DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=50.24
+2026-07-10 12:54:05,370 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BAYN.DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=50.3
+2026-07-10 12:55:12,599 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=11460 | candles=2160 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 12:56:14,088 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=WLN.PA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=10.182
+2026-07-10 12:59:04,906 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=REP.MC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=23.25
+2026-07-10 13:00:22,563 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=13080 | candles=2460 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 13:03:08,812 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=VOW3.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=70.4
