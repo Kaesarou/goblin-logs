@@ -360,3 +360,9 @@ ValueError: No exact eToro instrument match found for symbol=SHIB. Candidates=[{
 2026-07-10 23:06:12,192 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALGO | instrument_id=100046
 2026-07-10 23:06:12,379 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NEAR | instrument_id=100337
 2026-07-10 23:06:12,525 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=FIL | instrument_id=100045
+2026-07-10 23:11:11,402 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=551 | candles=95 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 23:16:20,553 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=1102 | candles=190 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 23:21:29,638 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=1653 | candles=285 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 23:26:35,868 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=2204 | candles=380 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 23:31:40,778 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=2755 | candles=475 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 23:36:46,200 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=3306 | candles=570 | candidates=0 | orders=0 | open_positions=0 | errors=0
