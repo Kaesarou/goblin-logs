@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260710T171839_087392Z",
+  "strategy": "TrendStrategy",
+  "profile": "balanced",
+  "journal_detail_level": "normal",
+  "started_at": "2026-07-10T17:18:39.320836+00:00",
+  "ended_at": null,
+  "events": {
+    "by_type": {
+      "runtime_started": 1,
+      "session_started": 55,
+      "session_state_changed": 170,
+      "market_snapshot": 34541,
+      "candle_closed": 6655,
+      "decision": 6636,
+      "session_heartbeat": 23,
+      "candidate_detected": 19,
+      "candidate_economics": 15,
+      "candidate_tp_feasibility": 15,
+      "pending_entry_registered": 17,
+      "candidate_selection": 15,
+      "pending_entry_retest_detected": 21,
+      "pending_entry_invalidated": 7,
+      "pending_entry_expired": 10,
+      "pending_entry_updated": 2
+    }
+  },
+  "market_data": {
+    "snapshots": 34541,
+    "candles_closed": 6655
+  },
+  "decisions": {
+    "total": 6636,
+    "hold_total": 6633,
+    "candidate_total": 19,
+    "selected_total": 0,
+    "rejected_total": 22,
+    "orders_submitted": 0,
+    "orders_failed": 0,
+    "orders_filled": 0,
+    "tradable_now_total": 0,
+    "wait_confirmation_total": 19,
+    "rejected_by_feasibility_total": 0,
+    "wait_confirmation_by_reason": {
+      "severe_feasibility_penalty": 19
+    }
+  },
+  "hold_reasons": {
+    "warming_up_candles": 1650,
+    "market_regime_dead_market": 3539,
+    "bearish_breakdown_not_confirmed": 272,
+    "bullish_breakout_not_confirmed": 322,
+    "market_regime_ranging": 660,
+    "bullish_trend_not_confirmed": 50,
+    "bearish_trend_not_confirmed": 33,
+    "snapshot_bearish_momentum_not_confirmed": 42,
+    "snapshot_bullish_momentum_not_confirmed": 43,
+    "short_close_not_near_low": 8,
+    "long_candle_not_green": 4,
+    "long_close_not_near_high": 7,
+    "candle_range_too_small": 3
+  },
+  "rejections": {
+    "total": 22,
+    "by_reason": {
+      "severe_feasibility_penalty": 19,
+      "too_close_to_session_end": 3
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "META",
+        "side": "BUY",
+        "score": 95.0,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "PLTR",
+        "side": "BUY",
+        "score": 70.9271,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "PLTR",
+        "side": "BUY",
+        "score": 69.4237,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "TSLA",
+        "side": "BUY",
+        "score": 68.8389,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "META",
+        "side": "BUY",
+        "score": 66.8006,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "MU",
+        "side": "BUY",
+        "score": 64.601,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "COF",
+        "side": "BUY",
+        "score": 64.2758,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "ACN",
+        "side": "SELL",
+        "score": 63.4593,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "NFLX",
+        "side": "BUY",
+        "score": 61.2556,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "INTC",
+        "side": "SELL",
+        "score": 60.0,
+        "reason": "severe_feasibility_penalty"
+      }
+    ]
+  },
+  "selected_candidates": [],
+  "orders": {
+    "submitted": 0,
+    "filled": 0,
+    "failed": 0,
+    "by_symbol": {},
+    "from_pending": 0
+  },
+  "positions": {
+    "opened": 0,
+    "closed": 0,
+    "restored": 0,
+    "force_closed": 0
+  },
+  "pending_entries": {
+    "registered": 17,
+    "confirmed": 0,
+    "expired": 10,
+    "invalidated": 7,
+    "updated": 2,
+    "retest_detected": 21
+  },
+  "pnl": {
+    "gross_estimated": 0.0,
+    "estimated_costs": 0.0,
+    "net_estimated": 0.0,
+    "net_estimated_available": true,
+    "from_pending": 0.0
+  },
+  "cooldown": {
+    "blocked_total": 0,
+    "by_symbol": {}
+  },
+  "runtime": {
+    "session_transitions": [
+      {
+        "symbol": "AC.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AI.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AIR.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "ALO.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "CS.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "BNP.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "CAP.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "ACA.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "DSY.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "EDEN.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      }
+    ]
+  },
+  "errors": {
+    "total": 0,
+    "by_type": {},
+    "samples": []
+  }
+}
