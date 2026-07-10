@@ -356,3 +356,9 @@
 2026-07-10 10:33:08,617 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENI.MI | instrument_id=1283
 2026-07-10 10:33:08,778 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ISP.MI | instrument_id=1288
 2026-07-10 10:33:09,026 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UCG.MI | instrument_id=1307
+2026-07-10 10:37:59,471 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=1620 | candles=240 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 10:43:03,891 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=3240 | candles=600 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 10:48:11,972 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=4860 | candles=900 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 10:53:21,853 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=6540 | candles=1200 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 10:58:32,014 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=8220 | candles=1500 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-10 11:03:41,977 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=9900 | candles=1800 | candidates=0 | orders=0 | open_positions=0 | errors=0

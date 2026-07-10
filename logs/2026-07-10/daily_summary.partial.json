@@ -1,97 +1,43 @@
 {
   "schema_version": 1,
-  "run_id": "run_20260710T092848_498749Z",
+  "run_id": "run_20260710T103253_612727Z",
   "strategy": "TrendStrategy",
   "profile": "balanced",
   "journal_detail_level": "normal",
-  "started_at": "2026-07-10T09:28:48.614485+00:00",
+  "started_at": "2026-07-10T10:32:53.709603+00:00",
   "ended_at": null,
   "events": {
     "by_type": {
       "runtime_started": 1,
       "session_started": 60,
       "session_state_changed": 115,
-      "market_snapshot": 19381,
-      "candle_closed": 3540,
-      "decision": 3534,
-      "session_heartbeat": 11,
-      "candidate_detected": 6,
-      "candidate_economics": 5,
-      "candidate_tp_feasibility": 5,
-      "candidate_selection": 5
+      "market_snapshot": 9604,
+      "candle_closed": 1740,
+      "decision": 1740,
+      "session_heartbeat": 5
     }
   },
   "market_data": {
-    "snapshots": 19381,
-    "candles_closed": 3540
+    "snapshots": 9604,
+    "candles_closed": 1740
   },
   "decisions": {
-    "total": 3534,
-    "hold_total": 3534,
-    "candidate_total": 6,
+    "total": 1740,
+    "hold_total": 1740,
+    "candidate_total": 0,
     "selected_total": 0,
-    "rejected_total": 6,
+    "rejected_total": 0,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 1800,
-    "market_regime_dead_market": 1231,
-    "bullish_breakout_not_confirmed": 84,
-    "market_regime_ranging": 278,
-    "bearish_breakdown_not_confirmed": 14,
-    "bearish_trend_not_confirmed": 5,
-    "snapshot_bullish_momentum_not_confirmed": 95,
-    "snapshot_bearish_momentum_not_confirmed": 12,
-    "long_candle_not_green": 3,
-    "bullish_trend_not_confirmed": 9,
-    "long_close_not_near_high": 2,
-    "candle_range_too_small": 1
+    "warming_up_candles": 1740
   },
   "rejections": {
-    "total": 6,
-    "by_reason": {
-      "candidate_selection_score_too_low": 6
-    },
-    "top_rejected_candidates": [
-      {
-        "symbol": "BAYN.DE",
-        "side": "BUY",
-        "score": 77.1837,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "EDEN.PA",
-        "side": "BUY",
-        "score": 69.8152,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "BNP.PA",
-        "side": "BUY",
-        "score": 62.8769,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "WLN.PA",
-        "side": "SELL",
-        "score": 61.8892,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "EDEN.PA",
-        "side": "BUY",
-        "score": 60.4639,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "WLN.PA",
-        "side": "SELL",
-        "score": 44.9436,
-        "reason": "candidate_selection_score_too_low"
-      }
-    ]
+    "total": 0,
+    "by_reason": {},
+    "top_rejected_candidates": []
   },
   "selected_candidates": [],
   "orders": {
