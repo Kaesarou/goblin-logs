@@ -9,44 +9,46 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_started": 60,
-      "session_state_changed": 175,
-      "market_snapshot": 14401,
-      "candle_closed": 2700,
-      "decision": 2700,
-      "session_heartbeat": 8
+      "session_started": 115,
+      "session_state_changed": 350,
+      "market_snapshot": 23946,
+      "candle_closed": 4420,
+      "decision": 4420,
+      "session_heartbeat": 14,
+      "session_trades_reset": 1
     }
   },
   "market_data": {
-    "snapshots": 14401,
-    "candles_closed": 2700
+    "snapshots": 23946,
+    "candles_closed": 4420
   },
   "decisions": {
-    "total": 2700,
-    "hold_total": 2695,
+    "total": 4420,
+    "hold_total": 4409,
     "candidate_total": 0,
     "selected_total": 0,
-    "rejected_total": 5,
+    "rejected_total": 11,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 1800,
-    "market_regime_dead_market": 621,
-    "bullish_breakout_not_confirmed": 45,
-    "snapshot_bearish_momentum_not_confirmed": 28,
-    "snapshot_bullish_momentum_not_confirmed": 19,
-    "bearish_trend_not_confirmed": 13,
-    "market_regime_ranging": 145,
-    "bearish_breakdown_not_confirmed": 22,
-    "candle_range_too_small": 1,
+    "warming_up_candles": 2020,
+    "market_regime_dead_market": 1592,
+    "bullish_breakout_not_confirmed": 142,
+    "snapshot_bearish_momentum_not_confirmed": 53,
+    "snapshot_bullish_momentum_not_confirmed": 65,
+    "bearish_trend_not_confirmed": 29,
+    "market_regime_ranging": 416,
+    "bearish_breakdown_not_confirmed": 89,
+    "candle_range_too_small": 2,
     "short_candle_not_red": 1
   },
   "rejections": {
-    "total": 5,
+    "total": 11,
     "by_reason": {
-      "too_close_to_session_end": 5
+      "too_close_to_session_end": 7,
+      "force_close_before_session_end": 4
     },
     "top_rejected_candidates": [
       {
@@ -78,6 +80,36 @@
         "side": "SELL",
         "score": null,
         "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "AIR.PA",
+        "side": "BUY",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "SAN.PA",
+        "side": "SELL",
+        "score": null,
+        "reason": "too_close_to_session_end"
+      },
+      {
+        "symbol": "GLE.PA",
+        "side": "BUY",
+        "score": null,
+        "reason": "force_close_before_session_end"
+      },
+      {
+        "symbol": "AIR.PA",
+        "side": "BUY",
+        "score": null,
+        "reason": "force_close_before_session_end"
+      },
+      {
+        "symbol": "RMS.PA",
+        "side": "BUY",
+        "score": null,
+        "reason": "force_close_before_session_end"
       }
     ]
   },
