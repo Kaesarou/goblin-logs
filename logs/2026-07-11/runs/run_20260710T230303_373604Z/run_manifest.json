@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "run_id": "run_20260710T230606_388711Z",
+  "run_id": "run_20260710T230303_373604Z",
   "status": "running",
-  "started_at": "2026-07-10T23:06:06.388711+00:00",
+  "started_at": "2026-07-10T23:03:03.373604+00:00",
   "ended_at": null,
   "code": {
     "git_commit": null,
@@ -338,7 +338,8 @@
       "ATOM",
       "ALGO",
       "NEAR",
-      "FIL"
+      "FIL",
+      "SHIB"
     ],
     "symbol_profiles": {
       "BTC": {
@@ -416,6 +417,10 @@
       "FIL": {
         "symbol": "FIL",
         "asset_class": "CRYPTO"
+      },
+      "SHIB": {
+        "symbol": "SHIB",
+        "asset_class": "CRYPTO"
       }
     },
     "settings": {
@@ -439,13 +444,13 @@
       "POLL_INTERVAL_SECONDS": 10,
       "CANDLE_TIMEFRAME_SECONDS": 60,
       "ETORO_SELLSHORT_SAFETY_SL_BUFFER_PERCENT": 0.3,
-      "WATCHLIST": "BTC,ETH,SOL,XRP,ADA,DOGE,AVAX,LINK,DOT,LTC,BCH,XLM,ETC,UNI,AAVE,ATOM,ALGO,NEAR,FIL",
+      "WATCHLIST": "BTC,ETH,SOL,XRP,ADA,DOGE,AVAX,LINK,DOT,LTC,BCH,XLM,ETC,UNI,AAVE,ATOM,ALGO,NEAR,FIL,SHIB",
       "BASE_CURRENCY": "USD",
       "STRATEGY_AGGRESSIVENESS": "balanced",
       "MAX_OPEN_POSITIONS": 5,
       "MAX_OPEN_POSITIONS_PER_SYMBOL": 1,
       "MAX_TRADES_PER_SESSION": 20,
-      "CRYPTO_SYMBOLS": "BTC,ETH,SOL,XRP,ADA,DOGE,AVAX,LINK,DOT,LTC,BCH,XLM,ETC,UNI,AAVE,ATOM,ALGO,NEAR,FIL",
+      "CRYPTO_SYMBOLS": "BTC,ETH,SOL,XRP,ADA,DOGE,AVAX,LINK,DOT,LTC,BCH,XLM,ETC,UNI,AAVE,ATOM,ALGO,NEAR,FIL,SHIB",
       "EQUITY_US_SYMBOLS": "AAPL,MSFT,NVDA,AMZN,META,GOOGL,TSLA,AVGO,AMD,NFLX,ADBE,CRM,ORCL,AMAT,INTC,QCOM,MU,LRCX,TXN,PLTR,UBER,NOW,LLY,COF,AXP,GS,JPM,BAC,CAT,DE,FDX,UPS,GE,GEV,HON,BA,NKE,SBUX,BKNG,BLK,GILD,MRK,DHR,TMO,ACN,INTU,COP,XOM,RTX,TMUS,WFC,SCHW,AMGN,DIS,PEP",
       "EQUITY_EU_SYMBOLS": "AC.PA,AI.PA,AIR.PA,ALO.PA,CS.PA,BNP.PA,CAP.PA,ACA.PA,DSY.PA,EDEN.PA,EL.PA,RMS.PA,KER.PA,OR.PA,LR.PA,MC.PA,ML.PA,RI.PA,PUB.PA,RNO.PA,SAF.PA,SGO.PA,SAN.PA,SU.PA,GLE.PA,WLN.PA,HO.PA,TTE.PA,URW.PA,DG.PA,ADS.DE,ALV.DE,BAS.DE,BAYN.DE,BMW.DE,CBK.DE,CON.DE,DBK.DE,DB1.DE,EOAN.DE,HEI.DE,IFX.DE,MBG.DE,MUV2.DE,RWE.DE,SAP.DE,SIE.DE,VOW3.DE,BBVA.MC,CABK.MC,CLNX.MC,IBE.MC,ITX.MC,REP.MC,SAN.MC,TEF.MC,ENEL.MI,ENI.MI,ISP.MI,UCG.MI",
       "TRADING_SESSION_TIMEZONE": "Europe/Paris",
@@ -455,7 +460,7 @@
     }
   },
   "analysis_sources": {
-    "run_id": "run_20260710T230606_388711Z",
+    "run_id": "run_20260710T230303_373604Z",
     "market_stream": "data/logs/market.jsonl",
     "candle_stream": "data/logs/candles.jsonl",
     "trade_stream": "data/logs/trades.jsonl",
@@ -464,9 +469,9 @@
     "raw_candles_retained": true
   },
   "files": {
-    "manifest": "data/logs/runs/run_20260710T230606_388711Z/run_manifest.json",
+    "manifest": "data/logs/runs/run_20260710T230303_373604Z/run_manifest.json",
     "latest_manifest": "data/logs/run_manifest.json",
-    "summary": "data/logs/runs/run_20260710T230606_388711Z/daily_summary.json",
+    "summary": "data/logs/runs/run_20260710T230303_373604Z/daily_summary.json",
     "latest_summary": "data/logs/daily_summary.json",
     "partial_summary": "data/logs/daily_summary.partial.json",
     "trades": "data/logs/trades.jsonl",
