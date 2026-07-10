@@ -10,7 +10,11 @@
     "by_type": {
       "session_started": 60,
       "session_state_changed": 55,
-      "decision": 841
+      "decision": 2692,
+      "candidate_detected": 9,
+      "candidate_economics": 7,
+      "candidate_tp_feasibility": 7,
+      "candidate_selection": 7
     }
   },
   "market_data": {
@@ -18,22 +22,89 @@
     "candles_closed": 0
   },
   "decisions": {
-    "total": 841,
-    "hold_total": 841,
-    "candidate_total": 0,
+    "total": 2692,
+    "hold_total": 2692,
+    "candidate_total": 9,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 9,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 841
+    "warming_up_candles": 1800,
+    "market_regime_dead_market": 439,
+    "snapshot_bearish_momentum_not_confirmed": 70,
+    "bearish_breakdown_not_confirmed": 142,
+    "bullish_trend_not_confirmed": 5,
+    "market_regime_ranging": 208,
+    "snapshot_bullish_momentum_not_confirmed": 5,
+    "bearish_trend_not_confirmed": 17,
+    "bullish_breakout_not_confirmed": 4,
+    "short_candle_not_red": 1,
+    "short_close_not_near_low": 1
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": [],
+    "total": 9,
+    "by_reason": {
+      "candidate_selection_score_too_low": 9
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "SAN.PA",
+        "side": "SELL",
+        "score": 73.1946,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "BAYN.DE",
+        "side": "SELL",
+        "score": 60.0,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "BAYN.DE",
+        "side": "SELL",
+        "score": 60.0,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "KER.PA",
+        "side": "SELL",
+        "score": 50.0,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "EL.PA",
+        "side": "SELL",
+        "score": 47.4178,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "SAN.PA",
+        "side": "SELL",
+        "score": 42.2507,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "DSY.PA",
+        "side": "SELL",
+        "score": 34.3548,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "KER.PA",
+        "side": "SELL",
+        "score": 22.4469,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "ENI.MI",
+        "side": "SELL",
+        "score": 15.8432,
+        "reason": "candidate_selection_score_too_low"
+      }
+    ],
     "best_hold_candidates": [
       {
         "symbol": "AC.PA",
