@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260710T092848_498749Z",
+  "status": "running",
+  "started_at": "2026-07-10T09:28:48.498749+00:00",
+  "ended_at": null,
+  "code": {
+    "git_commit": null,
+    "source_sha256": "fb4e29a7c21b4dee7eae46beaa6417acf2735fd7cc337baf430684eb9ebf2f98",
+    "python_version": "3.12.13"
+  },
+  "strategy": {
+    "name": "TrendStrategy",
+    "profile": "balanced",
+    "profile_config": {
+      "name": "balanced",
+      "crypto": {
+        "trend": {
+          "lookback": 3,
+          "fast_lookback": 5,
+          "slow_lookback": 15,
+          "session_lookback": 30,
+          "min_session_move_percent": 0.3,
+          "min_breakout_percent": 0.05,
+          "min_candle_range_percent": 0.04,
+          "min_close_position_percent": 75.0,
+          "atr_lookback": 14,
+          "market_regime_filter_enabled": true,
+          "market_regime_min_trend_strength_percent": 0.1,
+          "market_regime_min_atr_percent": 0.02,
+          "market_regime_max_atr_percent": 0.8,
+          "market_regime_max_noise_ratio": 2.0,
+          "snapshot_momentum_window_seconds": 180,
+          "min_snapshot_momentum_percent": 0.25
+        },
+        "risk": {
+          "asset_class": "CRYPTO",
+          "max_position_size_percent": 0.75,
+          "stop_loss_percent": 1.5,
+          "take_profit_percent": 3.0,
+          "force_close_enabled": false,
+          "force_close_hour": 23,
+          "force_close_minute": 59,
+          "max_spread_percent": 0.35,
+          "min_move_spread_ratio": 4.0,
+          "dynamic_sl_tp_enabled": false,
+          "stop_loss_atr_multiplier": 1.5,
+          "take_profit_atr_multiplier": 2.5,
+          "min_stop_loss_percent": 0.8,
+          "max_stop_loss_percent": 2.5,
+          "min_take_profit_percent": 1.5,
+          "max_take_profit_percent": 5.0,
+          "breakeven_stop_enabled": true,
+          "breakeven_trigger_percent": 0.2,
+          "breakeven_buffer_percent": 0.05,
+          "trailing_stop_enabled": true,
+          "trailing_stop_trigger_percent": 2.2,
+          "trailing_stop_distance_percent": 0.9,
+          "trailing_stop_net_buffer_percent": 0.15,
+          "stale_position": {
+            "enabled": true,
+            "max_age_minutes": 60,
+            "min_favorable_move_percent": 0.8,
+            "buffer_percent": 0.0,
+            "action": "CLOSE"
+          },
+          "trade_cooldown": {
+            "enabled": true,
+            "after_take_profit_minutes": 30,
+            "after_stop_loss_minutes": 45,
+            "after_manual_close_minutes": 15,
+            "after_unknown_close_minutes": 15
+          },
+          "trade_cost": {
+            "open_fee_percent": 1.0,
+            "close_fee_percent": 1.0,
+            "fixed_open_fee": 0.0,
+            "fixed_close_fee": 0.0,
+            "include_spread_cost": true,
+            "min_expected_net_profit_percent": 0.1
+          },
+          "tp_feasibility": {
+            "enabled": true,
+            "missing_data_penalty_points": 8.0,
+            "feasibility_buffer_percent": 0.15,
+            "tp_atr_soft_ratio": 1.8,
+            "tp_atr_hard_ratio": 3.5,
+            "tp_atr_severe_ratio": 5.0,
+            "tp_momentum_soft_ratio": 3.0,
+            "tp_momentum_hard_ratio": 10.0,
+            "min_directional_momentum_percent": 0.05,
+            "cost_to_tp_soft_ratio": 0.35,
+            "cost_to_tp_hard_ratio": 0.55,
+            "cost_to_tp_severe_ratio": 0.75,
+            "cost_to_tp_hard_reject_ratio": 1.0,
+            "late_move_soft_percent": 0.8,
+            "late_move_hard_percent": 2.0,
+            "near_extreme_distance_percent": 0.15,
+            "max_penalty_points": 45.0,
+            "moderate_score_cap": 110.0,
+            "severe_score_cap": 95.0
+          }
+        }
+      },
+      "equity_us": {
+        "trend": {
+          "lookback": 3,
+          "fast_lookback": 5,
+          "slow_lookback": 15,
+          "session_lookback": 30,
+          "min_session_move_percent": 0.2,
+          "min_breakout_percent": 0.04,
+          "min_candle_range_percent": 0.03,
+          "min_close_position_percent": 72.0,
+          "atr_lookback": 14,
+          "market_regime_filter_enabled": true,
+          "market_regime_min_trend_strength_percent": 0.05,
+          "market_regime_min_atr_percent": 0.01,
+          "market_regime_max_atr_percent": 0.5,
+          "market_regime_max_noise_ratio": 2.0,
+          "snapshot_momentum_window_seconds": 180,
+          "min_snapshot_momentum_percent": 0.2
+        },
+        "risk": {
+          "asset_class": "EQUITY_US",
+          "max_position_size_percent": 0.75,
+          "stop_loss_percent": 0.9,
+          "take_profit_percent": 1.6,
+          "force_close_enabled": false,
+          "force_close_hour": 21,
+          "force_close_minute": 55,
+          "max_spread_percent": 0.1,
+          "min_move_spread_ratio": 3.0,
+          "dynamic_sl_tp_enabled": true,
+          "stop_loss_atr_multiplier": 1.2,
+          "take_profit_atr_multiplier": 2.0,
+          "min_stop_loss_percent": 0.4,
+          "max_stop_loss_percent": 1.5,
+          "min_take_profit_percent": 0.8,
+          "max_take_profit_percent": 3.0,
+          "breakeven_stop_enabled": true,
+          "breakeven_trigger_percent": 0.6,
+          "breakeven_buffer_percent": 0.05,
+          "trailing_stop_enabled": true,
+          "trailing_stop_trigger_percent": 1.0,
+          "trailing_stop_distance_percent": 0.45,
+          "trailing_stop_net_buffer_percent": 0.1,
+          "stale_position": {
+            "enabled": true,
+            "max_age_minutes": 60,
+            "min_favorable_move_percent": 0.35,
+            "buffer_percent": 0.1,
+            "action": "CLOSE"
+          },
+          "trade_cooldown": {
+            "enabled": true,
+            "after_take_profit_minutes": 30,
+            "after_stop_loss_minutes": 45,
+            "after_manual_close_minutes": 15,
+            "after_unknown_close_minutes": 15
+          },
+          "trade_cost": {
+            "open_fee_percent": 0.15,
+            "close_fee_percent": 0.15,
+            "fixed_open_fee": 0.0,
+            "fixed_close_fee": 0.0,
+            "include_spread_cost": true,
+            "min_expected_net_profit_percent": 0.1
+          },
+          "tp_feasibility": {
+            "enabled": true,
+            "missing_data_penalty_points": 8.0,
+            "feasibility_buffer_percent": 0.1,
+            "tp_atr_soft_ratio": 2.0,
+            "tp_atr_hard_ratio": 4.0,
+            "tp_atr_severe_ratio": 6.0,
+            "tp_momentum_soft_ratio": 4.0,
+            "tp_momentum_hard_ratio": 12.0,
+            "min_directional_momentum_percent": 0.03,
+            "cost_to_tp_soft_ratio": 0.25,
+            "cost_to_tp_hard_ratio": 0.45,
+            "cost_to_tp_severe_ratio": 0.65,
+            "cost_to_tp_hard_reject_ratio": 1.0,
+            "late_move_soft_percent": 0.8,
+            "late_move_hard_percent": 2.0,
+            "near_extreme_distance_percent": 0.15,
+            "max_penalty_points": 45.0,
+            "moderate_score_cap": 110.0,
+            "severe_score_cap": 95.0
+          }
+        }
+      },
+      "equity_eu": {
+        "trend": {
+          "lookback": 3,
+          "fast_lookback": 5,
+          "slow_lookback": 15,
+          "session_lookback": 30,
+          "min_session_move_percent": 0.18,
+          "min_breakout_percent": 0.04,
+          "min_candle_range_percent": 0.03,
+          "min_close_position_percent": 72.0,
+          "atr_lookback": 14,
+          "market_regime_filter_enabled": true,
+          "market_regime_min_trend_strength_percent": 0.05,
+          "market_regime_min_atr_percent": 0.01,
+          "market_regime_max_atr_percent": 0.5,
+          "market_regime_max_noise_ratio": 2.0,
+          "snapshot_momentum_window_seconds": 180,
+          "min_snapshot_momentum_percent": 0.2
+        },
+        "risk": {
+          "asset_class": "EQUITY_EU",
+          "max_position_size_percent": 0.75,
+          "stop_loss_percent": 0.7,
+          "take_profit_percent": 1.0,
+          "force_close_enabled": false,
+          "force_close_hour": 17,
+          "force_close_minute": 25,
+          "max_spread_percent": 0.15,
+          "min_move_spread_ratio": 3.0,
+          "dynamic_sl_tp_enabled": false,
+          "stop_loss_atr_multiplier": 1.2,
+          "take_profit_atr_multiplier": 2.0,
+          "min_stop_loss_percent": 0.4,
+          "max_stop_loss_percent": 1.5,
+          "min_take_profit_percent": 0.8,
+          "max_take_profit_percent": 3.0,
+          "breakeven_stop_enabled": true,
+          "breakeven_trigger_percent": 0.55,
+          "breakeven_buffer_percent": 0.05,
+          "trailing_stop_enabled": true,
+          "trailing_stop_trigger_percent": 0.9,
+          "trailing_stop_distance_percent": 0.4,
+          "trailing_stop_net_buffer_percent": 0.1,
+          "stale_position": {
+            "enabled": true,
+            "max_age_minutes": 75,
+            "min_favorable_move_percent": 0.35,
+            "buffer_percent": 0.1,
+            "action": "CLOSE"
+          },
+          "trade_cooldown": {
+            "enabled": true,
+            "after_take_profit_minutes": 30,
+            "after_stop_loss_minutes": 45,
+            "after_manual_close_minutes": 15,
+            "after_unknown_close_minutes": 15
+          },
+          "trade_cost": {
+            "open_fee_percent": 0.15,
+            "close_fee_percent": 0.15,
+            "fixed_open_fee": 0.0,
+            "fixed_close_fee": 0.0,
+            "include_spread_cost": true,
+            "min_expected_net_profit_percent": 0.1
+          },
+          "tp_feasibility": {
+            "enabled": true,
+            "missing_data_penalty_points": 8.0,
+            "feasibility_buffer_percent": 0.1,
+            "tp_atr_soft_ratio": 2.0,
+            "tp_atr_hard_ratio": 4.0,
+            "tp_atr_severe_ratio": 6.0,
+            "tp_momentum_soft_ratio": 4.0,
+            "tp_momentum_hard_ratio": 12.0,
+            "min_directional_momentum_percent": 0.03,
+            "cost_to_tp_soft_ratio": 0.25,
+            "cost_to_tp_hard_ratio": 0.45,
+            "cost_to_tp_severe_ratio": 0.65,
+            "cost_to_tp_hard_reject_ratio": 1.0,
+            "late_move_soft_percent": 0.8,
+            "late_move_hard_percent": 2.0,
+            "near_extreme_distance_percent": 0.15,
+            "max_penalty_points": 45.0,
+            "moderate_score_cap": 110.0,
+            "severe_score_cap": 95.0
+          }
+        }
+      },
+      "candidate_selection_top_n": 2,
+      "candidate_selection_min_score": 115.0,
+      "candidate_selection_dynamic_min_scores": {
+        "EQUITY_US": 100.0
+      }
+    }
+  },
+  "runtime": {
+    "watchlist": [
+      "AC.PA",
+      "AI.PA",
+      "AIR.PA",
+      "ALO.PA",
+      "CS.PA",
+      "BNP.PA",
+      "CAP.PA",
+      "ACA.PA",
+      "DSY.PA",
+      "EDEN.PA",
+      "EL.PA",
+      "RMS.PA",
+      "KER.PA",
+      "OR.PA",
+      "LR.PA",
+      "MC.PA",
+      "ML.PA",
+      "RI.PA",
+      "PUB.PA",
+      "RNO.PA",
+      "SAF.PA",
+      "SGO.PA",
+      "SAN.PA",
+      "SU.PA",
+      "GLE.PA",
+      "WLN.PA",
+      "HO.PA",
+      "TTE.PA",
+      "URW.PA",
+      "DG.PA",
+      "ADS.DE",
+      "ALV.DE",
+      "BAS.DE",
+      "BAYN.DE",
+      "BMW.DE",
+      "CBK.DE",
+      "CON.DE",
+      "DBK.DE",
+      "DB1.DE",
+      "EOAN.DE",
+      "HEI.DE",
+      "IFX.DE",
+      "MBG.DE",
+      "MUV2.DE",
+      "RWE.DE",
+      "SAP.DE",
+      "SIE.DE",
+      "VOW3.DE",
+      "BBVA.MC",
+      "CABK.MC",
+      "CLNX.MC",
+      "IBE.MC",
+      "ITX.MC",
+      "REP.MC",
+      "SAN.MC",
+      "TEF.MC",
+      "ENEL.MI",
+      "ENI.MI",
+      "ISP.MI",
+      "UCG.MI",
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOGL",
+      "TSLA",
+      "AVGO",
+      "AMD",
+      "NFLX",
+      "ADBE",
+      "CRM",
+      "ORCL",
+      "AMAT",
+      "INTC",
+      "QCOM",
+      "MU",
+      "LRCX",
+      "TXN",
+      "PLTR",
+      "UBER",
+      "NOW",
+      "LLY",
+      "COF",
+      "AXP",
+      "GS",
+      "JPM",
+      "BAC",
+      "CAT",
+      "DE",
+      "FDX",
+      "UPS",
+      "GE",
+      "GEV",
+      "HON",
+      "BA",
+      "NKE",
+      "SBUX",
+      "BKNG",
+      "BLK",
+      "GILD",
+      "MRK",
+      "DHR",
+      "TMO",
+      "ACN",
+      "INTU",
+      "COP",
+      "XOM",
+      "RTX",
+      "TMUS",
+      "WFC",
+      "SCHW",
+      "AMGN",
+      "DIS",
+      "PEP"
+    ],
+    "symbol_profiles": {
+      "AC.PA": {
+        "symbol": "AC.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "AI.PA": {
+        "symbol": "AI.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "AIR.PA": {
+        "symbol": "AIR.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "ALO.PA": {
+        "symbol": "ALO.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "CS.PA": {
+        "symbol": "CS.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "BNP.PA": {
+        "symbol": "BNP.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "CAP.PA": {
+        "symbol": "CAP.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "ACA.PA": {
+        "symbol": "ACA.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "DSY.PA": {
+        "symbol": "DSY.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "EDEN.PA": {
+        "symbol": "EDEN.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "EL.PA": {
+        "symbol": "EL.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "RMS.PA": {
+        "symbol": "RMS.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "KER.PA": {
+        "symbol": "KER.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "OR.PA": {
+        "symbol": "OR.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "LR.PA": {
+        "symbol": "LR.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "MC.PA": {
+        "symbol": "MC.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "ML.PA": {
+        "symbol": "ML.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "RI.PA": {
+        "symbol": "RI.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "PUB.PA": {
+        "symbol": "PUB.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "RNO.PA": {
+        "symbol": "RNO.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "SAF.PA": {
+        "symbol": "SAF.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "SGO.PA": {
+        "symbol": "SGO.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "SAN.PA": {
+        "symbol": "SAN.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "SU.PA": {
+        "symbol": "SU.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "GLE.PA": {
+        "symbol": "GLE.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "WLN.PA": {
+        "symbol": "WLN.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "HO.PA": {
+        "symbol": "HO.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "TTE.PA": {
+        "symbol": "TTE.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "URW.PA": {
+        "symbol": "URW.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "DG.PA": {
+        "symbol": "DG.PA",
+        "asset_class": "EQUITY_EU"
+      },
+      "ADS.DE": {
+        "symbol": "ADS.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "ALV.DE": {
+        "symbol": "ALV.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "BAS.DE": {
+        "symbol": "BAS.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "BAYN.DE": {
+        "symbol": "BAYN.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "BMW.DE": {
+        "symbol": "BMW.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "CBK.DE": {
+        "symbol": "CBK.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "CON.DE": {
+        "symbol": "CON.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "DBK.DE": {
+        "symbol": "DBK.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "DB1.DE": {
+        "symbol": "DB1.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "EOAN.DE": {
+        "symbol": "EOAN.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "HEI.DE": {
+        "symbol": "HEI.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "IFX.DE": {
+        "symbol": "IFX.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "MBG.DE": {
+        "symbol": "MBG.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "MUV2.DE": {
+        "symbol": "MUV2.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "RWE.DE": {
+        "symbol": "RWE.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "SAP.DE": {
+        "symbol": "SAP.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "SIE.DE": {
+        "symbol": "SIE.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "VOW3.DE": {
+        "symbol": "VOW3.DE",
+        "asset_class": "EQUITY_EU"
+      },
+      "BBVA.MC": {
+        "symbol": "BBVA.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "CABK.MC": {
+        "symbol": "CABK.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "CLNX.MC": {
+        "symbol": "CLNX.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "IBE.MC": {
+        "symbol": "IBE.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "ITX.MC": {
+        "symbol": "ITX.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "REP.MC": {
+        "symbol": "REP.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "SAN.MC": {
+        "symbol": "SAN.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "TEF.MC": {
+        "symbol": "TEF.MC",
+        "asset_class": "EQUITY_EU"
+      },
+      "ENEL.MI": {
+        "symbol": "ENEL.MI",
+        "asset_class": "EQUITY_EU"
+      },
+      "ENI.MI": {
+        "symbol": "ENI.MI",
+        "asset_class": "EQUITY_EU"
+      },
+      "ISP.MI": {
+        "symbol": "ISP.MI",
+        "asset_class": "EQUITY_EU"
+      },
+      "UCG.MI": {
+        "symbol": "UCG.MI",
+        "asset_class": "EQUITY_EU"
+      },
+      "AAPL": {
+        "symbol": "AAPL",
+        "asset_class": "EQUITY_US"
+      },
+      "MSFT": {
+        "symbol": "MSFT",
+        "asset_class": "EQUITY_US"
+      },
+      "NVDA": {
+        "symbol": "NVDA",
+        "asset_class": "EQUITY_US"
+      },
+      "AMZN": {
+        "symbol": "AMZN",
+        "asset_class": "EQUITY_US"
+      },
+      "META": {
+        "symbol": "META",
+        "asset_class": "EQUITY_US"
+      },
+      "GOOGL": {
+        "symbol": "GOOGL",
+        "asset_class": "EQUITY_US"
+      },
+      "TSLA": {
+        "symbol": "TSLA",
+        "asset_class": "EQUITY_US"
+      },
+      "AVGO": {
+        "symbol": "AVGO",
+        "asset_class": "EQUITY_US"
+      },
+      "AMD": {
+        "symbol": "AMD",
+        "asset_class": "EQUITY_US"
+      },
+      "NFLX": {
+        "symbol": "NFLX",
+        "asset_class": "EQUITY_US"
+      },
+      "ADBE": {
+        "symbol": "ADBE",
+        "asset_class": "EQUITY_US"
+      },
+      "CRM": {
+        "symbol": "CRM",
+        "asset_class": "EQUITY_US"
+      },
+      "ORCL": {
+        "symbol": "ORCL",
+        "asset_class": "EQUITY_US"
+      },
+      "AMAT": {
+        "symbol": "AMAT",
+        "asset_class": "EQUITY_US"
+      },
+      "INTC": {
+        "symbol": "INTC",
+        "asset_class": "EQUITY_US"
+      },
+      "QCOM": {
+        "symbol": "QCOM",
+        "asset_class": "EQUITY_US"
+      },
+      "MU": {
+        "symbol": "MU",
+        "asset_class": "EQUITY_US"
+      },
+      "LRCX": {
+        "symbol": "LRCX",
+        "asset_class": "EQUITY_US"
+      },
+      "TXN": {
+        "symbol": "TXN",
+        "asset_class": "EQUITY_US"
+      },
+      "PLTR": {
+        "symbol": "PLTR",
+        "asset_class": "EQUITY_US"
+      },
+      "UBER": {
+        "symbol": "UBER",
+        "asset_class": "EQUITY_US"
+      },
+      "NOW": {
+        "symbol": "NOW",
+        "asset_class": "EQUITY_US"
+      },
+      "LLY": {
+        "symbol": "LLY",
+        "asset_class": "EQUITY_US"
+      },
+      "COF": {
+        "symbol": "COF",
+        "asset_class": "EQUITY_US"
+      },
+      "AXP": {
+        "symbol": "AXP",
+        "asset_class": "EQUITY_US"
+      },
+      "GS": {
+        "symbol": "GS",
+        "asset_class": "EQUITY_US"
+      },
+      "JPM": {
+        "symbol": "JPM",
+        "asset_class": "EQUITY_US"
+      },
+      "BAC": {
+        "symbol": "BAC",
+        "asset_class": "EQUITY_US"
+      },
+      "CAT": {
+        "symbol": "CAT",
+        "asset_class": "EQUITY_US"
+      },
+      "DE": {
+        "symbol": "DE",
+        "asset_class": "EQUITY_US"
+      },
+      "FDX": {
+        "symbol": "FDX",
+        "asset_class": "EQUITY_US"
+      },
+      "UPS": {
+        "symbol": "UPS",
+        "asset_class": "EQUITY_US"
+      },
+      "GE": {
+        "symbol": "GE",
+        "asset_class": "EQUITY_US"
+      },
+      "GEV": {
+        "symbol": "GEV",
+        "asset_class": "EQUITY_US"
+      },
+      "HON": {
+        "symbol": "HON",
+        "asset_class": "EQUITY_US"
+      },
+      "BA": {
+        "symbol": "BA",
+        "asset_class": "EQUITY_US"
+      },
+      "NKE": {
+        "symbol": "NKE",
+        "asset_class": "EQUITY_US"
+      },
+      "SBUX": {
+        "symbol": "SBUX",
+        "asset_class": "EQUITY_US"
+      },
+      "BKNG": {
+        "symbol": "BKNG",
+        "asset_class": "EQUITY_US"
+      },
+      "BLK": {
+        "symbol": "BLK",
+        "asset_class": "EQUITY_US"
+      },
+      "GILD": {
+        "symbol": "GILD",
+        "asset_class": "EQUITY_US"
+      },
+      "MRK": {
+        "symbol": "MRK",
+        "asset_class": "EQUITY_US"
+      },
+      "DHR": {
+        "symbol": "DHR",
+        "asset_class": "EQUITY_US"
+      },
+      "TMO": {
+        "symbol": "TMO",
+        "asset_class": "EQUITY_US"
+      },
+      "ACN": {
+        "symbol": "ACN",
+        "asset_class": "EQUITY_US"
+      },
+      "INTU": {
+        "symbol": "INTU",
+        "asset_class": "EQUITY_US"
+      },
+      "COP": {
+        "symbol": "COP",
+        "asset_class": "EQUITY_US"
+      },
+      "XOM": {
+        "symbol": "XOM",
+        "asset_class": "EQUITY_US"
+      },
+      "RTX": {
+        "symbol": "RTX",
+        "asset_class": "EQUITY_US"
+      },
+      "TMUS": {
+        "symbol": "TMUS",
+        "asset_class": "EQUITY_US"
+      },
+      "WFC": {
+        "symbol": "WFC",
+        "asset_class": "EQUITY_US"
+      },
+      "SCHW": {
+        "symbol": "SCHW",
+        "asset_class": "EQUITY_US"
+      },
+      "AMGN": {
+        "symbol": "AMGN",
+        "asset_class": "EQUITY_US"
+      },
+      "DIS": {
+        "symbol": "DIS",
+        "asset_class": "EQUITY_US"
+      },
+      "PEP": {
+        "symbol": "PEP",
+        "asset_class": "EQUITY_US"
+      }
+    },
+    "settings": {
+      "APP_LOG_PATH": "data/logs/earendil.log",
+      "POSITION_STORE_PATH": "data/earendil.sqlite",
+      "JOURNAL_PATH": "data/logs/trades.jsonl",
+      "MARKET_LOG_PATH": "data/logs/market.jsonl",
+      "CANDLE_JOURNAL_PATH": "data/logs/candles.jsonl",
+      "ERRORS_JOURNAL_PATH": "data/logs/errors.jsonl",
+      "DEBUG_DECISIONS_JOURNAL_PATH": "data/logs/debug_decisions.jsonl.gz",
+      "DAILY_SUMMARY_PATH": "data/logs/daily_summary.json",
+      "PARTIAL_DAILY_SUMMARY_PATH": "data/logs/daily_summary.partial.json",
+      "RUN_MANIFEST_PATH": "data/logs/run_manifest.json",
+      "JOURNAL_DETAIL_LEVEL": "normal",
+      "JOURNAL_KEEP_DEBUG_DECISIONS": false,
+      "JOURNAL_WRITE_PARTIAL_SUMMARY": true,
+      "JOURNAL_PARTIAL_SUMMARY_INTERVAL_MINUTES": 15,
+      "RUNTIME_HEARTBEAT_MINUTES": 5,
+      "BROKER": "etoro_demo",
+      "LOG_LEVEL": "INFO",
+      "POLL_INTERVAL_SECONDS": 10,
+      "CANDLE_TIMEFRAME_SECONDS": 60,
+      "ETORO_SELLSHORT_SAFETY_SL_BUFFER_PERCENT": 0.3,
+      "WATCHLIST": "AC.PA,AI.PA,AIR.PA,ALO.PA,CS.PA,BNP.PA,CAP.PA,ACA.PA,DSY.PA,EDEN.PA,EL.PA,RMS.PA,KER.PA,OR.PA,LR.PA,MC.PA,ML.PA,RI.PA,PUB.PA,RNO.PA,SAF.PA,SGO.PA,SAN.PA,SU.PA,GLE.PA,WLN.PA,HO.PA,TTE.PA,URW.PA,DG.PA,ADS.DE,ALV.DE,BAS.DE,BAYN.DE,BMW.DE,CBK.DE,CON.DE,DBK.DE,DB1.DE,EOAN.DE,HEI.DE,IFX.DE,MBG.DE,MUV2.DE,RWE.DE,SAP.DE,SIE.DE,VOW3.DE,BBVA.MC,CABK.MC,CLNX.MC,IBE.MC,ITX.MC,REP.MC,SAN.MC,TEF.MC,ENEL.MI,ENI.MI,ISP.MI,UCG.MI,AAPL,MSFT,NVDA,AMZN,META,GOOGL,TSLA,AVGO,AMD,NFLX,ADBE,CRM,ORCL,AMAT,INTC,QCOM,MU,LRCX,TXN,PLTR,UBER,NOW,LLY,COF,AXP,GS,JPM,BAC,CAT,DE,FDX,UPS,GE,GEV,HON,BA,NKE,SBUX,BKNG,BLK,GILD,MRK,DHR,TMO,ACN,INTU,COP,XOM,RTX,TMUS,WFC,SCHW,AMGN,DIS,PEP",
+      "BASE_CURRENCY": "USD",
+      "STRATEGY_AGGRESSIVENESS": "balanced",
+      "EU_MICRO_SCALP_FALLBACK_ENABLED": false,
+      "MAX_OPEN_POSITIONS": 5,
+      "MAX_OPEN_POSITIONS_PER_SYMBOL": 1,
+      "MAX_TRADES_PER_SESSION": 20,
+      "CRYPTO_SYMBOLS": "",
+      "EQUITY_US_SYMBOLS": "AAPL,MSFT,NVDA,AMZN,META,GOOGL,TSLA,AVGO,AMD,NFLX,ADBE,CRM,ORCL,AMAT,INTC,QCOM,MU,LRCX,TXN,PLTR,UBER,NOW,LLY,COF,AXP,GS,JPM,BAC,CAT,DE,FDX,UPS,GE,GEV,HON,BA,NKE,SBUX,BKNG,BLK,GILD,MRK,DHR,TMO,ACN,INTU,COP,XOM,RTX,TMUS,WFC,SCHW,AMGN,DIS,PEP",
+      "EQUITY_EU_SYMBOLS": "AC.PA,AI.PA,AIR.PA,ALO.PA,CS.PA,BNP.PA,CAP.PA,ACA.PA,DSY.PA,EDEN.PA,EL.PA,RMS.PA,KER.PA,OR.PA,LR.PA,MC.PA,ML.PA,RI.PA,PUB.PA,RNO.PA,SAF.PA,SGO.PA,SAN.PA,SU.PA,GLE.PA,WLN.PA,HO.PA,TTE.PA,URW.PA,DG.PA,ADS.DE,ALV.DE,BAS.DE,BAYN.DE,BMW.DE,CBK.DE,CON.DE,DBK.DE,DB1.DE,EOAN.DE,HEI.DE,IFX.DE,MBG.DE,MUV2.DE,RWE.DE,SAP.DE,SIE.DE,VOW3.DE,BBVA.MC,CABK.MC,CLNX.MC,IBE.MC,ITX.MC,REP.MC,SAN.MC,TEF.MC,ENEL.MI,ENI.MI,ISP.MI,UCG.MI",
+      "TRADING_SESSION_TIMEZONE": "Europe/Paris",
+      "TRADING_SESSIONS_CRYPTO": "",
+      "TRADING_SESSIONS_EQUITY_US": "15:30-22:00",
+      "TRADING_SESSIONS_EQUITY_EU": "09:00-15:30"
+    }
+  },
+  "analysis_sources": {
+    "run_id": "run_20260710T092848_498749Z",
+    "market_stream": "data/logs/market.jsonl",
+    "candle_stream": "data/logs/candles.jsonl",
+    "trade_stream": "data/logs/trades.jsonl",
+    "error_stream": "data/logs/errors.jsonl",
+    "raw_market_retained": true,
+    "raw_candles_retained": true
+  },
+  "files": {
+    "manifest": "data/logs/runs/run_20260710T092848_498749Z/run_manifest.json",
+    "latest_manifest": "data/logs/run_manifest.json",
+    "summary": "data/logs/runs/run_20260710T092848_498749Z/daily_summary.json",
+    "latest_summary": "data/logs/daily_summary.json",
+    "partial_summary": "data/logs/daily_summary.partial.json",
+    "trades": "data/logs/trades.jsonl",
+    "errors": "data/logs/errors.jsonl",
+    "market": "data/logs/market.jsonl",
+    "candles": "data/logs/candles.jsonl",
+    "debug_decisions": "data/logs/debug_decisions.jsonl.gz"
+  }
+}

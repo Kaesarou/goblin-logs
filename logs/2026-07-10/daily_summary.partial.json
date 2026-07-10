@@ -10,11 +10,11 @@
     "by_type": {
       "session_started": 60,
       "session_state_changed": 55,
-      "decision": 2692,
-      "candidate_detected": 9,
-      "candidate_economics": 7,
-      "candidate_tp_feasibility": 7,
-      "candidate_selection": 7
+      "decision": 4523,
+      "candidate_detected": 38,
+      "candidate_economics": 27,
+      "candidate_tp_feasibility": 27,
+      "candidate_selection": 27
     }
   },
   "market_data": {
@@ -22,34 +22,79 @@
     "candles_closed": 0
   },
   "decisions": {
-    "total": 2692,
-    "hold_total": 2692,
-    "candidate_total": 9,
+    "total": 4523,
+    "hold_total": 4523,
+    "candidate_total": 38,
     "selected_total": 0,
-    "rejected_total": 9,
+    "rejected_total": 38,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0
   },
   "hold_reasons": {
     "warming_up_candles": 1800,
-    "market_regime_dead_market": 439,
-    "snapshot_bearish_momentum_not_confirmed": 70,
-    "bearish_breakdown_not_confirmed": 142,
+    "market_regime_dead_market": 1464,
+    "snapshot_bearish_momentum_not_confirmed": 180,
+    "bearish_breakdown_not_confirmed": 337,
     "bullish_trend_not_confirmed": 5,
-    "market_regime_ranging": 208,
-    "snapshot_bullish_momentum_not_confirmed": 5,
-    "bearish_trend_not_confirmed": 17,
-    "bullish_breakout_not_confirmed": 4,
-    "short_candle_not_red": 1,
-    "short_close_not_near_low": 1
+    "market_regime_ranging": 553,
+    "snapshot_bullish_momentum_not_confirmed": 65,
+    "bearish_trend_not_confirmed": 36,
+    "bullish_breakout_not_confirmed": 70,
+    "short_candle_not_red": 3,
+    "short_close_not_near_low": 6,
+    "candle_range_too_small": 1,
+    "long_close_not_near_high": 2,
+    "long_candle_not_green": 1
   },
   "rejections": {
-    "total": 9,
+    "total": 38,
     "by_reason": {
-      "candidate_selection_score_too_low": 9
+      "candidate_selection_score_too_low": 38
     },
     "top_rejected_candidates": [
+      {
+        "symbol": "WLN.PA",
+        "side": "BUY",
+        "score": 88.616,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "VOW3.DE",
+        "side": "SELL",
+        "score": 87.9201,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "EDEN.PA",
+        "side": "BUY",
+        "score": 81.7652,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "BAYN.DE",
+        "side": "SELL",
+        "score": 76.869,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "PUB.PA",
+        "side": "BUY",
+        "score": 76.8143,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "VOW3.DE",
+        "side": "SELL",
+        "score": 75.9426,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "KER.PA",
+        "side": "SELL",
+        "score": 75.367,
+        "reason": "candidate_selection_score_too_low"
+      },
       {
         "symbol": "SAN.PA",
         "side": "SELL",
@@ -57,51 +102,15 @@
         "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "BAYN.DE",
-        "side": "SELL",
-        "score": 60.0,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "BAYN.DE",
-        "side": "SELL",
-        "score": 60.0,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
         "symbol": "KER.PA",
         "side": "SELL",
-        "score": 50.0,
+        "score": 73.0675,
         "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "EL.PA",
-        "side": "SELL",
-        "score": 47.4178,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "SAN.PA",
-        "side": "SELL",
-        "score": 42.2507,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "DSY.PA",
-        "side": "SELL",
-        "score": 34.3548,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "KER.PA",
-        "side": "SELL",
-        "score": 22.4469,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "ENI.MI",
-        "side": "SELL",
-        "score": 15.8432,
+        "symbol": "EDEN.PA",
+        "side": "BUY",
+        "score": 70.82,
         "reason": "candidate_selection_score_too_low"
       }
     ],
