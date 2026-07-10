@@ -1,0 +1,29 @@
+2026-07-10 08:03:49,628 | INFO | __main__ | Starting Eärendil | broker=etoro_demo | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | journal_detail=normal
+2026-07-10 08:03:49,669 | INFO | app.runtime.position_lifecycle | No persisted open positions to restore
+2026-07-10 08:03:52,569 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AC.PA | instrument_id=1231
+2026-07-10 08:03:52,805 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AI.PA | instrument_id=1233
+2026-07-10 08:03:53,038 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AIR.PA | instrument_id=1234
+2026-07-10 08:03:53,202 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALO.PA | instrument_id=1235
+2026-07-10 08:03:53,348 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CS.PA | instrument_id=1241
+2026-07-10 08:03:53,504 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BNP.PA | instrument_id=1238
+2026-07-10 08:03:53,708 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CAP.PA | instrument_id=1240
+2026-07-10 08:03:53,863 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ACA.PA | instrument_id=1232
+2026-07-10 08:03:54,032 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DSY.PA | instrument_id=5001
+2026-07-10 08:03:54,294 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EDEN.PA | instrument_id=5761
+2026-07-10 08:03:54,514 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EL.PA | instrument_id=1244
+2026-07-10 08:03:54,728 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RMS.PA | instrument_id=1978
+2026-07-10 08:03:54,882 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=KER.PA | instrument_id=1250
+2026-07-10 08:03:55,022 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=OR.PA | instrument_id=1256
+2026-07-10 08:03:55,187 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LR.PA | instrument_id=1252
+2026-07-10 08:03:55,320 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MC.PA | instrument_id=1253
+2026-07-10 08:03:55,472 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ML.PA | instrument_id=1254
+2026-07-10 08:03:55,657 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RI.PA | instrument_id=1259
+2026-07-10 08:03:55,921 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=PUB.PA | instrument_id=1258
+2026-07-10 08:03:56,257 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RNO.PA | instrument_id=1260
+2026-07-10 08:03:56,471 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAF.PA | instrument_id=1261
+2026-07-10 08:03:57,219 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SGO.PA | instrument_id=1263
+2026-07-10 08:03:57,428 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAN.PA | instrument_id=1262
+2026-07-10 08:03:57,681 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SU.PA | instrument_id=1265
+2026-07-10 08:03:58,081 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GLE.PA | instrument_id=1248
+2026-07-10 08:03:58,294 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=WLN.PA | instrument_id=5779
+2026-07-10 08:03:58,546 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HO.PA | instrument_id=5040
