@@ -11,10 +11,10 @@
       "runtime_started": 1,
       "session_started": 55,
       "session_state_changed": 170,
-      "market_snapshot": 30196,
-      "candle_closed": 5830,
-      "decision": 5811,
-      "session_heartbeat": 20,
+      "market_snapshot": 34541,
+      "candle_closed": 6655,
+      "decision": 6636,
+      "session_heartbeat": 23,
       "candidate_detected": 19,
       "candidate_economics": 15,
       "candidate_tp_feasibility": 15,
@@ -27,15 +27,15 @@
     }
   },
   "market_data": {
-    "snapshots": 30196,
-    "candles_closed": 5830
+    "snapshots": 34541,
+    "candles_closed": 6655
   },
   "decisions": {
-    "total": 5811,
-    "hold_total": 5810,
+    "total": 6636,
+    "hold_total": 6633,
     "candidate_total": 19,
     "selected_total": 0,
-    "rejected_total": 20,
+    "rejected_total": 22,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
@@ -48,24 +48,24 @@
   },
   "hold_reasons": {
     "warming_up_candles": 1650,
-    "market_regime_dead_market": 2941,
-    "bearish_breakdown_not_confirmed": 235,
-    "bullish_breakout_not_confirmed": 248,
-    "market_regime_ranging": 579,
-    "bullish_trend_not_confirmed": 44,
-    "bearish_trend_not_confirmed": 30,
-    "snapshot_bearish_momentum_not_confirmed": 40,
-    "snapshot_bullish_momentum_not_confirmed": 28,
-    "short_close_not_near_low": 5,
-    "long_candle_not_green": 2,
-    "long_close_not_near_high": 6,
-    "candle_range_too_small": 2
+    "market_regime_dead_market": 3539,
+    "bearish_breakdown_not_confirmed": 272,
+    "bullish_breakout_not_confirmed": 322,
+    "market_regime_ranging": 660,
+    "bullish_trend_not_confirmed": 50,
+    "bearish_trend_not_confirmed": 33,
+    "snapshot_bearish_momentum_not_confirmed": 42,
+    "snapshot_bullish_momentum_not_confirmed": 43,
+    "short_close_not_near_low": 8,
+    "long_candle_not_green": 4,
+    "long_close_not_near_high": 7,
+    "candle_range_too_small": 3
   },
   "rejections": {
-    "total": 20,
+    "total": 22,
     "by_reason": {
       "severe_feasibility_penalty": 19,
-      "too_close_to_session_end": 1
+      "too_close_to_session_end": 3
     },
     "top_rejected_candidates": [
       {

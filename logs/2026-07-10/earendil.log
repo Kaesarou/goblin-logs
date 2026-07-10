@@ -1922,3 +1922,12 @@
 2026-07-10 19:00:38,348 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=29150 | candles=5610 | candidates=19 | orders=0 | open_positions=0 | errors=0
 2026-07-10 19:04:00,553 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=993.01
 2026-07-10 19:05:41,933 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=30635 | candles=5885 | candidates=19 | orders=0 | open_positions=0 | errors=0
+2026-07-10 19:10:48,343 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=32120 | candles=6160 | candidates=19 | orders=0 | open_positions=0 | errors=0
+2026-07-10 19:11:17,265 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=553.5
+2026-07-10 19:12:02,920 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LLY | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1190.67
+2026-07-10 19:15:52,269 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=33550 | candles=6435 | candidates=19 | orders=0 | open_positions=0 | errors=0
+2026-07-10 19:21:02,569 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=35035 | candles=6765 | candidates=19 | orders=0 | open_positions=0 | errors=0
+2026-07-10 19:26:08,446 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=36520 | candles=7040 | candidates=19 | orders=0 | open_positions=0 | errors=0
+2026-07-10 19:31:03,270 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=110.27
+2026-07-10 19:31:16,092 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=38005 | candles=7315 | candidates=19 | orders=0 | open_positions=0 | errors=0
+2026-07-10 19:32:01,458 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=META | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=664.74
