@@ -11,15 +11,15 @@
       "runtime_started": 1,
       "session_started": 115,
       "session_state_changed": 350,
-      "market_snapshot": 66901,
-      "candle_closed": 12725,
-      "decision": 12475,
-      "session_heartbeat": 44,
+      "market_snapshot": 75536,
+      "candle_closed": 14375,
+      "decision": 14106,
+      "session_heartbeat": 50,
       "session_trades_reset": 1,
-      "candidate_detected": 261,
-      "candidate_economics": 76,
-      "candidate_tp_feasibility": 76,
-      "candidate_selection": 76,
+      "candidate_detected": 280,
+      "candidate_economics": 88,
+      "candidate_tp_feasibility": 88,
+      "candidate_selection": 88,
       "candidate_ranking": 8,
       "order_submitted": 10,
       "order_filled": 10,
@@ -30,41 +30,41 @@
     }
   },
   "market_data": {
-    "snapshots": 66901,
-    "candles_closed": 12725
+    "snapshots": 75536,
+    "candles_closed": 14375
   },
   "decisions": {
-    "total": 12475,
-    "hold_total": 12453,
-    "candidate_total": 261,
+    "total": 14106,
+    "hold_total": 14084,
+    "candidate_total": 280,
     "selected_total": 11,
-    "rejected_total": 241,
+    "rejected_total": 260,
     "orders_submitted": 10,
     "orders_failed": 0,
     "orders_filled": 10
   },
   "hold_reasons": {
     "warming_up_candles": 3450,
-    "market_regime_dead_market": 4253,
-    "bullish_breakout_not_confirmed": 1076,
-    "snapshot_bearish_momentum_not_confirmed": 147,
-    "snapshot_bullish_momentum_not_confirmed": 173,
-    "bearish_trend_not_confirmed": 390,
-    "market_regime_ranging": 1512,
-    "bearish_breakdown_not_confirmed": 974,
-    "candle_range_too_small": 9,
-    "short_candle_not_red": 13,
-    "bullish_trend_not_confirmed": 377,
-    "short_close_not_near_low": 41,
-    "long_close_not_near_high": 31,
-    "long_candle_not_green": 7
+    "market_regime_dead_market": 5169,
+    "bullish_breakout_not_confirmed": 1281,
+    "snapshot_bearish_momentum_not_confirmed": 172,
+    "snapshot_bullish_momentum_not_confirmed": 196,
+    "bearish_trend_not_confirmed": 392,
+    "market_regime_ranging": 1744,
+    "bearish_breakdown_not_confirmed": 1145,
+    "candle_range_too_small": 11,
+    "short_candle_not_red": 14,
+    "bullish_trend_not_confirmed": 417,
+    "short_close_not_near_low": 47,
+    "long_close_not_near_high": 38,
+    "long_candle_not_green": 8
   },
   "rejections": {
-    "total": 241,
+    "total": 260,
     "by_reason": {
       "too_close_to_session_end": 7,
       "force_close_before_session_end": 4,
-      "candidate_selection_score_too_low": 229,
+      "candidate_selection_score_too_low": 248,
       "cooldown_after_stop_loss": 16,
       "spread_too_high": 1,
       "cooldown_after_take_profit": 5
@@ -107,6 +107,12 @@
         "reason": "candidate_selection_score_too_low"
       },
       {
+        "symbol": "MU",
+        "side": "BUY",
+        "score": 97.4846,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
         "symbol": "AMD",
         "side": "SELL",
         "score": 96.9126,
@@ -122,12 +128,6 @@
         "symbol": "INTC",
         "side": "SELL",
         "score": 95.4857,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "META",
-        "side": "BUY",
-        "score": 95.0081,
         "reason": "candidate_selection_score_too_low"
       }
     ]
