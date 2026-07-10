@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "run_id": "run_20260710T103253_612727Z",
+  "run_id": "run_20260710T121916_610621Z",
   "status": "running",
-  "started_at": "2026-07-10T10:32:53.612727+00:00",
+  "started_at": "2026-07-10T12:19:16.610621+00:00",
   "ended_at": null,
   "code": {
     "git_commit": null,
@@ -902,7 +902,7 @@
     }
   },
   "analysis_sources": {
-    "run_id": "run_20260710T103253_612727Z",
+    "run_id": "run_20260710T121916_610621Z",
     "market_stream": "data/logs/market.jsonl",
     "candle_stream": "data/logs/candles.jsonl",
     "trade_stream": "data/logs/trades.jsonl",
@@ -911,9 +911,9 @@
     "raw_candles_retained": true
   },
   "files": {
-    "manifest": "data/logs/runs/run_20260710T103253_612727Z/run_manifest.json",
+    "manifest": "data/logs/runs/run_20260710T121916_610621Z/run_manifest.json",
     "latest_manifest": "data/logs/run_manifest.json",
-    "summary": "data/logs/runs/run_20260710T103253_612727Z/daily_summary.json",
+    "summary": "data/logs/runs/run_20260710T121916_610621Z/daily_summary.json",
     "latest_summary": "data/logs/daily_summary.json",
     "partial_summary": "data/logs/daily_summary.partial.json",
     "trades": "data/logs/trades.jsonl",
