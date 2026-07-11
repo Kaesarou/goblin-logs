@@ -517,3 +517,13 @@ ValueError: No exact eToro instrument match found for symbol=SHIB. Candidates=[{
 2026-07-11 05:07:10,546 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
 2026-07-11 05:07:10,599 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'AAVE', 'reason': 'severe_feasibility_penalty'}]
 2026-07-11 05:08:03,247 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=39026 | candles=6878 | candidates=25 | orders=0 | open_positions=0 | errors=0
+2026-07-11 05:13:07,864 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=39577 | candles=6973 | candidates=25 | orders=0 | open_positions=0 | errors=0
+2026-07-11 05:18:12,985 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=40128 | candles=7068 | candidates=25 | orders=0 | open_positions=0 | errors=0
+2026-07-11 05:23:08,857 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NEAR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1.908
+2026-07-11 05:23:08,866 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=NEAR | action=BUY | score=110.0382 | reason=score=110.0382 | base_score=110.0382 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=110.0382 | score_after_late_entry_cap=110.0382 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.5269 | trend_strength=0.1075 | breakout=0.0944 | breakdown=0.0 | candle_range=0.0524 | close_position=100.0 | spread=0.0524
+2026-07-11 05:23:09,447 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-11 05:23:09,529 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NEAR', 'reason': 'severe_feasibility_penalty'}]
+2026-07-11 05:23:20,042 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=40679 | candles=7163 | candidates=26 | orders=0 | open_positions=0 | errors=0
+2026-07-11 05:28:27,401 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=41230 | candles=7258 | candidates=26 | orders=0 | open_positions=0 | errors=0
+2026-07-11 05:33:33,774 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=41781 | candles=7353 | candidates=26 | orders=0 | open_positions=0 | errors=0
+2026-07-11 05:38:38,469 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=42332 | candles=7448 | candidates=26 | orders=0 | open_positions=0 | errors=0
