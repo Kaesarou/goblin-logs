@@ -11,58 +11,60 @@
       "runtime_started": 1,
       "session_started": 19,
       "session_state_changed": 19,
-      "market_snapshot": 9653,
-      "candle_closed": 1710,
-      "decision": 1698,
-      "session_heartbeat": 17,
-      "candidate_detected": 12,
-      "candidate_economics": 9,
-      "candidate_tp_feasibility": 9,
-      "pending_entry_registered": 8,
-      "candidate_selection": 9,
+      "market_snapshot": 12902,
+      "candle_closed": 2280,
+      "decision": 2264,
+      "session_heartbeat": 23,
+      "candidate_detected": 16,
+      "candidate_economics": 13,
+      "candidate_tp_feasibility": 13,
+      "pending_entry_registered": 11,
+      "candidate_selection": 13,
       "pending_entry_retest_detected": 6,
       "pending_entry_invalidated": 4,
       "pending_entry_confirmed": 3,
-      "pending_entry_updated": 4,
-      "pending_entry_expired": 4
+      "pending_entry_updated": 5,
+      "pending_entry_expired": 7
     }
   },
   "market_data": {
-    "snapshots": 9653,
-    "candles_closed": 1710
+    "snapshots": 12902,
+    "candles_closed": 2280
   },
   "decisions": {
-    "total": 1698,
-    "hold_total": 1698,
-    "candidate_total": 12,
+    "total": 2264,
+    "hold_total": 2264,
+    "candidate_total": 16,
     "selected_total": 0,
-    "rejected_total": 12,
+    "rejected_total": 16,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 3,
-    "wait_confirmation_total": 9,
+    "wait_confirmation_total": 13,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 9
+      "severe_feasibility_penalty": 13
     }
   },
   "hold_reasons": {
     "warming_up_candles": 570,
-    "market_regime_dead_market": 931,
-    "market_regime_ranging": 96,
-    "bearish_breakdown_not_confirmed": 53,
-    "snapshot_bearish_momentum_not_confirmed": 16,
-    "snapshot_bullish_momentum_not_confirmed": 3,
-    "bullish_breakout_not_confirmed": 16,
+    "market_regime_dead_market": 1378,
+    "market_regime_ranging": 178,
+    "bearish_breakdown_not_confirmed": 64,
+    "snapshot_bearish_momentum_not_confirmed": 17,
+    "snapshot_bullish_momentum_not_confirmed": 9,
+    "bullish_breakout_not_confirmed": 32,
     "short_close_not_near_low": 3,
     "short_candle_not_red": 1,
-    "bearish_trend_not_confirmed": 9
+    "bearish_trend_not_confirmed": 9,
+    "bullish_trend_not_confirmed": 2,
+    "long_candle_not_green": 1
   },
   "rejections": {
-    "total": 12,
+    "total": 16,
     "by_reason": {
-      "severe_feasibility_penalty": 9,
+      "severe_feasibility_penalty": 13,
       "candidate_selection_score_too_low": 3
     },
     "top_rejected_candidates": [
@@ -71,6 +73,12 @@
         "side": "BUY",
         "score": 95.0,
         "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "DOT",
+        "side": "BUY",
+        "score": 95.0,
+        "reason": "severe_feasibility_penalty"
       },
       {
         "symbol": "UNI",
@@ -103,27 +111,21 @@
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "AAVE",
-        "side": "SELL",
-        "score": 60.0,
+        "symbol": "DOT",
+        "side": "BUY",
+        "score": 75.0724,
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "UNI",
-        "side": "SELL",
-        "score": 60.0,
+        "symbol": "DOT",
+        "side": "BUY",
+        "score": 72.9981,
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "AAVE",
-        "side": "SELL",
-        "score": 60.0,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "UNI",
-        "side": "SELL",
-        "score": 50.0,
+        "symbol": "XLM",
+        "side": "BUY",
+        "score": 71.9818,
         "reason": "severe_feasibility_penalty"
       }
     ]
@@ -143,11 +145,11 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 8,
+    "registered": 11,
     "confirmed": 3,
-    "expired": 4,
+    "expired": 7,
     "invalidated": 4,
-    "updated": 4,
+    "updated": 5,
     "retest_detected": 6
   },
   "pnl": {
