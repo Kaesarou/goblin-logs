@@ -11,60 +11,60 @@
       "runtime_started": 1,
       "session_started": 19,
       "session_state_changed": 19,
-      "market_snapshot": 16170,
-      "candle_closed": 2850,
-      "decision": 2833,
-      "session_heartbeat": 29,
-      "candidate_detected": 17,
-      "candidate_economics": 14,
-      "candidate_tp_feasibility": 14,
-      "pending_entry_registered": 12,
-      "candidate_selection": 14,
-      "pending_entry_retest_detected": 7,
+      "market_snapshot": 19419,
+      "candle_closed": 3439,
+      "decision": 3419,
+      "session_heartbeat": 35,
+      "candidate_detected": 20,
+      "candidate_economics": 17,
+      "candidate_tp_feasibility": 17,
+      "pending_entry_registered": 14,
+      "candidate_selection": 17,
+      "pending_entry_retest_detected": 8,
       "pending_entry_invalidated": 5,
       "pending_entry_confirmed": 3,
       "pending_entry_updated": 5,
-      "pending_entry_expired": 7
+      "pending_entry_expired": 8
     }
   },
   "market_data": {
-    "snapshots": 16170,
-    "candles_closed": 2850
+    "snapshots": 19419,
+    "candles_closed": 3439
   },
   "decisions": {
-    "total": 2833,
-    "hold_total": 2833,
-    "candidate_total": 17,
+    "total": 3419,
+    "hold_total": 3419,
+    "candidate_total": 20,
     "selected_total": 0,
-    "rejected_total": 17,
+    "rejected_total": 20,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 3,
-    "wait_confirmation_total": 14,
+    "wait_confirmation_total": 17,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 14
+      "severe_feasibility_penalty": 17
     }
   },
   "hold_reasons": {
     "warming_up_candles": 570,
-    "market_regime_dead_market": 1828,
-    "market_regime_ranging": 254,
-    "bearish_breakdown_not_confirmed": 68,
-    "snapshot_bearish_momentum_not_confirmed": 17,
+    "market_regime_dead_market": 2294,
+    "market_regime_ranging": 349,
+    "bearish_breakdown_not_confirmed": 86,
+    "snapshot_bearish_momentum_not_confirmed": 22,
     "snapshot_bullish_momentum_not_confirmed": 13,
-    "bullish_breakout_not_confirmed": 61,
-    "short_close_not_near_low": 3,
+    "bullish_breakout_not_confirmed": 62,
+    "short_close_not_near_low": 4,
     "short_candle_not_red": 1,
     "bearish_trend_not_confirmed": 9,
     "bullish_trend_not_confirmed": 8,
     "long_candle_not_green": 1
   },
   "rejections": {
-    "total": 17,
+    "total": 20,
     "by_reason": {
-      "severe_feasibility_penalty": 14,
+      "severe_feasibility_penalty": 17,
       "candidate_selection_score_too_low": 3
     },
     "top_rejected_candidates": [
@@ -93,10 +93,22 @@
         "reason": "candidate_selection_score_too_low"
       },
       {
+        "symbol": "UNI",
+        "side": "SELL",
+        "score": 88.5358,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
         "symbol": "ATOM",
         "side": "BUY",
         "score": 87.3255,
         "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "UNI",
+        "side": "SELL",
+        "score": 82.0807,
+        "reason": "severe_feasibility_penalty"
       },
       {
         "symbol": "XLM",
@@ -111,21 +123,9 @@
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "DOT",
-        "side": "BUY",
-        "score": 75.0724,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "DOT",
-        "side": "BUY",
-        "score": 72.9981,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "XLM",
-        "side": "BUY",
-        "score": 72.8677,
+        "symbol": "SOL",
+        "side": "SELL",
+        "score": 75.6673,
         "reason": "severe_feasibility_penalty"
       }
     ]
@@ -145,12 +145,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 12,
+    "registered": 14,
     "confirmed": 3,
-    "expired": 7,
+    "expired": 8,
     "invalidated": 5,
     "updated": 5,
-    "retest_detected": 7
+    "retest_detected": 8
   },
   "pnl": {
     "gross_estimated": 0.0,
