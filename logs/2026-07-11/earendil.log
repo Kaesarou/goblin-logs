@@ -571,3 +571,9 @@ ValueError: No exact eToro instrument match found for symbol=SHIB. Candidates=[{
 2026-07-11 07:30:47,218 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=54454 | candles=9576 | candidates=31 | orders=0 | open_positions=0 | errors=0
 2026-07-11 07:35:53,069 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=55005 | candles=9671 | candidates=31 | orders=0 | open_positions=0 | errors=0
 2026-07-11 07:40:54,474 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=55537 | candles=9766 | candidates=31 | orders=0 | open_positions=0 | errors=0
+2026-07-11 07:45:59,782 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=56088 | candles=9861 | candidates=31 | orders=0 | open_positions=0 | errors=0
+2026-07-11 07:51:06,073 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=56639 | candles=9975 | candidates=31 | orders=0 | open_positions=0 | errors=0
+2026-07-11 07:56:11,189 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=57190 | candles=10070 | candidates=31 | orders=0 | open_positions=0 | errors=0
+2026-07-11 08:01:16,403 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=57741 | candles=10165 | candidates=31 | orders=0 | open_positions=0 | errors=0
+2026-07-11 08:06:21,817 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=58292 | candles=10260 | candidates=31 | orders=0 | open_positions=0 | errors=0
+2026-07-11 08:11:26,976 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=58843 | candles=10355 | candidates=31 | orders=0 | open_positions=0 | errors=0
