@@ -11,37 +11,59 @@
       "runtime_started": 1,
       "session_started": 19,
       "session_state_changed": 19,
-      "market_snapshot": 3231,
-      "candle_closed": 570,
-      "decision": 570,
-      "session_heartbeat": 5
+      "market_snapshot": 6499,
+      "candle_closed": 1140,
+      "decision": 1139,
+      "session_heartbeat": 11,
+      "candidate_detected": 1,
+      "candidate_economics": 1,
+      "candidate_tp_feasibility": 1,
+      "pending_entry_registered": 1,
+      "candidate_selection": 1,
+      "pending_entry_retest_detected": 1,
+      "pending_entry_invalidated": 1
     }
   },
   "market_data": {
-    "snapshots": 3231,
-    "candles_closed": 570
+    "snapshots": 6499,
+    "candles_closed": 1140
   },
   "decisions": {
-    "total": 570,
-    "hold_total": 570,
-    "candidate_total": 0,
+    "total": 1139,
+    "hold_total": 1139,
+    "candidate_total": 1,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 1,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 0,
-    "wait_confirmation_total": 0,
+    "wait_confirmation_total": 1,
     "rejected_by_feasibility_total": 0,
-    "wait_confirmation_by_reason": {}
+    "wait_confirmation_by_reason": {
+      "severe_feasibility_penalty": 1
+    }
   },
   "hold_reasons": {
-    "warming_up_candles": 570
+    "warming_up_candles": 570,
+    "market_regime_dead_market": 538,
+    "market_regime_ranging": 23,
+    "bearish_breakdown_not_confirmed": 7,
+    "snapshot_bearish_momentum_not_confirmed": 1
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": []
+    "total": 1,
+    "by_reason": {
+      "severe_feasibility_penalty": 1
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "UNI",
+        "side": "SELL",
+        "score": 29.7825,
+        "reason": "severe_feasibility_penalty"
+      }
+    ]
   },
   "selected_candidates": [],
   "orders": {
@@ -58,12 +80,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 0,
+    "registered": 1,
     "confirmed": 0,
     "expired": 0,
-    "invalidated": 0,
+    "invalidated": 1,
     "updated": 0,
-    "retest_detected": 0
+    "retest_detected": 1
   },
   "pnl": {
     "gross_estimated": 0.0,
