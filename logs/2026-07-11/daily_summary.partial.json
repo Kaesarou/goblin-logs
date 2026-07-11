@@ -11,10 +11,10 @@
       "runtime_started": 1,
       "session_started": 19,
       "session_state_changed": 19,
-      "market_snapshot": 65095,
-      "candle_closed": 11457,
-      "decision": 11423,
-      "session_heartbeat": 118,
+      "market_snapshot": 68363,
+      "candle_closed": 12027,
+      "decision": 11993,
+      "session_heartbeat": 124,
       "candidate_detected": 34,
       "candidate_economics": 30,
       "candidate_tp_feasibility": 30,
@@ -28,12 +28,12 @@
     }
   },
   "market_data": {
-    "snapshots": 65095,
-    "candles_closed": 11457
+    "snapshots": 68363,
+    "candles_closed": 12027
   },
   "decisions": {
-    "total": 11423,
-    "hold_total": 11423,
+    "total": 11993,
+    "hold_total": 11993,
     "candidate_total": 34,
     "selected_total": 0,
     "rejected_total": 34,
@@ -49,16 +49,16 @@
   },
   "hold_reasons": {
     "warming_up_candles": 570,
-    "market_regime_dead_market": 9292,
-    "market_regime_ranging": 993,
-    "bearish_breakdown_not_confirmed": 189,
+    "market_regime_dead_market": 9784,
+    "market_regime_ranging": 1062,
+    "bearish_breakdown_not_confirmed": 192,
     "snapshot_bearish_momentum_not_confirmed": 33,
     "snapshot_bullish_momentum_not_confirmed": 55,
-    "bullish_breakout_not_confirmed": 245,
+    "bullish_breakout_not_confirmed": 249,
     "short_close_not_near_low": 5,
     "short_candle_not_red": 2,
     "bearish_trend_not_confirmed": 17,
-    "bullish_trend_not_confirmed": 15,
+    "bullish_trend_not_confirmed": 17,
     "long_candle_not_green": 3,
     "long_close_not_near_high": 3,
     "candle_range_too_small": 1

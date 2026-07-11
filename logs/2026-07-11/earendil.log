@@ -600,3 +600,9 @@ ValueError: No exact eToro instrument match found for symbol=SHIB. Candidates=[{
 2026-07-11 09:03:08,948 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
 2026-07-11 09:03:08,999 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'BCH', 'reason': 'severe_feasibility_penalty'}]
 2026-07-11 09:07:35,515 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=64885 | candles=11419 | candidates=34 | orders=0 | open_positions=0 | errors=0
+2026-07-11 09:12:40,780 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=65436 | candles=11514 | candidates=34 | orders=0 | open_positions=0 | errors=0
+2026-07-11 09:17:45,855 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=65987 | candles=11609 | candidates=34 | orders=0 | open_positions=0 | errors=0
+2026-07-11 09:22:53,209 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=66538 | candles=11704 | candidates=34 | orders=0 | open_positions=0 | errors=0
+2026-07-11 09:28:00,597 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=67089 | candles=11818 | candidates=34 | orders=0 | open_positions=0 | errors=0
+2026-07-11 09:33:06,191 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=67640 | candles=11913 | candidates=34 | orders=0 | open_positions=0 | errors=0
+2026-07-11 09:38:12,654 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=68191 | candles=12008 | candidates=34 | orders=0 | open_positions=0 | errors=0
