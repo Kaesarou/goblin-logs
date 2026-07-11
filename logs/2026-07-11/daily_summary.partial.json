@@ -11,51 +11,51 @@
       "runtime_started": 1,
       "session_started": 19,
       "session_state_changed": 19,
-      "market_snapshot": 71631,
-      "candle_closed": 12616,
-      "decision": 12581,
-      "session_heartbeat": 130,
-      "candidate_detected": 35,
-      "candidate_economics": 31,
-      "candidate_tp_feasibility": 31,
-      "pending_entry_registered": 27,
-      "candidate_selection": 31,
-      "pending_entry_retest_detected": 25,
-      "pending_entry_invalidated": 7,
+      "market_snapshot": 74880,
+      "candle_closed": 13186,
+      "decision": 13147,
+      "session_heartbeat": 136,
+      "candidate_detected": 39,
+      "candidate_economics": 33,
+      "candidate_tp_feasibility": 33,
+      "pending_entry_registered": 31,
+      "candidate_selection": 33,
+      "pending_entry_retest_detected": 29,
+      "pending_entry_invalidated": 9,
       "pending_entry_confirmed": 3,
       "pending_entry_updated": 7,
-      "pending_entry_expired": 19
+      "pending_entry_expired": 22
     }
   },
   "market_data": {
-    "snapshots": 71631,
-    "candles_closed": 12616
+    "snapshots": 74880,
+    "candles_closed": 13186
   },
   "decisions": {
-    "total": 12581,
-    "hold_total": 12581,
-    "candidate_total": 35,
+    "total": 13147,
+    "hold_total": 13147,
+    "candidate_total": 39,
     "selected_total": 0,
-    "rejected_total": 35,
+    "rejected_total": 39,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 3,
-    "wait_confirmation_total": 32,
+    "wait_confirmation_total": 36,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 32
+      "severe_feasibility_penalty": 36
     }
   },
   "hold_reasons": {
     "warming_up_candles": 570,
-    "market_regime_dead_market": 10304,
-    "market_regime_ranging": 1107,
-    "bearish_breakdown_not_confirmed": 194,
-    "snapshot_bearish_momentum_not_confirmed": 40,
-    "snapshot_bullish_momentum_not_confirmed": 55,
-    "bullish_breakout_not_confirmed": 263,
-    "short_close_not_near_low": 5,
+    "market_regime_dead_market": 10759,
+    "market_regime_ranging": 1160,
+    "bearish_breakdown_not_confirmed": 203,
+    "snapshot_bearish_momentum_not_confirmed": 41,
+    "snapshot_bullish_momentum_not_confirmed": 64,
+    "bullish_breakout_not_confirmed": 301,
+    "short_close_not_near_low": 6,
     "short_candle_not_red": 2,
     "bearish_trend_not_confirmed": 17,
     "bullish_trend_not_confirmed": 17,
@@ -64,9 +64,9 @@
     "candle_range_too_small": 1
   },
   "rejections": {
-    "total": 35,
+    "total": 39,
     "by_reason": {
-      "severe_feasibility_penalty": 32,
+      "severe_feasibility_penalty": 36,
       "candidate_selection_score_too_low": 3
     },
     "top_rejected_candidates": [
@@ -83,9 +83,21 @@
         "reason": "severe_feasibility_penalty"
       },
       {
+        "symbol": "UNI",
+        "side": "BUY",
+        "score": 95.0,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
         "symbol": "AAVE",
         "side": "BUY",
         "score": 91.6023,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "AAVE",
+        "side": "BUY",
+        "score": 90.8631,
         "reason": "severe_feasibility_penalty"
       },
       {
@@ -117,18 +129,6 @@
         "side": "BUY",
         "score": 87.3255,
         "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "UNI",
-        "side": "SELL",
-        "score": 82.0807,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "BCH",
-        "side": "BUY",
-        "score": 80.9964,
-        "reason": "severe_feasibility_penalty"
       }
     ]
   },
@@ -147,12 +147,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 27,
+    "registered": 31,
     "confirmed": 3,
-    "expired": 19,
-    "invalidated": 7,
+    "expired": 22,
+    "invalidated": 9,
     "updated": 7,
-    "retest_detected": 25
+    "retest_detected": 29
   },
   "pnl": {
     "gross_estimated": 0.0,
