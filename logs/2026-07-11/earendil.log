@@ -537,3 +537,9 @@ ValueError: No exact eToro instrument match found for symbol=SHIB. Candidates=[{
 2026-07-11 06:03:01,503 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'AAVE', 'reason': 'severe_feasibility_penalty'}]
 2026-07-11 06:04:04,732 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=45087 | candles=7942 | candidates=27 | orders=0 | open_positions=0 | errors=0
 2026-07-11 06:09:09,611 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=45638 | candles=8037 | candidates=27 | orders=0 | open_positions=0 | errors=0
+2026-07-11 06:14:14,577 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=46189 | candles=8132 | candidates=27 | orders=0 | open_positions=0 | errors=0
+2026-07-11 06:19:19,552 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=46740 | candles=8227 | candidates=27 | orders=0 | open_positions=0 | errors=0
+2026-07-11 06:24:25,521 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=47291 | candles=8322 | candidates=27 | orders=0 | open_positions=0 | errors=0
+2026-07-11 06:29:31,019 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=47842 | candles=8417 | candidates=27 | orders=0 | open_positions=0 | errors=0
+2026-07-11 06:34:36,505 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=48393 | candles=8512 | candidates=27 | orders=0 | open_positions=0 | errors=0
+2026-07-11 06:39:41,172 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=48944 | candles=8607 | candidates=27 | orders=0 | open_positions=0 | errors=0
