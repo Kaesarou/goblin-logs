@@ -2,3 +2,5 @@
 2026-07-12 22:01:15,743 | INFO | app.runtime.position_lifecycle | No persisted open positions to restore
 2026-07-12 22:06:15,879 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-12 22:11:15,951 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-12 22:16:16,100 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-12 22:21:16,234 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0

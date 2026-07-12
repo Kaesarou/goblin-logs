@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260712T220115_624703Z",
+  "strategy": "TrendStrategy",
+  "profile": "balanced",
+  "journal_detail_level": "normal",
+  "started_at": "2026-07-12T22:01:15.739980+00:00",
+  "ended_at": null,
+  "events": {
+    "by_type": {
+      "runtime_started": 1,
+      "session_state_changed": 115,
+      "session_heartbeat": 3
+    }
+  },
+  "market_data": {
+    "snapshots": 0,
+    "candles_closed": 0
+  },
+  "decisions": {
+    "total": 0,
+    "hold_total": 0,
+    "candidate_total": 0,
+    "selected_total": 0,
+    "rejected_total": 0,
+    "orders_submitted": 0,
+    "orders_failed": 0,
+    "orders_filled": 0,
+    "tradable_now_total": 0,
+    "wait_confirmation_total": 0,
+    "rejected_by_feasibility_total": 0,
+    "wait_confirmation_by_reason": {}
+  },
+  "hold_reasons": {},
+  "rejections": {
+    "total": 0,
+    "by_reason": {},
+    "top_rejected_candidates": []
+  },
+  "selected_candidates": [],
+  "orders": {
+    "submitted": 0,
+    "filled": 0,
+    "failed": 0,
+    "by_symbol": {},
+    "from_pending": 0
+  },
+  "positions": {
+    "opened": 0,
+    "closed": 0,
+    "restored": 0,
+    "force_closed": 0
+  },
+  "pending_entries": {
+    "registered": 0,
+    "confirmed": 0,
+    "expired": 0,
+    "invalidated": 0,
+    "updated": 0,
+    "retest_detected": 0
+  },
+  "pnl": {
+    "gross_estimated": 0.0,
+    "estimated_costs": 0.0,
+    "net_estimated": 0.0,
+    "net_estimated_available": true,
+    "from_pending": 0.0
+  },
+  "cooldown": {
+    "blocked_total": 0,
+    "by_symbol": {}
+  },
+  "runtime": {
+    "session_transitions": [
+      {
+        "symbol": "AC.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AI.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AIR.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "ALO.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "CS.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "BNP.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "CAP.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "ACA.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "DSY.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "EDEN.PA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      }
+    ]
+  },
+  "errors": {
+    "total": 0,
+    "by_type": {},
+    "samples": []
+  }
+}
