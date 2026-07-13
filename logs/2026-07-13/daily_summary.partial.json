@@ -11,64 +11,64 @@
       "runtime_started": 1,
       "session_started": 60,
       "session_state_changed": 115,
-      "market_snapshot": 105241,
-      "candle_closed": 18120,
-      "decision": 18039,
-      "session_heartbeat": 59,
-      "candidate_detected": 81,
-      "candidate_economics": 65,
-      "candidate_tp_feasibility": 65,
-      "pending_entry_registered": 61,
-      "candidate_selection": 65,
-      "pending_entry_retest_detected": 38,
-      "pending_entry_expired": 31,
-      "pending_entry_updated": 20,
-      "pending_entry_confirmed": 8,
-      "pending_entry_invalidated": 25,
+      "market_snapshot": 115741,
+      "candle_closed": 19920,
+      "decision": 19832,
+      "session_heartbeat": 64,
+      "candidate_detected": 88,
+      "candidate_economics": 72,
+      "candidate_tp_feasibility": 72,
+      "pending_entry_registered": 65,
+      "candidate_selection": 72,
+      "pending_entry_retest_detected": 44,
+      "pending_entry_expired": 38,
+      "pending_entry_updated": 23,
+      "pending_entry_confirmed": 11,
+      "pending_entry_invalidated": 26,
       "error": 2
     }
   },
   "market_data": {
-    "snapshots": 105241,
-    "candles_closed": 18120
+    "snapshots": 115741,
+    "candles_closed": 19920
   },
   "decisions": {
-    "total": 18039,
-    "hold_total": 18039,
-    "candidate_total": 81,
+    "total": 19832,
+    "hold_total": 19832,
+    "candidate_total": 88,
     "selected_total": 0,
-    "rejected_total": 81,
+    "rejected_total": 88,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
-    "tradable_now_total": 8,
-    "wait_confirmation_total": 73,
+    "tradable_now_total": 11,
+    "wait_confirmation_total": 77,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 73
+      "severe_feasibility_penalty": 77
     }
   },
   "hold_reasons": {
     "warming_up_candles": 1800,
-    "market_regime_ranging": 3045,
-    "market_regime_dead_market": 9820,
-    "bullish_breakout_not_confirmed": 1105,
-    "bearish_breakdown_not_confirmed": 914,
-    "bullish_trend_not_confirmed": 170,
-    "snapshot_bullish_momentum_not_confirmed": 660,
-    "snapshot_bearish_momentum_not_confirmed": 383,
-    "short_close_not_near_low": 11,
-    "bearish_trend_not_confirmed": 79,
+    "market_regime_ranging": 3459,
+    "market_regime_dead_market": 10813,
+    "bullish_breakout_not_confirmed": 1249,
+    "bearish_breakdown_not_confirmed": 1000,
+    "bullish_trend_not_confirmed": 211,
+    "snapshot_bullish_momentum_not_confirmed": 726,
+    "snapshot_bearish_momentum_not_confirmed": 411,
+    "short_close_not_near_low": 13,
+    "bearish_trend_not_confirmed": 97,
     "long_candle_not_green": 11,
     "candle_range_too_small": 21,
-    "long_close_not_near_high": 9,
+    "long_close_not_near_high": 10,
     "short_candle_not_red": 11
   },
   "rejections": {
-    "total": 81,
+    "total": 88,
     "by_reason": {
-      "severe_feasibility_penalty": 73,
-      "candidate_selection_score_too_low": 8
+      "severe_feasibility_penalty": 77,
+      "candidate_selection_score_too_low": 11
     },
     "top_rejected_candidates": [
       {
@@ -90,10 +90,22 @@
         "reason": "candidate_selection_score_too_low"
       },
       {
+        "symbol": "BAS.DE",
+        "side": "BUY",
+        "score": 91.033,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
         "symbol": "BAYN.DE",
         "side": "SELL",
         "score": 88.8345,
         "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "BAS.DE",
+        "side": "BUY",
+        "score": 85.2955,
+        "reason": "candidate_selection_score_too_low"
       },
       {
         "symbol": "EDEN.PA",
@@ -118,18 +130,6 @@
         "side": "SELL",
         "score": 81.4472,
         "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "RI.PA",
-        "side": "BUY",
-        "score": 78.5564,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "KER.PA",
-        "side": "BUY",
-        "score": 77.6467,
-        "reason": "severe_feasibility_penalty"
       }
     ]
   },
@@ -148,12 +148,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 61,
-    "confirmed": 8,
-    "expired": 31,
-    "invalidated": 25,
-    "updated": 20,
-    "retest_detected": 38
+    "registered": 65,
+    "confirmed": 11,
+    "expired": 38,
+    "invalidated": 26,
+    "updated": 23,
+    "retest_detected": 44
   },
   "pnl": {
     "gross_estimated": 0.0,
