@@ -9,17 +9,21 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_state_changed": 115,
-      "session_heartbeat": 105
+      "session_state_changed": 175,
+      "session_heartbeat": 110,
+      "session_started": 60,
+      "market_snapshot": 5761,
+      "candle_closed": 960,
+      "decision": 960
     }
   },
   "market_data": {
-    "snapshots": 0,
-    "candles_closed": 0
+    "snapshots": 5761,
+    "candles_closed": 960
   },
   "decisions": {
-    "total": 0,
-    "hold_total": 0,
+    "total": 960,
+    "hold_total": 960,
     "candidate_total": 0,
     "selected_total": 0,
     "rejected_total": 0,
@@ -31,7 +35,9 @@
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {}
   },
-  "hold_reasons": {},
+  "hold_reasons": {
+    "warming_up_candles": 960
+  },
   "rejections": {
     "total": 0,
     "by_reason": {},
