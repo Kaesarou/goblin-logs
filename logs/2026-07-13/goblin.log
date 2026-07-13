@@ -3120,3 +3120,33 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-13 18:52:10,884 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'AMZN', 'reason': 'severe_feasibility_penalty'}]
 2026-07-13 18:53:54,146 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=258780 | candles=45005 | candidates=588 | orders=2 | open_positions=0 | errors=11
 2026-07-13 18:59:02,210 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=260430 | candles=45335 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:02:06,144 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=133.18
+2026-07-13 19:02:06,159 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=329.84
+2026-07-13 19:04:08,954 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=184.69
+2026-07-13 19:04:08,997 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=262080 | candles=45610 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:05:10,345 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=184.41
+2026-07-13 19:07:05,110 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=184.26
+2026-07-13 19:08:06,317 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=129.41
+2026-07-13 19:08:06,355 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTU | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=290.56
+2026-07-13 19:09:18,836 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=263730 | candles=45885 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:10:10,033 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=297.27
+2026-07-13 19:11:01,013 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=571.37
+2026-07-13 19:11:01,017 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=101.99
+2026-07-13 19:11:01,024 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=327.89
+2026-07-13 19:12:02,193 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=534.1
+2026-07-13 19:13:03,820 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BLK | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1026.48
+2026-07-13 19:14:25,399 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=265380 | candles=46160 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:15:06,312 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=183.23
+2026-07-13 19:19:32,750 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=267030 | candles=46435 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:20:03,434 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=182.83
+2026-07-13 19:21:04,863 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=533.2
+2026-07-13 19:21:04,879 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=182.71
+2026-07-13 19:24:40,932 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=268680 | candles=46710 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:26:02,814 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TMO | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=527.59
+2026-07-13 19:26:02,817 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTU | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=289.02
+2026-07-13 19:27:04,022 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTU | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=288.8
+2026-07-13 19:28:05,378 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=128.45
+2026-07-13 19:29:06,823 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=128.38
+2026-07-13 19:29:47,735 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=270330 | candles=46985 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:30:08,269 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MSFT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=390.37
+2026-07-13 19:30:08,303 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=128.3
