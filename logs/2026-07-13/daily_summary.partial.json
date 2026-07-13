@@ -10,11 +10,11 @@
     "by_type": {
       "runtime_started": 1,
       "session_started": 115,
-      "session_state_changed": 460,
-      "market_snapshot": 279901,
+      "session_state_changed": 515,
+      "market_snapshot": 280010,
       "candle_closed": 48635,
       "decision": 48051,
-      "session_heartbeat": 141,
+      "session_heartbeat": 148,
       "candidate_detected": 588,
       "candidate_economics": 267,
       "candidate_tp_feasibility": 267,
@@ -34,11 +34,11 @@
       "trade_cooldown_registered": 2,
       "position_closed": 2,
       "cooldown_blocked": 3,
-      "session_trades_reset": 1
+      "session_trades_reset": 2
     }
   },
   "market_data": {
-    "snapshots": 279901,
+    "snapshots": 280010,
     "candles_closed": 48635
   },
   "decisions": {

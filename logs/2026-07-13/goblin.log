@@ -3202,3 +3202,10 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-13 19:57:07,095 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=103.49
 2026-07-13 19:58:08,580 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=HON | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=222.37
 2026-07-13 19:59:09,727 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MSFT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=391.61
+2026-07-13 20:00:30,571 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 20:05:30,732 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 20:10:30,882 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 20:15:31,042 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 20:20:31,199 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 20:25:31,349 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 20:30:31,523 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=280010 | candles=48635 | candidates=588 | orders=2 | open_positions=0 | errors=11
