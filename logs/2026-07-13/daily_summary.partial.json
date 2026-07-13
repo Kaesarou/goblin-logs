@@ -11,62 +11,62 @@
       "runtime_started": 1,
       "session_started": 60,
       "session_state_changed": 115,
-      "market_snapshot": 31561,
-      "candle_closed": 5400,
-      "decision": 5375,
-      "session_heartbeat": 17,
-      "candidate_detected": 25,
-      "candidate_economics": 20,
-      "candidate_tp_feasibility": 20,
-      "pending_entry_registered": 18,
-      "candidate_selection": 20,
-      "pending_entry_retest_detected": 15,
-      "pending_entry_expired": 13,
-      "pending_entry_updated": 7,
+      "market_snapshot": 42061,
+      "candle_closed": 7200,
+      "decision": 7167,
+      "session_heartbeat": 23,
+      "candidate_detected": 33,
+      "candidate_economics": 28,
+      "candidate_tp_feasibility": 28,
+      "pending_entry_registered": 24,
+      "candidate_selection": 28,
+      "pending_entry_retest_detected": 18,
+      "pending_entry_expired": 15,
+      "pending_entry_updated": 9,
       "pending_entry_confirmed": 3,
-      "pending_entry_invalidated": 4
+      "pending_entry_invalidated": 8
     }
   },
   "market_data": {
-    "snapshots": 31561,
-    "candles_closed": 5400
+    "snapshots": 42061,
+    "candles_closed": 7200
   },
   "decisions": {
-    "total": 5375,
-    "hold_total": 5375,
-    "candidate_total": 25,
+    "total": 7167,
+    "hold_total": 7167,
+    "candidate_total": 33,
     "selected_total": 0,
-    "rejected_total": 25,
+    "rejected_total": 33,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 3,
-    "wait_confirmation_total": 22,
+    "wait_confirmation_total": 30,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 22
+      "severe_feasibility_penalty": 30
     }
   },
   "hold_reasons": {
     "warming_up_candles": 1800,
-    "market_regime_ranging": 823,
-    "market_regime_dead_market": 1820,
-    "bullish_breakout_not_confirmed": 393,
-    "bearish_breakdown_not_confirmed": 162,
-    "bullish_trend_not_confirmed": 69,
-    "snapshot_bullish_momentum_not_confirmed": 206,
-    "snapshot_bearish_momentum_not_confirmed": 60,
+    "market_regime_ranging": 1187,
+    "market_regime_dead_market": 2922,
+    "bullish_breakout_not_confirmed": 541,
+    "bearish_breakdown_not_confirmed": 183,
+    "bullish_trend_not_confirmed": 103,
+    "snapshot_bullish_momentum_not_confirmed": 303,
+    "snapshot_bearish_momentum_not_confirmed": 72,
     "short_close_not_near_low": 2,
-    "bearish_trend_not_confirmed": 28,
-    "long_candle_not_green": 3,
-    "candle_range_too_small": 4,
-    "long_close_not_near_high": 4,
+    "bearish_trend_not_confirmed": 37,
+    "long_candle_not_green": 4,
+    "candle_range_too_small": 7,
+    "long_close_not_near_high": 5,
     "short_candle_not_red": 1
   },
   "rejections": {
-    "total": 25,
+    "total": 33,
     "by_reason": {
-      "severe_feasibility_penalty": 22,
+      "severe_feasibility_penalty": 30,
       "candidate_selection_score_too_low": 3
     },
     "top_rejected_candidates": [
@@ -89,9 +89,27 @@
         "reason": "severe_feasibility_penalty"
       },
       {
+        "symbol": "CLNX.MC",
+        "side": "BUY",
+        "score": 74.0847,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "DSY.PA",
+        "side": "BUY",
+        "score": 72.7861,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
         "symbol": "MC.PA",
         "side": "BUY",
         "score": 72.5743,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "CLNX.MC",
+        "side": "BUY",
+        "score": 72.3677,
         "reason": "severe_feasibility_penalty"
       },
       {
@@ -101,33 +119,15 @@
         "reason": "severe_feasibility_penalty"
       },
       {
+        "symbol": "IFX.DE",
+        "side": "BUY",
+        "score": 70.0368,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
         "symbol": "EDEN.PA",
         "side": "BUY",
         "score": 68.9477,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "MBG.DE",
-        "side": "BUY",
-        "score": 68.5439,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "RWE.DE",
-        "side": "BUY",
-        "score": 65.8978,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "EDEN.PA",
-        "side": "BUY",
-        "score": 65.6283,
-        "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "RMS.PA",
-        "side": "BUY",
-        "score": 65.0872,
         "reason": "severe_feasibility_penalty"
       }
     ]
@@ -147,12 +147,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 18,
+    "registered": 24,
     "confirmed": 3,
-    "expired": 13,
-    "invalidated": 4,
-    "updated": 7,
-    "retest_detected": 15
+    "expired": 15,
+    "invalidated": 8,
+    "updated": 9,
+    "retest_detected": 18
   },
   "pnl": {
     "gross_estimated": 0.0,
