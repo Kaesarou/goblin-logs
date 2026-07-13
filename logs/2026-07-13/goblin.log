@@ -3150,3 +3150,55 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-13 19:29:47,735 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=270330 | candles=46985 | candidates=588 | orders=2 | open_positions=0 | errors=11
 2026-07-13 19:30:08,269 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MSFT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=390.37
 2026-07-13 19:30:08,303 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=128.3
+2026-07-13 19:31:09,548 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MSFT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=390.01
+2026-07-13 19:31:09,580 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=575.78
+2026-07-13 19:31:09,592 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=330.7
+2026-07-13 19:31:09,626 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=XOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=144.39
+2026-07-13 19:33:02,018 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=182.52
+2026-07-13 19:33:02,062 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=XOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=144.33
+2026-07-13 19:34:03,955 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=127.97
+2026-07-13 19:34:55,031 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=271980 | candles=47260 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:35:05,384 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=132.11
+2026-07-13 19:38:09,614 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NOW | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=110.35
+2026-07-13 19:39:00,849 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NOW | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=110.25
+2026-07-13 19:39:00,883 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=WFC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=87.42
+2026-07-13 19:40:02,173 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=273630 | candles=47590 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:42:05,004 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=131.43
+2026-07-13 19:42:05,018 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=298.83
+2026-07-13 19:42:05,024 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=UBER | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=73.94
+2026-07-13 19:42:05,045 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BLK | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1028.48
+2026-07-13 19:43:06,345 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=933.81
+2026-07-13 19:43:06,352 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=299.22
+2026-07-13 19:43:06,367 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=586.79
+2026-07-13 19:43:06,374 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=HON | action=BUY | setup_quality=0.75 | reason=trend_bullish_snapshot_momentum | candle_close=221.46
+2026-07-13 19:44:07,910 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=102.74
+2026-07-13 19:45:09,753 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=275280 | candles=47865 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:47:02,781 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NKE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=43.81
+2026-07-13 19:49:05,547 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=536.12
+2026-07-13 19:49:05,564 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=577.02
+2026-07-13 19:49:05,569 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=102.94
+2026-07-13 19:49:05,576 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=935.6
+2026-07-13 19:49:05,581 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=299.88
+2026-07-13 19:49:05,603 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=SBUX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=107.1
+2026-07-13 19:50:06,862 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=330.6
+2026-07-13 19:50:06,864 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=300.31
+2026-07-13 19:50:06,877 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=CAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=933.81
+2026-07-13 19:50:17,094 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=276930 | candles=48140 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:51:08,285 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TSLA | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=393.76
+2026-07-13 19:51:08,300 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=578.0
+2026-07-13 19:51:08,306 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=103.35
+2026-07-13 19:51:08,311 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=938.29
+2026-07-13 19:52:09,609 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ADBE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=230.46
+2026-07-13 19:52:09,618 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=133.04
+2026-07-13 19:52:09,626 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=181.94
+2026-07-13 19:52:09,632 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=332.22
+2026-07-13 19:52:09,638 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=129.13
+2026-07-13 19:54:02,131 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=GEV | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1046.25
+2026-07-13 19:55:03,835 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=COF | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=202.93
+2026-07-13 19:55:24,394 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=278580 | candles=48415 | candidates=588 | orders=2 | open_positions=0 | errors=11
+2026-07-13 19:56:05,402 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=939.7
+2026-07-13 19:56:05,425 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BKNG | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=175.66
+2026-07-13 19:56:05,428 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BLK | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1031.83
+2026-07-13 19:57:07,095 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=103.49
+2026-07-13 19:58:08,580 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=HON | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=222.37
+2026-07-13 19:59:09,727 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MSFT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=391.61
