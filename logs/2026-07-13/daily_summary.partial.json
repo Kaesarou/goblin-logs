@@ -10,38 +10,101 @@
     "by_type": {
       "runtime_started": 1,
       "session_state_changed": 175,
-      "session_heartbeat": 110,
+      "session_heartbeat": 116,
       "session_started": 60,
-      "market_snapshot": 5761,
-      "candle_closed": 960,
-      "decision": 960
+      "market_snapshot": 16321,
+      "candle_closed": 2760,
+      "decision": 2751,
+      "error": 3,
+      "candidate_detected": 6,
+      "candidate_economics": 5,
+      "candidate_tp_feasibility": 5,
+      "pending_entry_registered": 6,
+      "candidate_selection": 5,
+      "pending_entry_retest_detected": 13,
+      "pending_entry_expired": 2,
+      "pending_entry_invalidated": 3
     }
   },
   "market_data": {
-    "snapshots": 5761,
-    "candles_closed": 960
+    "snapshots": 16321,
+    "candles_closed": 2760
   },
   "decisions": {
-    "total": 960,
-    "hold_total": 960,
-    "candidate_total": 0,
+    "total": 2751,
+    "hold_total": 2751,
+    "candidate_total": 6,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 6,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "tradable_now_total": 0,
-    "wait_confirmation_total": 0,
+    "wait_confirmation_total": 6,
     "rejected_by_feasibility_total": 0,
-    "wait_confirmation_by_reason": {}
+    "wait_confirmation_by_reason": {
+      "severe_feasibility_penalty": 6
+    }
   },
   "hold_reasons": {
-    "warming_up_candles": 960
+    "warming_up_candles": 1800,
+    "market_regime_dead_market": 397,
+    "bearish_trend_not_confirmed": 56,
+    "market_regime_ranging": 210,
+    "bullish_trend_not_confirmed": 47,
+    "bearish_breakdown_not_confirmed": 106,
+    "short_candle_not_red": 1,
+    "bullish_breakout_not_confirmed": 67,
+    "long_candle_not_green": 2,
+    "snapshot_bearish_momentum_not_confirmed": 34,
+    "snapshot_bullish_momentum_not_confirmed": 25,
+    "candle_range_too_small": 1,
+    "long_close_not_near_high": 4,
+    "short_close_not_near_low": 1
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": []
+    "total": 6,
+    "by_reason": {
+      "severe_feasibility_penalty": 6
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "BMW.DE",
+        "side": "BUY",
+        "score": 64.3461,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "ADS.DE",
+        "side": "BUY",
+        "score": 62.6505,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "SGO.PA",
+        "side": "BUY",
+        "score": 62.5496,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "VOW3.DE",
+        "side": "SELL",
+        "score": 58.01,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "GLE.PA",
+        "side": "SELL",
+        "score": 49.5931,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "UCG.MI",
+        "side": "SELL",
+        "score": 32.7831,
+        "reason": "severe_feasibility_penalty"
+      }
+    ]
   },
   "selected_candidates": [],
   "orders": {
@@ -58,12 +121,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 0,
+    "registered": 6,
     "confirmed": 0,
-    "expired": 0,
-    "invalidated": 0,
+    "expired": 2,
+    "invalidated": 3,
     "updated": 0,
-    "retest_detected": 0
+    "retest_detected": 13
   },
   "pnl": {
     "gross_estimated": 0.0,
@@ -151,8 +214,26 @@
     ]
   },
   "errors": {
-    "total": 0,
-    "by_type": {},
-    "samples": []
+    "total": 3,
+    "by_type": {
+      "error": 3
+    },
+    "samples": [
+      {
+        "event_type": "error",
+        "symbol": "IFX.DE",
+        "message": "Cannot calculate session move with invalid reference_close=0.0"
+      },
+      {
+        "event_type": "error",
+        "symbol": "IFX.DE",
+        "message": "Cannot calculate session move with invalid reference_close=0.0"
+      },
+      {
+        "event_type": "error",
+        "symbol": "IFX.DE",
+        "message": "Cannot calculate session move with invalid reference_close=0.0"
+      }
+    ]
   }
 }

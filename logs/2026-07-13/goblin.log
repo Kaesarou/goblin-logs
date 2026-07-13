@@ -172,3 +172,158 @@
 2026-07-13 07:11:49,889 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=4140 | candles=660 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-13 07:16:57,149 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=5940 | candles=960 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-13 07:22:04,124 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=7740 | candles=1320 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 07:27:13,456 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=9540 | candles=1620 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 07:31:08,484 | ERROR | __main__ | Symbol processing error | symbol=IFX.DE | error=Cannot calculate session move with invalid reference_close=0.0
+Traceback (most recent call last):
+  File "/app/app/main.py", line 133, in main
+    candidate = process_symbol(
+                ^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 88, in process_symbol
+    return process_closed_candle(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 118, in process_closed_candle
+    signal = strategy.on_candle(closed_candle)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/strategies/strategy.py", line 59, in on_candle
+    session_move_percent = self._session_move_percent()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/strategies/strategy.py", line 568, in _session_move_percent
+    raise ValueError(
+ValueError: Cannot calculate session move with invalid reference_close=0.0
+2026-07-13 07:31:08,495 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=VOW3.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=70.42
+2026-07-13 07:31:08,498 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=VOW3.DE | action=SELL | score=103.01 | reason=score=103.01 | base_score=113.01 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=113.01 | score_after_late_entry_cap=113.01 | sell_specific_penalty=10.0 | sell_score_cap=105.0 | sell_rejection_reason=None | sell_components=['breakdown_ok', 'short_snapshot_momentum_ok', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.2832 | short_snapshot_momentum=0.5366 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.4805 | trend_strength=-0.0716 | breakout=0.0 | breakdown=0.2832 | candle_range=0.1984 | close_position=0.0 | spread=0.0852
+2026-07-13 07:31:09,553 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:31:09,571 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'VOW3.DE', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:32:00,826 | ERROR | __main__ | Symbol processing error | symbol=IFX.DE | error=Cannot calculate session move with invalid reference_close=0.0
+Traceback (most recent call last):
+  File "/app/app/main.py", line 133, in main
+    candidate = process_symbol(
+                ^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 88, in process_symbol
+    return process_closed_candle(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 118, in process_closed_candle
+    signal = strategy.on_candle(closed_candle)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/strategies/strategy.py", line 59, in on_candle
+    session_move_percent = self._session_move_percent()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/strategies/strategy.py", line 568, in _session_move_percent
+    raise ValueError(
+ValueError: Cannot calculate session move with invalid reference_close=0.0
+2026-07-13 07:32:21,263 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=11340 | candles=1920 | candidates=1 | orders=0 | open_positions=0 | errors=2
+2026-07-13 07:33:02,158 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=GLE.PA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=73.45
+2026-07-13 07:33:02,161 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=GLE.PA | action=SELL | score=94.5931 | reason=score=94.5931 | base_score=108.5931 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=108.5931 | score_after_late_entry_cap=108.5931 | sell_specific_penalty=14.0 | sell_score_cap=105.0 | sell_rejection_reason=None | sell_components=['weak_breakdown', 'short_snapshot_momentum_ok', 'sell_close_quality_ok'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.0408 | short_snapshot_momentum=0.2718 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.4473 | trend_strength=-0.1304 | breakout=0.0 | breakdown=0.0408 | candle_range=0.068 | close_position=0.0 | spread=0.0545
+2026-07-13 07:33:02,193 | ERROR | __main__ | Symbol processing error | symbol=IFX.DE | error=Cannot calculate session move with invalid reference_close=0.0
+Traceback (most recent call last):
+  File "/app/app/main.py", line 133, in main
+    candidate = process_symbol(
+                ^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 88, in process_symbol
+    return process_closed_candle(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 118, in process_closed_candle
+    signal = strategy.on_candle(closed_candle)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/strategies/strategy.py", line 59, in on_candle
+    session_move_percent = self._session_move_percent()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/strategies/strategy.py", line 568, in _session_move_percent
+    raise ValueError(
+ValueError: Cannot calculate session move with invalid reference_close=0.0
+2026-07-13 07:33:02,223 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=UCG.MI | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=82.13
+2026-07-13 07:33:02,227 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=UCG.MI | action=SELL | score=77.7831 | reason=score=77.7831 | base_score=109.7831 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=109.7831 | score_after_late_entry_cap=109.7831 | sell_specific_penalty=32.0 | sell_score_cap=95.0 | sell_rejection_reason=None | sell_components=['weak_breakdown', 'weak_short_snapshot_momentum', 'sell_close_quality_ok'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.0608 | short_snapshot_momentum=0.2066 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.2429 | trend_strength=-0.1667 | breakout=0.0 | breakdown=0.0608 | candle_range=0.0608 | close_position=0.0 | spread=0.0487
+2026-07-13 07:33:02,365 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:33:02,374 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'GLE.PA', 'reason': 'severe_feasibility_penalty'}, {'symbol': 'UCG.MI', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:36:38,013 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=1/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1231,1233,1234,1235,1241,1238,1240,1232,5001,5761,1244,1978,1250,1256,1252,1253,1254,1259,1258,1260,1261,1263,1262,1265,1248,5779,5040,1246,4548,1242,1215,1204,1201,1203,1211,1223,1228,1995,1219,1205,1226,1221,1206,1212,1213,1202,1200,1210,1316,1320,5838,1330,1332,1339,7615,7622,1282,1283,1288,1307 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1231,1233,1234,1235,1241,1238,1240,1232,5001,5761,1244,1978,1250,1256,1252,1253,1254,1259,1258,1260,1261,1263,1262,1265,1248,5779,5040,1246,4548,1242,1215,1204,1201,1203,1211,1223,1228,1995,1219,1205,1226,1221,1206,1212,1213,1202,1200,1210,1316,1320,5838,1330,1332,1339,7615,7622,1282,1283,1288,1307 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-13 07:36:39,022 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=2/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1231,1233,1234,1235,1241,1238,1240,1232,5001,5761,1244,1978,1250,1256,1252,1253,1254,1259,1258,1260,1261,1263,1262,1265,1248,5779,5040,1246,4548,1242,1215,1204,1201,1203,1211,1223,1228,1995,1219,1205,1226,1221,1206,1212,1213,1202,1200,1210,1316,1320,5838,1330,1332,1339,7615,7622,1282,1283,1288,1307 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1231,1233,1234,1235,1241,1238,1240,1232,5001,5761,1244,1978,1250,1256,1252,1253,1254,1259,1258,1260,1261,1263,1262,1265,1248,5779,5040,1246,4548,1242,1215,1204,1201,1203,1211,1223,1228,1995,1219,1205,1226,1221,1206,1212,1213,1202,1200,1210,1316,1320,5838,1330,1332,1339,7615,7622,1282,1283,1288,1307 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-13 07:37:22,532 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=13080 | candles=2220 | candidates=3 | orders=0 | open_positions=0 | errors=3
+2026-07-13 07:39:04,515 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ADS.DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=183.3
+2026-07-13 07:39:04,518 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=ADS.DE | action=BUY | score=107.6505 | reason=score=107.6505 | base_score=107.6505 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=107.6505 | score_after_late_entry_cap=107.6505 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.4108 | trend_strength=0.0674 | breakout=0.0819 | breakdown=0.0 | candle_range=0.0546 | close_position=100.0 | spread=0.0273
+2026-07-13 07:39:05,349 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:39:05,354 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'ADS.DE', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:42:09,296 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=SGO.PA | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=74.92
+2026-07-13 07:42:09,300 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=SGO.PA | action=BUY | score=107.5496 | reason=score=107.5496 | base_score=107.5496 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=107.5496 | score_after_late_entry_cap=107.5496 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.3482 | trend_strength=0.1249 | breakout=0.0534 | breakdown=0.0 | candle_range=0.0801 | close_position=100.0 | spread=0.0534
+2026-07-13 07:42:09,916 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:42:09,921 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'SGO.PA', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:42:30,338 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=14880 | candles=2520 | candidates=5 | orders=0 | open_positions=0 | errors=3
+2026-07-13 07:43:00,965 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BMW.DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=57.94
+2026-07-13 07:43:00,967 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=BMW.DE | action=BUY | score=109.3461 | reason=score=109.3461 | base_score=109.3461 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=109.3461 | score_after_late_entry_cap=109.3461 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.2075 | trend_strength=0.1662 | breakout=0.1037 | breakdown=0.0 | candle_range=0.1037 | close_position=100.0 | spread=0.069
+2026-07-13 07:43:01,126 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:43:01,132 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'BMW.DE', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:47:37,938 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=16680 | candles=2820 | candidates=6 | orders=0 | open_positions=0 | errors=3
+2026-07-13 07:50:01,301 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=SAN.PA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=76.8
+2026-07-13 07:50:01,304 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=SAN.PA | action=SELL | score=69.7496 | reason=score=69.7496 | base_score=111.7496 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=111.7496 | score_after_late_entry_cap=111.7496 | sell_specific_penalty=42.0 | sell_score_cap=95.0 | sell_rejection_reason=None | sell_components=['weak_breakdown', 'weak_short_snapshot_momentum', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.0521 | short_snapshot_momentum=0.2337 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.3633 | trend_strength=-0.1152 | breakout=0.0 | breakdown=0.0521 | candle_range=0.0781 | close_position=0.0 | spread=0.013
+2026-07-13 07:50:02,396 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:50:02,402 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'SAN.PA', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:51:03,790 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TEF.MC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=3.579
+2026-07-13 07:51:03,793 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=TEF.MC | action=BUY | score=110.8002 | reason=score=110.8002 | base_score=110.8002 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=110.8002 | score_after_late_entry_cap=110.8002 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.196 | trend_strength=0.1046 | breakout=0.196 | breakdown=0.0 | candle_range=0.1679 | close_position=100.0 | spread=0.0559
+2026-07-13 07:51:03,958 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:51:03,965 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'TEF.MC', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:52:46,248 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=18480 | candles=3120 | candidates=8 | orders=0 | open_positions=0 | errors=3
+2026-07-13 07:53:06,606 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=RNO.PA | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=25.73
+2026-07-13 07:53:06,609 | INFO | app.runtime.symbol_flow | Trade candidate detected | symbol=RNO.PA | action=BUY | score=123.7472 | reason=score=123.7472 | base_score=123.7472 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=123.7472 | score_after_late_entry_cap=123.7472 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.5078 | trend_strength=0.0885 | breakout=0.3119 | breakdown=0.0 | candle_range=0.3119 | close_position=100.0 | spread=0.0389
+2026-07-13 07:53:06,962 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99230.61
+2026-07-13 07:53:06,970 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'RNO.PA', 'reason': 'severe_feasibility_penalty'}]
+2026-07-13 07:55:32,456 | INFO | __main__ | Starting Goblin! | run_id=run_20260713T075532_434025Z | broker=etoro_demo | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | journal_detail=normal
+2026-07-13 07:55:32,460 | INFO | app.runtime.position_lifecycle | No persisted open positions to restore
+2026-07-13 07:55:32,700 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AC.PA | instrument_id=1231
+2026-07-13 07:55:32,945 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AI.PA | instrument_id=1233
+2026-07-13 07:55:33,191 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AIR.PA | instrument_id=1234
+2026-07-13 07:55:33,328 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALO.PA | instrument_id=1235
+2026-07-13 07:55:33,559 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CS.PA | instrument_id=1241
+2026-07-13 07:55:33,718 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BNP.PA | instrument_id=1238
+2026-07-13 07:55:34,041 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CAP.PA | instrument_id=1240
+2026-07-13 07:55:34,543 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ACA.PA | instrument_id=1232
+2026-07-13 07:55:34,691 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DSY.PA | instrument_id=5001
+2026-07-13 07:55:34,828 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EDEN.PA | instrument_id=5761
+2026-07-13 07:55:34,966 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EL.PA | instrument_id=1244
+2026-07-13 07:55:35,104 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RMS.PA | instrument_id=1978
+2026-07-13 07:55:35,413 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=KER.PA | instrument_id=1250
+2026-07-13 07:55:35,555 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=OR.PA | instrument_id=1256
+2026-07-13 07:55:35,678 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LR.PA | instrument_id=1252
+2026-07-13 07:55:35,817 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MC.PA | instrument_id=1253
+2026-07-13 07:55:35,960 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ML.PA | instrument_id=1254
+2026-07-13 07:55:36,113 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RI.PA | instrument_id=1259
+2026-07-13 07:55:36,390 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=PUB.PA | instrument_id=1258
+2026-07-13 07:55:36,538 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RNO.PA | instrument_id=1260
+2026-07-13 07:55:36,700 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAF.PA | instrument_id=1261
+2026-07-13 07:55:36,836 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SGO.PA | instrument_id=1263
+2026-07-13 07:55:36,988 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAN.PA | instrument_id=1262
+2026-07-13 07:55:37,249 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SU.PA | instrument_id=1265
+2026-07-13 07:55:37,391 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GLE.PA | instrument_id=1248
+2026-07-13 07:55:37,525 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=WLN.PA | instrument_id=5779
+2026-07-13 07:55:37,674 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HO.PA | instrument_id=5040
+2026-07-13 07:55:37,831 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TTE.PA | instrument_id=1246
+2026-07-13 07:55:37,955 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=URW.PA | instrument_id=4548
+2026-07-13 07:55:38,113 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DG.PA | instrument_id=1242
+2026-07-13 07:55:38,360 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ADS.DE | instrument_id=1215
+2026-07-13 07:55:38,503 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALV.DE | instrument_id=1204
+2026-07-13 07:55:38,658 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BAS.DE | instrument_id=1201
+2026-07-13 07:55:38,816 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BAYN.DE | instrument_id=1203
+2026-07-13 07:55:39,090 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BMW.DE | instrument_id=1211
+2026-07-13 07:55:39,342 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CBK.DE | instrument_id=1223
+2026-07-13 07:55:39,491 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CON.DE | instrument_id=1228
+2026-07-13 07:55:39,619 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DBK.DE | instrument_id=1995
+2026-07-13 07:55:39,829 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DB1.DE | instrument_id=1219
+2026-07-13 07:55:39,985 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EOAN.DE | instrument_id=1205
+2026-07-13 07:55:40,158 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HEI.DE | instrument_id=1226
+2026-07-13 07:55:40,306 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=IFX.DE | instrument_id=1221
+2026-07-13 07:55:40,441 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MBG.DE | instrument_id=1206
+2026-07-13 07:55:40,594 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MUV2.DE | instrument_id=1212
+2026-07-13 07:55:40,742 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RWE.DE | instrument_id=1213
+2026-07-13 07:55:40,885 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAP.DE | instrument_id=1202
+2026-07-13 07:55:41,024 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SIE.DE | instrument_id=1200
+2026-07-13 07:55:41,309 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=VOW3.DE | instrument_id=1210
+2026-07-13 07:55:41,476 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BBVA.MC | instrument_id=1316
+2026-07-13 07:55:41,604 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CABK.MC | instrument_id=1320
+2026-07-13 07:55:41,737 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CLNX.MC | instrument_id=5838
+2026-07-13 07:55:41,882 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=IBE.MC | instrument_id=1330
+2026-07-13 07:55:42,026 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ITX.MC | instrument_id=1332
+2026-07-13 07:55:42,290 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=REP.MC | instrument_id=1339
+2026-07-13 07:55:42,421 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAN.MC | instrument_id=7615
+2026-07-13 07:55:42,561 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TEF.MC | instrument_id=7622
+2026-07-13 07:55:42,713 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENEL.MI | instrument_id=1282
+2026-07-13 07:55:42,936 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENI.MI | instrument_id=1283
+2026-07-13 07:55:43,087 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ISP.MI | instrument_id=1288
+2026-07-13 07:55:43,238 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UCG.MI | instrument_id=1307
