@@ -327,3 +327,9 @@ ValueError: Cannot calculate session move with invalid reference_close=0.0
 2026-07-13 07:55:42,936 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENI.MI | instrument_id=1283
 2026-07-13 07:55:43,087 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ISP.MI | instrument_id=1288
 2026-07-13 07:55:43,238 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UCG.MI | instrument_id=1307
+2026-07-13 08:00:39,987 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=1800 | candles=300 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 08:05:48,324 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=3600 | candles=600 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 08:10:56,091 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=5400 | candles=900 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 08:16:02,927 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=7200 | candles=1260 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 08:21:03,712 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=8940 | candles=1560 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-13 08:26:11,245 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=10740 | candles=1860 | candidates=0 | orders=0 | open_positions=0 | errors=0
