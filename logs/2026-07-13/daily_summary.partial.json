@@ -11,37 +11,126 @@
       "runtime_started": 1,
       "session_started": 60,
       "session_state_changed": 115,
-      "market_snapshot": 10501,
-      "candle_closed": 1800,
-      "decision": 1800,
-      "session_heartbeat": 5
+      "market_snapshot": 21001,
+      "candle_closed": 3600,
+      "decision": 3579,
+      "session_heartbeat": 11,
+      "candidate_detected": 21,
+      "candidate_economics": 16,
+      "candidate_tp_feasibility": 16,
+      "pending_entry_registered": 14,
+      "candidate_selection": 16,
+      "pending_entry_retest_detected": 12,
+      "pending_entry_expired": 8,
+      "pending_entry_updated": 7,
+      "pending_entry_confirmed": 3,
+      "pending_entry_invalidated": 1
     }
   },
   "market_data": {
-    "snapshots": 10501,
-    "candles_closed": 1800
+    "snapshots": 21001,
+    "candles_closed": 3600
   },
   "decisions": {
-    "total": 1800,
-    "hold_total": 1800,
-    "candidate_total": 0,
+    "total": 3579,
+    "hold_total": 3579,
+    "candidate_total": 21,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 21,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
-    "tradable_now_total": 0,
-    "wait_confirmation_total": 0,
+    "tradable_now_total": 3,
+    "wait_confirmation_total": 18,
     "rejected_by_feasibility_total": 0,
-    "wait_confirmation_by_reason": {}
+    "wait_confirmation_by_reason": {
+      "severe_feasibility_penalty": 18
+    }
   },
   "hold_reasons": {
-    "warming_up_candles": 1800
+    "warming_up_candles": 1800,
+    "market_regime_ranging": 481,
+    "market_regime_dead_market": 702,
+    "bullish_breakout_not_confirmed": 248,
+    "bearish_breakdown_not_confirmed": 134,
+    "bullish_trend_not_confirmed": 30,
+    "snapshot_bullish_momentum_not_confirmed": 128,
+    "snapshot_bearish_momentum_not_confirmed": 36,
+    "short_close_not_near_low": 2,
+    "bearish_trend_not_confirmed": 10,
+    "long_candle_not_green": 3,
+    "candle_range_too_small": 2,
+    "long_close_not_near_high": 2,
+    "short_candle_not_red": 1
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": []
+    "total": 21,
+    "by_reason": {
+      "severe_feasibility_penalty": 18,
+      "candidate_selection_score_too_low": 3
+    },
+    "top_rejected_candidates": [
+      {
+        "symbol": "KER.PA",
+        "side": "BUY",
+        "score": 77.6467,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "TEF.MC",
+        "side": "BUY",
+        "score": 76.4781,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "TEF.MC",
+        "side": "BUY",
+        "score": 74.9204,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "MC.PA",
+        "side": "BUY",
+        "score": 72.5743,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "REP.MC",
+        "side": "SELL",
+        "score": 71.7086,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "EDEN.PA",
+        "side": "BUY",
+        "score": 68.9477,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "RWE.DE",
+        "side": "BUY",
+        "score": 65.8978,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "EDEN.PA",
+        "side": "BUY",
+        "score": 65.6283,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "RMS.PA",
+        "side": "BUY",
+        "score": 65.0872,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
+        "symbol": "ISP.MI",
+        "side": "BUY",
+        "score": 64.8759,
+        "reason": "severe_feasibility_penalty"
+      }
+    ]
   },
   "selected_candidates": [],
   "orders": {
@@ -58,12 +147,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 0,
-    "confirmed": 0,
-    "expired": 0,
-    "invalidated": 0,
-    "updated": 0,
-    "retest_detected": 0
+    "registered": 14,
+    "confirmed": 3,
+    "expired": 8,
+    "invalidated": 1,
+    "updated": 7,
+    "retest_detected": 12
   },
   "pnl": {
     "gross_estimated": 0.0,
