@@ -9,68 +9,74 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_started": 60,
-      "session_state_changed": 115,
-      "market_snapshot": 115741,
-      "candle_closed": 19920,
-      "decision": 19832,
-      "session_heartbeat": 64,
-      "candidate_detected": 88,
-      "candidate_economics": 72,
-      "candidate_tp_feasibility": 72,
-      "pending_entry_registered": 65,
-      "candidate_selection": 72,
-      "pending_entry_retest_detected": 44,
-      "pending_entry_expired": 38,
-      "pending_entry_updated": 23,
-      "pending_entry_confirmed": 11,
-      "pending_entry_invalidated": 26,
+      "session_started": 115,
+      "session_state_changed": 170,
+      "market_snapshot": 134866,
+      "candle_closed": 23205,
+      "decision": 23035,
+      "session_heartbeat": 70,
+      "candidate_detected": 170,
+      "candidate_economics": 95,
+      "candidate_tp_feasibility": 95,
+      "pending_entry_registered": 115,
+      "candidate_selection": 95,
+      "pending_entry_retest_detected": 84,
+      "pending_entry_expired": 78,
+      "pending_entry_updated": 55,
+      "pending_entry_confirmed": 25,
+      "pending_entry_invalidated": 34,
       "error": 2
     }
   },
   "market_data": {
-    "snapshots": 115741,
-    "candles_closed": 19920
+    "snapshots": 134866,
+    "candles_closed": 23205
   },
   "decisions": {
-    "total": 19832,
-    "hold_total": 19832,
-    "candidate_total": 88,
+    "total": 23035,
+    "hold_total": 23035,
+    "candidate_total": 170,
     "selected_total": 0,
-    "rejected_total": 88,
+    "rejected_total": 170,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
-    "tradable_now_total": 11,
-    "wait_confirmation_total": 77,
+    "tradable_now_total": 25,
+    "wait_confirmation_total": 145,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {
-      "severe_feasibility_penalty": 77
+      "severe_feasibility_penalty": 145
     }
   },
   "hold_reasons": {
-    "warming_up_candles": 1800,
-    "market_regime_ranging": 3459,
-    "market_regime_dead_market": 10813,
-    "bullish_breakout_not_confirmed": 1249,
-    "bearish_breakdown_not_confirmed": 1000,
-    "bullish_trend_not_confirmed": 211,
-    "snapshot_bullish_momentum_not_confirmed": 726,
-    "snapshot_bearish_momentum_not_confirmed": 411,
-    "short_close_not_near_low": 13,
-    "bearish_trend_not_confirmed": 97,
-    "long_candle_not_green": 11,
-    "candle_range_too_small": 21,
-    "long_close_not_near_high": 10,
-    "short_candle_not_red": 11
+    "warming_up_candles": 3285,
+    "market_regime_ranging": 3785,
+    "market_regime_dead_market": 11355,
+    "bullish_breakout_not_confirmed": 1627,
+    "bearish_breakdown_not_confirmed": 1201,
+    "bullish_trend_not_confirmed": 275,
+    "snapshot_bullish_momentum_not_confirmed": 814,
+    "snapshot_bearish_momentum_not_confirmed": 472,
+    "short_close_not_near_low": 17,
+    "bearish_trend_not_confirmed": 120,
+    "long_candle_not_green": 19,
+    "candle_range_too_small": 24,
+    "long_close_not_near_high": 27,
+    "short_candle_not_red": 14
   },
   "rejections": {
-    "total": 88,
+    "total": 170,
     "by_reason": {
-      "severe_feasibility_penalty": 77,
-      "candidate_selection_score_too_low": 11
+      "severe_feasibility_penalty": 145,
+      "candidate_selection_score_too_low": 25
     },
     "top_rejected_candidates": [
+      {
+        "symbol": "IFX.DE",
+        "side": "SELL",
+        "score": 106.6815,
+        "reason": "severe_feasibility_penalty"
+      },
       {
         "symbol": "CLNX.MC",
         "side": "SELL",
@@ -78,6 +84,18 @@
         "reason": "severe_feasibility_penalty"
       },
       {
+        "symbol": "IFX.DE",
+        "side": "SELL",
+        "score": 100.3771,
+        "reason": "candidate_selection_score_too_low"
+      },
+      {
+        "symbol": "SAP.DE",
+        "side": "BUY",
+        "score": 95.2526,
+        "reason": "severe_feasibility_penalty"
+      },
+      {
         "symbol": "BAYN.DE",
         "side": "SELL",
         "score": 95.0,
@@ -90,46 +108,28 @@
         "reason": "candidate_selection_score_too_low"
       },
       {
-        "symbol": "BAS.DE",
+        "symbol": "DSY.PA",
         "side": "BUY",
-        "score": 91.033,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "BAYN.DE",
-        "side": "SELL",
-        "score": 88.8345,
+        "score": 95.0,
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "BAS.DE",
+        "symbol": "KER.PA",
         "side": "BUY",
-        "score": 85.2955,
-        "reason": "candidate_selection_score_too_low"
-      },
-      {
-        "symbol": "EDEN.PA",
-        "side": "BUY",
-        "score": 84.1334,
+        "score": 95.0,
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "EDEN.PA",
+        "symbol": "DSY.PA",
         "side": "BUY",
-        "score": 83.6231,
+        "score": 94.9465,
         "reason": "severe_feasibility_penalty"
       },
       {
-        "symbol": "BAS.DE",
+        "symbol": "RI.PA",
         "side": "BUY",
-        "score": 82.4836,
+        "score": 93.4041,
         "reason": "severe_feasibility_penalty"
-      },
-      {
-        "symbol": "BAYN.DE",
-        "side": "SELL",
-        "score": 81.4472,
-        "reason": "candidate_selection_score_too_low"
       }
     ]
   },
@@ -148,12 +148,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 65,
-    "confirmed": 11,
-    "expired": 38,
-    "invalidated": 26,
-    "updated": 23,
-    "retest_detected": 44
+    "registered": 115,
+    "confirmed": 25,
+    "expired": 78,
+    "invalidated": 34,
+    "updated": 55,
+    "retest_detected": 84
   },
   "pnl": {
     "gross_estimated": 0.0,
