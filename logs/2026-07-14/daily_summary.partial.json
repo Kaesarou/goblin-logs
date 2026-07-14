@@ -9,32 +9,36 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_started": 19,
-      "session_state_changed": 153,
-      "market_snapshot_received": 29561,
-      "market_batch_validated": 1478,
-      "market_snapshot": 28082,
-      "candle_closed": 4864,
-      "timeframe_bar_closed": 6365,
+      "session_started": 79,
+      "session_state_changed": 251,
+      "market_snapshot_received": 33226,
+      "market_batch_validated": 1651,
+      "market_snapshot": 31514,
+      "candle_closed": 5415,
+      "timeframe_bar_closed": 7030,
       "timeframe_bar_incomplete": 76,
-      "decision": 4831,
-      "session_heartbeat": 50,
-      "multi_timeframe_context_built": 35,
+      "decision": 5382,
+      "session_heartbeat": 56,
+      "multi_timeframe_context_built": 37,
       "candidate_detected": 33,
       "candidate_economics": 27,
       "candidate_tp_feasibility": 27,
       "candidate_selection": 27,
-      "error": 1
+      "error": 1,
+      "session_trades_reset": 1,
+      "market_data_rejected": 61
     }
   },
   "market_data": {
-    "snapshots": 28082,
-    "candles_closed": 4864,
-    "received": 29561,
-    "accepted": 28082,
+    "snapshots": 31514,
+    "candles_closed": 5415,
+    "received": 33226,
+    "accepted": 31514,
     "quarantined": 0,
-    "rejected": 0,
-    "rejections_by_reason": {}
+    "rejected": 61,
+    "rejections_by_reason": {
+      "snapshot_from_future": 61
+    }
   },
   "market_context": {
     "by_regime": {
@@ -45,11 +49,11 @@
     }
   },
   "multi_timeframe": {
-    "closed_total": 6365,
+    "closed_total": 7030,
     "closed_by_timeframe": {
-      "m1": 4864,
-      "m5": 969,
-      "m15": 323,
+      "m1": 5415,
+      "m5": 1064,
+      "m15": 342,
       "m30": 152,
       "h1": 57
     },
@@ -65,21 +69,21 @@
     "gap_total": 0,
     "gaps_by_symbol": {},
     "alignment": {
-      "aligned": 35
+      "aligned": 37
     },
     "features_ready_by_timeframe": {
-      "m1": 35,
-      "m5": 20
+      "m1": 37,
+      "m5": 22
     },
     "features_unavailable_by_timeframe": {
       "m5": 15,
-      "m15": 35,
-      "m30": 35,
-      "h1": 35
+      "m15": 37,
+      "m30": 37,
+      "h1": 37
     },
     "opening_range_statuses": {
-      "15m:incomplete": 35,
-      "30m:incomplete": 35
+      "15m:incomplete": 37,
+      "30m:incomplete": 37
     }
   },
   "entry_decisions": {
@@ -93,11 +97,11 @@
     }
   },
   "decisions": {
-    "total": 4831,
-    "hold_total": 4829,
+    "total": 5382,
+    "hold_total": 5378,
     "candidate_total": 33,
     "selected_total": 0,
-    "rejected_total": 35,
+    "rejected_total": 37,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
@@ -108,26 +112,28 @@
   },
   "hold_reasons": {
     "warming_up_candles": 570,
-    "market_regime_dead_market": 2760,
-    "market_regime_ranging": 869,
-    "bearish_breakdown_not_confirmed": 198,
+    "market_regime_dead_market": 3247,
+    "market_regime_ranging": 904,
+    "bearish_breakdown_not_confirmed": 211,
     "bearish_trend_not_confirmed": 27,
-    "bullish_breakout_not_confirmed": 281,
-    "snapshot_bearish_momentum_not_confirmed": 43,
-    "snapshot_bullish_momentum_not_confirmed": 43,
-    "bullish_trend_not_confirmed": 26,
-    "short_close_not_near_low": 3,
+    "bullish_breakout_not_confirmed": 285,
+    "snapshot_bearish_momentum_not_confirmed": 47,
+    "snapshot_bullish_momentum_not_confirmed": 45,
+    "bullish_trend_not_confirmed": 28,
+    "short_close_not_near_low": 4,
     "candle_range_too_small": 1,
     "long_close_not_near_high": 5,
-    "long_candle_not_green": 3
+    "long_candle_not_green": 3,
+    "short_candle_not_red": 1
   },
   "rejections": {
-    "total": 35,
+    "total": 37,
     "by_reason": {
       "severe_feasibility_penalty_without_useful_retest": 28,
       "market_context_opposed": 1,
       "price_too_extended_for_entry": 4,
-      "too_close_to_session_end": 2
+      "too_close_to_session_end": 3,
+      "force_close_before_session_end": 1
     },
     "top_rejected_candidates": [
       {
