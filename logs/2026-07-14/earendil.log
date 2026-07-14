@@ -1405,3 +1405,8 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-14 12:48:02,105 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BMW.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=57.22
 2026-07-14 12:48:02,123 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MBG.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=44.825
 2026-07-14 12:48:02,143 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=VOW3.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=70.98
+2026-07-14 12:49:04,790 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BMW.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=57.14
+2026-07-14 12:49:04,809 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MBG.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=44.8
+2026-07-14 12:52:02,516 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BAYN.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=49.59
+2026-07-14 12:52:55,371 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=152174 | candles=26535 | candidates=258 | orders=0 | open_positions=0 | errors=4
+2026-07-14 12:53:05,756 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BAYN.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=49.56
