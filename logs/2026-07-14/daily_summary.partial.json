@@ -11,29 +11,29 @@
       "runtime_started": 1,
       "session_started": 79,
       "session_state_changed": 251,
-      "market_snapshot_received": 133205,
-      "market_batch_validated": 3290,
-      "market_snapshot": 129854,
-      "candle_closed": 22635,
-      "timeframe_bar_closed": 29590,
+      "market_snapshot_received": 143697,
+      "market_batch_validated": 3462,
+      "market_snapshot": 140174,
+      "candle_closed": 24435,
+      "timeframe_bar_closed": 31990,
       "timeframe_bar_incomplete": 76,
-      "decision": 22400,
-      "session_heartbeat": 113,
-      "multi_timeframe_context_built": 239,
-      "candidate_detected": 235,
-      "candidate_economics": 133,
-      "candidate_tp_feasibility": 133,
-      "candidate_selection": 133,
+      "decision": 24183,
+      "session_heartbeat": 119,
+      "multi_timeframe_context_built": 256,
+      "candidate_detected": 252,
+      "candidate_economics": 145,
+      "candidate_tp_feasibility": 145,
+      "candidate_selection": 145,
       "error": 4,
       "session_trades_reset": 1,
       "market_data_rejected": 61
     }
   },
   "market_data": {
-    "snapshots": 129854,
-    "candles_closed": 22635,
-    "received": 133205,
-    "accepted": 129854,
+    "snapshots": 140174,
+    "candles_closed": 24435,
+    "received": 143697,
+    "accepted": 140174,
     "quarantined": 0,
     "rejected": 61,
     "rejections_by_reason": {
@@ -43,19 +43,19 @@
   "market_context": {
     "by_regime": {
       "risk_off": 37,
-      "unknown": 118,
-      "mixed": 73,
+      "unknown": 128,
+      "mixed": 80,
       "risk_on": 6
     }
   },
   "multi_timeframe": {
-    "closed_total": 29590,
+    "closed_total": 31990,
     "closed_by_timeframe": {
-      "m1": 22635,
-      "m5": 4484,
-      "m15": 1482,
-      "m30": 692,
-      "h1": 297
+      "m1": 24435,
+      "m5": 4844,
+      "m15": 1602,
+      "m30": 752,
+      "h1": 357
     },
     "incomplete_total": 76,
     "incomplete_by_timeframe": {
@@ -69,73 +69,74 @@
     "gap_total": 0,
     "gaps_by_symbol": {},
     "alignment": {
-      "aligned": 233,
-      "mixed": 6
+      "aligned": 247,
+      "mixed": 9
     },
     "features_ready_by_timeframe": {
-      "m1": 239,
-      "m5": 140
+      "m1": 256,
+      "m5": 157,
+      "m15": 11
     },
     "features_unavailable_by_timeframe": {
       "m5": 99,
-      "m15": 239,
-      "m30": 239,
-      "h1": 239
+      "m15": 245,
+      "m30": 256,
+      "h1": 256
     },
     "opening_range_statuses": {
       "15m:incomplete": 37,
       "30m:incomplete": 37,
-      "15m:ready": 202,
-      "30m:ready": 202
+      "15m:ready": 219,
+      "30m:ready": 219
     }
   },
   "entry_decisions": {
     "enter_now": 0,
     "wait_for_retest": 0,
-    "skip": 234,
+    "skip": 251,
     "by_reason": {
-      "severe_feasibility_penalty_without_useful_retest": 212,
+      "severe_feasibility_penalty_without_useful_retest": 228,
       "market_context_opposed": 7,
-      "price_too_extended_for_entry": 15
+      "price_too_extended_for_entry": 16
     }
   },
   "decisions": {
-    "total": 22400,
-    "hold_total": 22396,
-    "candidate_total": 235,
+    "total": 24183,
+    "hold_total": 24179,
+    "candidate_total": 252,
     "selected_total": 0,
-    "rejected_total": 239,
+    "rejected_total": 256,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
-    "tradable_now_total": 235,
+    "tradable_now_total": 252,
     "wait_confirmation_total": 0,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {}
   },
   "hold_reasons": {
     "warming_up_candles": 2370,
-    "market_regime_dead_market": 11227,
-    "market_regime_ranging": 4056,
-    "bearish_breakdown_not_confirmed": 1563,
-    "bearish_trend_not_confirmed": 287,
-    "bullish_breakout_not_confirmed": 1523,
-    "snapshot_bearish_momentum_not_confirmed": 567,
-    "snapshot_bullish_momentum_not_confirmed": 465,
-    "bullish_trend_not_confirmed": 235,
-    "short_close_not_near_low": 38,
+    "market_regime_dead_market": 12279,
+    "market_regime_ranging": 4380,
+    "bearish_breakdown_not_confirmed": 1765,
+    "bearish_trend_not_confirmed": 307,
+    "bullish_breakout_not_confirmed": 1575,
+    "snapshot_bearish_momentum_not_confirmed": 652,
+    "snapshot_bullish_momentum_not_confirmed": 493,
+    "bullish_trend_not_confirmed": 247,
+    "short_close_not_near_low": 43,
     "candle_range_too_small": 16,
-    "long_close_not_near_high": 21,
-    "long_candle_not_green": 13,
-    "short_candle_not_red": 11,
+    "long_close_not_near_high": 22,
+    "long_candle_not_green": 14,
+    "short_candle_not_red": 12,
     "market_regime_volatile_noisy": 4
   },
   "rejections": {
-    "total": 239,
+    "total": 256,
     "by_reason": {
-      "severe_feasibility_penalty_without_useful_retest": 212,
+      "severe_feasibility_penalty_without_useful_retest": 228,
       "market_context_opposed": 7,
-      "price_too_extended_for_entry": 15,
+      "price_too_extended_for_entry": 16,
       "too_close_to_session_end": 3,
       "force_close_before_session_end": 1,
       "candidate_selection_expected_profit_too_low_after_fees": 1
@@ -184,6 +185,13 @@
         "reason": "price_too_extended_for_entry"
       },
       {
+        "candidate_id": "4178764180b03eddc90a03d07f53543538f67870648f06fe02a2abd153e09f0b",
+        "symbol": "SAP.DE",
+        "side": "SELL",
+        "score": 103.7735,
+        "reason": "severe_feasibility_penalty_without_useful_retest"
+      },
+      {
         "candidate_id": "7bca74f00b2b32af35ddfc94bde20a1fa5667882234321e55dec834e6a028eca",
         "symbol": "DSY.PA",
         "side": "SELL",
@@ -202,13 +210,6 @@
         "symbol": "DSY.PA",
         "side": "SELL",
         "score": 100.0483,
-        "reason": "severe_feasibility_penalty_without_useful_retest"
-      },
-      {
-        "candidate_id": "e7d73a75defeb2f196db352427345819554216a0dfe71c4731905568ed4ea8f9",
-        "symbol": "DSY.PA",
-        "side": "SELL",
-        "score": 99.524,
         "reason": "severe_feasibility_penalty_without_useful_retest"
       }
     ]
