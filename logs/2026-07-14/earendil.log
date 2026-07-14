@@ -273,3 +273,11 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-14 06:04:00,880 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=UNI | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=3.589
 2026-07-14 06:08:10,123 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=25612 | candles=4446 | candidates=33 | orders=0 | open_positions=0 | errors=1
 2026-07-14 06:13:10,889 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=26163 | candles=4541 | candidates=33 | orders=0 | open_positions=0 | errors=1
+2026-07-14 06:18:13,900 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=26714 | candles=4636 | candidates=33 | orders=0 | open_positions=0 | errors=1
+2026-07-14 06:23:04,888 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NEAR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=2.0065
+2026-07-14 06:23:15,163 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=27265 | candles=4731 | candidates=33 | orders=0 | open_positions=0 | errors=1
+2026-07-14 06:28:15,526 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=27816 | candles=4826 | candidates=33 | orders=0 | open_positions=0 | errors=1
+2026-07-14 06:33:16,118 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=28367 | candles=4921 | candidates=33 | orders=0 | open_positions=0 | errors=1
+2026-07-14 06:38:22,338 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=28918 | candles=5016 | candidates=33 | orders=0 | open_positions=0 | errors=1
+2026-07-14 06:39:04,614 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DOT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=0.839
+2026-07-14 06:43:24,690 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=29469 | candles=5111 | candidates=33 | orders=0 | open_positions=0 | errors=1
