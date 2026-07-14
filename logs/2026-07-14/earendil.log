@@ -3264,3 +3264,36 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-14 19:02:04,346 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=108.18
 2026-07-14 19:02:04,353 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=975.6
 2026-07-14 19:02:04,359 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=346.28
+2026-07-14 19:02:56,994 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=113600 | candles=19878 | candidates=474 | orders=0 | open_positions=0 | errors=3
+2026-07-14 19:04:09,929 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=595.34
+2026-07-14 19:05:02,022 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=129.03
+2026-07-14 19:05:02,035 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=345.19
+2026-07-14 19:08:01,875 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=115195 | candles=20208 | candidates=474 | orders=0 | open_positions=0 | errors=3
+2026-07-14 19:09:04,486 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=135.61
+2026-07-14 19:13:05,032 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=116790 | candles=20483 | candidates=474 | orders=0 | open_positions=0 | errors=3
+2026-07-14 19:16:02,049 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=134.65
+2026-07-14 19:18:07,161 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=118385 | candles=20758 | candidates=474 | orders=0 | open_positions=0 | errors=3
+2026-07-14 19:21:05,179 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=107.72
+2026-07-14 19:22:07,839 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=552.83
+2026-07-14 19:22:07,888 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=GILD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=130.14
+2026-07-14 19:23:10,036 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=553.2
+2026-07-14 19:23:10,085 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=GILD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=130.07
+2026-07-14 19:23:10,101 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=WFC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=84.63
+2026-07-14 19:23:10,109 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=119980 | candles=21033 | candidates=474 | orders=0 | open_positions=0 | errors=3
+2026-07-14 19:25:04,692 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=JPM | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=339.38
+2026-07-14 19:26:06,822 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=META | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=661.8
+2026-07-14 19:27:10,762 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=UBER | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=72.38
+2026-07-14 19:28:02,950 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=META | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=662.49
+2026-07-14 19:28:02,964 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=128.76
+2026-07-14 19:28:02,975 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=344.75
+2026-07-14 19:28:13,546 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=121575 | candles=21308 | candidates=474 | orders=0 | open_positions=0 | errors=3
+2026-07-14 19:29:05,329 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=305.41
+2026-07-14 19:30:07,766 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=548.8
+2026-07-14 19:30:07,784 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=593.62
+2026-07-14 19:30:07,795 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=107.77
+2026-07-14 19:30:07,807 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=343.73
+2026-07-14 19:30:07,814 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=304.95
+2026-07-14 19:30:07,821 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=134.35
+2026-07-14 19:31:00,178 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=107.44
+2026-07-14 19:31:10,526 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=547.41
+2026-07-14 19:32:05,207 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=582.81

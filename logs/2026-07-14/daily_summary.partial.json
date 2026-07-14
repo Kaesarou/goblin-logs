@@ -10,59 +10,59 @@
     "by_type": {
       "runtime_started": 1,
       "session_started": 115,
-      "session_state_changed": 309,
-      "market_snapshot_received": 111238,
-      "market_batch_validated": 1972,
+      "session_state_changed": 364,
+      "market_snapshot_received": 120870,
+      "market_batch_validated": 2144,
       "market_data_rejected": 232,
-      "market_snapshot": 109035,
-      "candle_closed": 19108,
-      "timeframe_bar_closed": 24787,
-      "decision": 18641,
+      "market_snapshot": 118495,
+      "candle_closed": 20758,
+      "timeframe_bar_closed": 26932,
+      "decision": 20284,
       "timeframe_bar_incomplete": 126,
-      "session_heartbeat": 68,
+      "session_heartbeat": 74,
       "session_trades_reset": 1,
       "candle_gap_detected": 2,
-      "multi_timeframe_context_built": 939,
-      "candidate_detected": 467,
-      "candidate_economics": 197,
-      "candidate_tp_feasibility": 197,
-      "pending_entry_registered": 195,
-      "candidate_selection": 197,
-      "pending_entry_invalidated": 138,
+      "multi_timeframe_context_built": 963,
+      "candidate_detected": 474,
+      "candidate_economics": 202,
+      "candidate_tp_feasibility": 202,
+      "pending_entry_registered": 197,
+      "candidate_selection": 202,
+      "pending_entry_invalidated": 140,
       "pending_entry_expired": 57,
-      "pending_entry_retest_detected": 88,
+      "pending_entry_retest_detected": 89,
       "pending_entry_updated": 40,
       "pending_entry_confirmed": 4,
       "error": 3
     }
   },
   "market_data": {
-    "snapshots": 109035,
-    "candles_closed": 19108,
-    "received": 111238,
-    "accepted": 111005,
+    "snapshots": 118495,
+    "candles_closed": 20758,
+    "received": 120870,
+    "accepted": 120637,
     "quarantined": 0,
     "rejected": 232,
     "rejections_by_reason": {
       "snapshot_from_future": 116,
       "non_positive_last": 116
     },
-    "trading_snapshots_processed": 109035,
-    "context_snapshots_accepted": 1970
+    "trading_snapshots_processed": 118495,
+    "context_snapshots_accepted": 2142
   },
   "market_context": {
     "by_regime": {
-      "risk_on": 88,
+      "risk_on": 95,
       "mixed": 379
     }
   },
   "multi_timeframe": {
-    "closed_total": 24787,
+    "closed_total": 26932,
     "closed_by_timeframe": {
-      "m1": 19108,
-      "m5": 3703,
-      "m15": 1153,
-      "m30": 549,
+      "m1": 20758,
+      "m5": 4033,
+      "m15": 1263,
+      "m30": 604,
       "h1": 274
     },
     "incomplete_total": 126,
@@ -79,80 +79,81 @@
       "SCHW": 2
     },
     "alignment": {
-      "aligned": 833,
+      "aligned": 852,
       "unknown": 81,
       "opposed": 10,
-      "mixed": 15
+      "mixed": 20
     },
     "features_ready_by_timeframe": {
-      "m1": 939,
-      "m5": 559,
-      "m15": 8
+      "m1": 963,
+      "m5": 583,
+      "m15": 32
     },
     "features_unavailable_by_timeframe": {
       "m5": 380,
       "m15": 931,
-      "m30": 939,
-      "h1": 939
+      "m30": 963,
+      "h1": 963
     },
     "opening_range_statuses": {
-      "15m:ready": 916,
-      "30m:ready": 916,
+      "15m:ready": 940,
+      "30m:ready": 940,
       "15m:incomplete": 23,
       "30m:incomplete": 23
     }
   },
   "entry_decisions": {
     "enter_now": 1,
-    "wait_for_retest": 235,
-    "skip": 231,
+    "wait_for_retest": 237,
+    "skip": 236,
     "by_reason": {
-      "better_entry_required_at_structure": 235,
+      "better_entry_required_at_structure": 237,
       "severe_feasibility_penalty_without_useful_retest": 163,
-      "market_context_opposed": 60,
+      "market_context_opposed": 65,
       "price_too_extended_for_entry": 8,
       "entry_conditions_satisfied": 1
     }
   },
   "decisions": {
-    "total": 18641,
-    "hold_total": 18641,
-    "candidate_total": 467,
+    "total": 20284,
+    "hold_total": 20274,
+    "candidate_total": 474,
     "selected_total": 0,
-    "rejected_total": 467,
+    "rejected_total": 484,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "wait_confirmation_total": 0,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {},
-    "pre_entry_router_tradable_total": 467
+    "pre_entry_router_tradable_total": 474
   },
   "hold_reasons": {
     "warming_up_candles": 3270,
-    "market_regime_dead_market": 6758,
-    "bullish_breakout_not_confirmed": 2096,
-    "market_regime_ranging": 2923,
-    "bearish_trend_not_confirmed": 470,
-    "bearish_breakdown_not_confirmed": 1988,
+    "market_regime_dead_market": 7709,
+    "bullish_breakout_not_confirmed": 2181,
+    "market_regime_ranging": 3217,
+    "bearish_trend_not_confirmed": 499,
+    "bearish_breakdown_not_confirmed": 2208,
     "short_candle_not_red": 18,
     "market_regime_volatile_noisy": 5,
-    "bullish_trend_not_confirmed": 478,
-    "snapshot_bearish_momentum_not_confirmed": 273,
-    "snapshot_bullish_momentum_not_confirmed": 207,
+    "bullish_trend_not_confirmed": 481,
+    "snapshot_bearish_momentum_not_confirmed": 303,
+    "snapshot_bullish_momentum_not_confirmed": 221,
     "long_candle_not_green": 22,
-    "short_close_not_near_low": 61,
-    "long_close_not_near_high": 50,
-    "candle_range_too_small": 22
+    "short_close_not_near_low": 66,
+    "long_close_not_near_high": 51,
+    "candle_range_too_small": 23
   },
   "rejections": {
-    "total": 467,
+    "total": 484,
     "by_reason": {
-      "better_entry_required_at_structure": 235,
+      "better_entry_required_at_structure": 237,
       "severe_feasibility_penalty_without_useful_retest": 163,
-      "market_context_opposed": 60,
+      "market_context_opposed": 65,
       "price_too_extended_for_entry": 8,
-      "candidate_selection_score_too_low": 1
+      "candidate_selection_score_too_low": 1,
+      "too_close_to_session_end": 10
     },
     "top_rejected_candidates": [
       {
@@ -242,12 +243,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 195,
+    "registered": 197,
     "confirmed": 4,
     "expired": 57,
-    "invalidated": 138,
+    "invalidated": 140,
     "updated": 40,
-    "retest_detected": 88
+    "retest_detected": 89
   },
   "pnl": {
     "gross_estimated": 0.0,
@@ -360,27 +361,27 @@
   "tp_feasibility": {
     "penalty_components": {
       "tp_too_far_vs_atr_soft": 69,
-      "cost_to_tp_too_high_hard": 234,
-      "near_recent_extreme": 467,
+      "cost_to_tp_too_high_hard": 235,
+      "near_recent_extreme": 474,
       "movement_already_consumed_hard": 28,
-      "cost_to_tp_too_high_soft": 229,
-      "tp_too_far_vs_atr_hard": 119,
-      "movement_already_consumed_soft": 175,
+      "cost_to_tp_too_high_soft": 235,
+      "tp_too_far_vs_atr_hard": 120,
+      "movement_already_consumed_soft": 176,
       "cost_to_tp_too_high_severe": 4,
-      "tp_too_far_vs_atr_severe": 279
+      "tp_too_far_vs_atr_severe": 285
     },
     "cap_components": {
-      "cost_to_tp_moderate_cap": 234,
+      "cost_to_tp_moderate_cap": 235,
       "movement_already_consumed_moderate_cap": 28,
-      "tp_atr_moderate_cap": 119,
+      "tp_atr_moderate_cap": 120,
       "cost_to_tp_severe_cap": 4,
-      "tp_atr_severe_cap": 279
+      "tp_atr_severe_cap": 285
     },
     "hard_rejection_components": {}
   },
   "effective_sl_tp": {
     "by_source": {
-      "dynamic_floor": 462,
+      "dynamic_floor": 469,
       "dynamic_raw": 1,
       "pending_structural": 4
     },
