@@ -1541,3 +1541,65 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-14 13:16:58,434 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=5160 | candles=840 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-14 13:22:01,088 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=6900 | candles=1200 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-14 13:27:04,653 | INFO | __main__ | Runtime heartbeat | active_symbols=60 | snapshots=8640 | candles=1500 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-14 13:30:01,431 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AAPL | instrument_id=1001
+2026-07-14 13:30:01,675 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MSFT | instrument_id=1004
+2026-07-14 13:30:01,852 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NVDA | instrument_id=1137
+2026-07-14 13:30:02,044 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AMZN | instrument_id=1005
+2026-07-14 13:30:02,195 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=META | instrument_id=1003
+2026-07-14 13:30:02,411 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GOOGL | instrument_id=6434
+2026-07-14 13:30:02,786 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TSLA | instrument_id=1111
+2026-07-14 13:30:02,943 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AVGO | instrument_id=4236
+2026-07-14 13:30:03,156 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AMD | instrument_id=1832
+2026-07-14 13:30:03,313 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NFLX | instrument_id=1127
+2026-07-14 13:30:03,513 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ADBE | instrument_id=1126
+2026-07-14 13:30:04,015 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CRM | instrument_id=1839
+2026-07-14 13:30:04,252 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ORCL | instrument_id=1135
+2026-07-14 13:30:04,413 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AMAT | instrument_id=1706
+2026-07-14 13:30:04,744 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=INTC | instrument_id=1021
+2026-07-14 13:30:04,989 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=QCOM | instrument_id=1485
+2026-07-14 13:30:05,558 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MU | instrument_id=1130
+2026-07-14 13:30:05,848 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LRCX | instrument_id=1906
+2026-07-14 13:30:06,325 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TXN | instrument_id=1634
+2026-07-14 13:30:06,480 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=PLTR | instrument_id=7991
+2026-07-14 13:30:06,830 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UBER | instrument_id=1186
+2026-07-14 13:30:06,963 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NOW | instrument_id=4260
+2026-07-14 13:30:07,200 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LLY | instrument_id=1567
+2026-07-14 13:30:07,387 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=COF | instrument_id=1460
+2026-07-14 13:30:07,568 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AXP | instrument_id=1009
+2026-07-14 13:30:07,850 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GS | instrument_id=1467
+2026-07-14 13:30:08,186 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=JPM | instrument_id=1023
+2026-07-14 13:30:08,330 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BAC | instrument_id=1011
+2026-07-14 13:30:08,686 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CAT | instrument_id=1012
+2026-07-14 13:30:08,943 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DE | instrument_id=1526
+2026-07-14 13:30:09,094 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=FDX | instrument_id=1138
+2026-07-14 13:30:09,365 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UPS | instrument_id=1493
+2026-07-14 13:30:09,687 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GE | instrument_id=1017
+2026-07-14 13:30:09,838 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GEV | instrument_id=1341
+2026-07-14 13:30:09,989 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HON | instrument_id=1469
+2026-07-14 13:30:10,306 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BA | instrument_id=1010
+2026-07-14 13:30:10,519 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NKE | instrument_id=1042
+2026-07-14 13:30:11,011 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SBUX | instrument_id=1142
+2026-07-14 13:30:11,180 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BKNG | instrument_id=1481
+2026-07-14 13:30:11,390 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BLK | instrument_id=1661
+2026-07-14 13:30:11,632 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GILD | instrument_id=1465
+2026-07-14 13:30:11,813 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MRK | instrument_id=1027
+2026-07-14 13:30:11,958 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DHR | instrument_id=1563
+2026-07-14 13:30:12,126 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TMO | instrument_id=1592
+2026-07-14 13:30:12,277 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ACN | instrument_id=1450
+2026-07-14 13:30:12,484 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=INTU | instrument_id=1914
+2026-07-14 13:30:12,731 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=COP | instrument_id=1510
+2026-07-14 13:30:12,881 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=XOM | instrument_id=1036
+2026-07-14 13:30:13,221 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RTX | instrument_id=1033
+2026-07-14 13:30:13,595 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TMUS | instrument_id=4254
+2026-07-14 13:30:13,755 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=WFC | instrument_id=1495
+2026-07-14 13:30:13,911 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SCHW | instrument_id=1802
+2026-07-14 13:30:14,059 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AMGN | instrument_id=1143
+2026-07-14 13:30:14,332 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DIS | instrument_id=1016
+2026-07-14 13:30:14,574 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=PEP | instrument_id=1043
+2026-07-14 13:30:14,855 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SPX500 | instrument_id=27
+2026-07-14 13:32:09,578 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=10196 | candles=1729 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-14 13:37:12,691 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=11774 | candles=2004 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-14 13:42:14,767 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=13349 | candles=2279 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-14 13:47:20,214 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=14922 | candles=2553 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-14 13:52:22,377 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=16496 | candles=2828 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-14 13:57:24,782 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=18075 | candles=3103 | candidates=0 | orders=0 | open_positions=0 | errors=0

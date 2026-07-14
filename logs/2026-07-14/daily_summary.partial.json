@@ -9,50 +9,56 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_started": 60,
-      "session_state_changed": 194,
-      "market_snapshot_received": 5186,
-      "market_batch_validated": 85,
-      "market_data_rejected": 61,
-      "market_snapshot": 5040,
-      "candle_closed": 840,
-      "timeframe_bar_closed": 960,
-      "decision": 840,
-      "timeframe_bar_incomplete": 120,
-      "session_heartbeat": 2
+      "session_started": 115,
+      "session_state_changed": 309,
+      "market_snapshot_received": 15176,
+      "market_batch_validated": 256,
+      "market_data_rejected": 181,
+      "market_snapshot": 14706,
+      "candle_closed": 2499,
+      "timeframe_bar_closed": 2957,
+      "decision": 2499,
+      "timeframe_bar_incomplete": 122,
+      "session_heartbeat": 8,
+      "session_trades_reset": 1,
+      "candle_gap_detected": 1
     }
   },
   "market_data": {
-    "snapshots": 5040,
-    "candles_closed": 840,
-    "received": 5186,
-    "accepted": 5124,
+    "snapshots": 14706,
+    "candles_closed": 2499,
+    "received": 15176,
+    "accepted": 14960,
     "quarantined": 0,
-    "rejected": 61,
+    "rejected": 181,
     "rejections_by_reason": {
-      "snapshot_from_future": 61
+      "snapshot_from_future": 116,
+      "non_positive_last": 65
     },
-    "trading_snapshots_processed": 5040,
-    "context_snapshots_accepted": 84
+    "trading_snapshots_processed": 14706,
+    "context_snapshots_accepted": 254
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 960,
+    "closed_total": 2957,
     "closed_by_timeframe": {
-      "m1": 840,
-      "m5": 120
+      "m1": 2499,
+      "m5": 404,
+      "m15": 54
     },
-    "incomplete_total": 120,
+    "incomplete_total": 122,
     "incomplete_by_timeframe": {
-      "m5": 60,
-      "m15": 60
+      "m5": 61,
+      "m15": 61
     },
     "partial_total": 0,
     "partial_by_timeframe": {},
-    "gap_total": 0,
-    "gaps_by_symbol": {},
+    "gap_total": 1,
+    "gaps_by_symbol": {
+      "SCHW": 1
+    },
     "alignment": {},
     "features_ready_by_timeframe": {},
     "features_unavailable_by_timeframe": {},
@@ -65,8 +71,8 @@
     "by_reason": {}
   },
   "decisions": {
-    "total": 840,
-    "hold_total": 840,
+    "total": 2499,
+    "hold_total": 2499,
     "candidate_total": 0,
     "selected_total": 0,
     "rejected_total": 0,
@@ -79,7 +85,7 @@
     "pre_entry_router_tradable_total": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 840
+    "warming_up_candles": 2499
   },
   "rejections": {
     "total": 0,
