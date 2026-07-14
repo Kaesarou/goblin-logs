@@ -2994,3 +2994,221 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-14 18:01:10,409 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
 2026-07-14 18:01:10,426 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'GEV', 'reason': 'better_entry_required_at_structure'}, {'symbol': 'META', 'reason': 'market_context_opposed'}]
 2026-07-14 18:01:41,448 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=94515 | candles=16523 | candidates=450 | orders=0 | open_positions=0 | errors=1
+2026-07-14 18:06:43,996 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=96110 | candles=16798 | candidates=450 | orders=0 | open_positions=0 | errors=1
+2026-07-14 18:09:09,627 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=WFC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=84.65
+2026-07-14 18:09:09,630 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=a0f95609e4ccceafa660eaf6e27e78b1b23e3ecde1d2f8007a5cabd656d8bd33 | symbol=WFC | action=SELL | score=105.0 | reason=score=105.0 | base_score=133.5583 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=133.5583 | score_after_late_entry_cap=133.5583 | sell_specific_penalty=10.0 | sell_score_cap=105.0 | sell_rejection_reason=None | sell_components=['breakdown_ok', 'short_snapshot_momentum_ok', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.2945 | short_snapshot_momentum=0.3884 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-1.156 | trend_strength=-0.0918 | breakout=0.0 | breakdown=0.2945 | candle_range=0.3883 | close_position=0.0 | spread=0.0473
+2026-07-14 18:09:10,260 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:09:10,269 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'WFC', 'reason': 'market_context_opposed'}]
+2026-07-14 18:11:05,860 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=GEV | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1068.87
+2026-07-14 18:11:05,863 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=1e61b1ead6512bf8a2d11ff3e9bbf9c01bed603cffa000dd570dd91cdf6f5138 | symbol=GEV | action=BUY | score=112.0019 | reason=score=112.0019 | base_score=112.0019 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=112.0019 | score_after_late_entry_cap=112.0019 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.6507 | trend_strength=0.1712 | breakout=0.044 | breakdown=0.0 | candle_range=0.044 | close_position=100.0 | spread=0.0758
+2026-07-14 18:11:06,024 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:11:06,033 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'GEV', 'reason': 'severe_feasibility_penalty_without_useful_retest'}]
+2026-07-14 18:11:47,742 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=97705 | candles=17073 | candidates=452 | orders=0 | open_positions=0 | errors=1
+2026-07-14 18:12:08,442 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=135.22
+2026-07-14 18:12:08,445 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=63dcb0279723bc54af86b93c2ebdbc7a23a682539586d36a1c0cb261263deefd | symbol=PLTR | action=BUY | score=135.2389 | reason=score=135.2389 | base_score=135.2389 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=135.2389 | score_after_late_entry_cap=135.2389 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=1.3112 | trend_strength=0.094 | breakout=0.2372 | breakdown=0.0 | candle_range=0.2669 | close_position=100.0 | spread=0.0148
+2026-07-14 18:12:08,684 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:12:08,694 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'PLTR', 'reason': 'better_entry_required_at_structure'}]
+2026-07-14 18:13:00,602 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PLTR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=135.47
+2026-07-14 18:13:00,605 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=b32fae23c67a16f6ea13ba3f00ade61f0f112239bfb9e3e653e2195c9a58907d | symbol=PLTR | action=BUY | score=139.0299 | reason=score=139.0299 | base_score=139.0299 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=139.0299 | score_after_late_entry_cap=139.0299 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=1.4605 | trend_strength=0.1563 | breakout=0.1849 | breakdown=0.0 | candle_range=0.1997 | close_position=100.0 | spread=0.0148
+2026-07-14 18:13:00,764 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:13:00,776 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'PLTR', 'reason': 'better_entry_required_at_structure'}]
+2026-07-14 18:16:30,222 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=1/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:31,230 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=2/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:33,239 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=3/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:33,239 | ERROR | __main__ | Bot loop error: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/app/main.py", line 194, in main
+    trading_snapshots = broker.get_market_snapshots(symbols_to_fetch) if symbols_to_fetch else {}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/cached_broker.py", line 31, in get_market_snapshots
+    return self.delegate.get_market_snapshots(symbols)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/etoro/etoro_client.py", line 106, in get_market_snapshots
+    return self._to_market_snapshots(rates_payload=self._get_market_rates(instruments_ids))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/etoro/etoro_client.py", line 332, in _get_market_rates
+    return self._get(instrument_rates_path(instrument_ids))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/etoro/etoro_client.py", line 234, in _get
+    response = requests.get(url, headers=self.headers, params=params, timeout=default_request_timeout_seconds())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:43,272 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=1/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:44,283 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=2/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:56,677 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=1/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:57,685 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=2/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:59,694 | WARNING | app.brokers.etoro.etoro_client | eToro GET request failed | attempt=3/3 | url=https://public-api.etoro.com/api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 | params=None | error=HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:16:59,695 | ERROR | __main__ | Bot loop error: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/urllib3/util/retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/app/main.py", line 194, in main
+    trading_snapshots = broker.get_market_snapshots(symbols_to_fetch) if symbols_to_fetch else {}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/cached_broker.py", line 31, in get_market_snapshots
+    return self.delegate.get_market_snapshots(symbols)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/etoro/etoro_client.py", line 106, in get_market_snapshots
+    return self._to_market_snapshots(rates_payload=self._get_market_rates(instruments_ids))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/etoro/etoro_client.py", line 332, in _get_market_rates
+    return self._get(instrument_rates_path(instrument_ids))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/brokers/etoro/etoro_client.py", line 234, in _get
+    response = requests.get(url, headers=self.headers, params=params, timeout=default_request_timeout_seconds())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-07-14 18:17:10,127 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=99245 | candles=17403 | candidates=454 | orders=0 | open_positions=0 | errors=3
+2026-07-14 18:18:02,303 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NOW | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=106.54
+2026-07-14 18:18:02,306 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=091abd26e657868a69f74881084026fdce3d3d69f482acb903d4c9730f81dc3c | symbol=NOW | action=SELL | score=114.4666 | reason=score=114.4666 | base_score=114.4666 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=114.4666 | score_after_late_entry_cap=114.4666 | sell_specific_penalty=0.0 | sell_score_cap=None | sell_rejection_reason=None | sell_components=['breakdown_ok', 'short_snapshot_momentum_ok', 'sell_close_quality_ok'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.0938 | short_snapshot_momentum=0.2528 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.374 | trend_strength=-0.1709 | breakout=0.0 | breakdown=0.0938 | candle_range=0.0469 | close_position=0.0 | spread=0.0375
+2026-07-14 18:18:02,951 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:18:02,960 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NOW', 'reason': 'market_context_opposed'}]
+2026-07-14 18:19:05,208 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NOW | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=106.44
+2026-07-14 18:19:05,211 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=21aec385c707679671387a7a920cc9b42b6b86423074731ecf296dfbe75d70e6 | symbol=NOW | action=SELL | score=117.7725 | reason=score=117.7725 | base_score=117.7725 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=117.7725 | score_after_late_entry_cap=117.7725 | sell_specific_penalty=0.0 | sell_score_cap=None | sell_rejection_reason=None | sell_components=['breakdown_ok', 'short_snapshot_momentum_ok', 'sell_close_quality_ok'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.0939 | short_snapshot_momentum=0.3186 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.4769 | trend_strength=-0.2165 | breakout=0.0 | breakdown=0.0939 | candle_range=0.122 | close_position=0.0 | spread=0.0658
+2026-07-14 18:19:05,498 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:19:05,506 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NOW', 'reason': 'market_context_opposed'}]
+2026-07-14 18:20:08,836 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=107.76
+2026-07-14 18:20:08,839 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=c319ce812f547df37d54acd27d2a96bf80e06415ef915fd97f168ec24a54534b | symbol=INTC | action=BUY | score=117.6968 | reason=score=117.6968 | base_score=117.6968 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=117.6968 | score_after_late_entry_cap=117.6968 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.41 | trend_strength=0.1185 | breakout=0.158 | breakdown=0.0 | candle_range=0.1487 | close_position=100.0 | spread=0.0186
+2026-07-14 18:20:09,272 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:20:09,284 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'INTC', 'reason': 'better_entry_required_at_structure'}]
+2026-07-14 18:22:15,114 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=100840 | candles=17678 | candidates=457 | orders=0 | open_positions=0 | errors=3
+2026-07-14 18:23:07,180 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NOW | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=106.1
+2026-07-14 18:23:07,183 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=7d36d456a9472ed946a571624d5fa260465c22dfc5a4571a0dcb447359e91887 | symbol=NOW | action=SELL | score=95.0 | reason=score=95.0 | base_score=133.0769 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=133.0769 | score_after_late_entry_cap=133.0769 | sell_specific_penalty=18.0 | sell_score_cap=95.0 | sell_rejection_reason=None | sell_components=['breakdown_ok', 'weak_short_snapshot_momentum', 'sell_close_quality_ok'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.1036 | short_snapshot_momentum=0.2068 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.8597 | trend_strength=-0.3419 | breakout=0.0 | breakdown=0.1036 | candle_range=0.1975 | close_position=0.0 | spread=0.0659
+2026-07-14 18:23:07,819 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:23:07,827 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NOW', 'reason': 'market_context_opposed'}]
+2026-07-14 18:25:02,145 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=347.79
+2026-07-14 18:25:02,149 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=b449f1e6fc6201f050153bee6a475275a9b67774a2e718c0ae03cf2b1bec6247 | symbol=LRCX | action=SELL | score=73.2981 | reason=score=73.2981 | base_score=101.2981 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=101.2981 | score_after_late_entry_cap=101.2981 | sell_specific_penalty=28.0 | sell_score_cap=95.0 | sell_rejection_reason=None | sell_components=['breakdown_ok', 'weak_short_snapshot_momentum', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | market_context_alignment=not_available_v1 | symbol_relative_strength=None | breakdown_strength=0.1149 | short_snapshot_momentum=0.2295 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.2467 | trend_strength=-0.0606 | breakout=0.0 | breakdown=0.1149 | candle_range=0.1407 | close_position=0.0 | spread=0.0805
+2026-07-14 18:25:02,467 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:25:02,477 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'LRCX', 'reason': 'market_context_opposed'}]
+2026-07-14 18:26:04,811 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=108.21
+2026-07-14 18:26:04,815 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=832832757f8f5c054f15fdafb8d37c107846dba933d8a5e55837f18faa768beb | symbol=INTC | action=BUY | score=146.2764 | reason=score=146.2764 | base_score=146.2764 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=146.2764 | score_after_late_entry_cap=146.2764 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.9516 | trend_strength=0.226 | breakout=0.3524 | breakdown=0.0 | candle_range=0.3523 | close_position=100.0 | spread=0.0185
+2026-07-14 18:26:04,849 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BKNG | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=175.66
+2026-07-14 18:26:04,852 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=4b5e80c5753eef91a5445bf9fb38de06e6396b4bf3cb019834f5571177dfb15a | symbol=BKNG | action=BUY | score=108.0865 | reason=score=108.0865 | base_score=108.0865 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=108.0865 | score_after_late_entry_cap=108.0865 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.3141 | trend_strength=0.0548 | breakout=0.0798 | breakdown=0.0 | candle_range=0.0741 | close_position=100.0 | spread=0.0057
+2026-07-14 18:26:05,025 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:26:05,042 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'INTC', 'reason': 'better_entry_required_at_structure'}, {'symbol': 'BKNG', 'reason': 'severe_feasibility_penalty_without_useful_retest'}]
+2026-07-14 18:27:18,346 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=102435 | candles=17953 | candidates=461 | orders=0 | open_positions=0 | errors=3
+2026-07-14 18:29:03,477 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=META | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=663.3
+2026-07-14 18:29:03,481 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=5a59e5e263ad77986322e11e0d6a13753285c0e1a0fe3d07e48bcdc0f0debb6d | symbol=META | action=BUY | score=114.1147 | reason=score=114.1147 | base_score=114.1147 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | late_entry_score_cap=None | late_entry_rejection_reason=None | score_before_late_entry_cap=114.1147 | score_after_late_entry_cap=114.1147 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.3131 | trend_strength=0.1326 | breakout=0.1419 | breakdown=0.0 | candle_range=0.1419 | close_position=100.0 | spread=0.0392
+2026-07-14 18:29:05,160 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-14 18:29:05,171 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'META', 'reason': 'better_entry_required_at_structure'}]
+2026-07-14 18:32:23,549 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=104030 | candles=18228 | candidates=462 | orders=0 | open_positions=0 | errors=3

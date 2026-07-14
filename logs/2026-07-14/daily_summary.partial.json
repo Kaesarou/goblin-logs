@@ -11,58 +11,58 @@
       "runtime_started": 1,
       "session_started": 115,
       "session_state_changed": 309,
-      "market_snapshot_received": 92086,
-      "market_batch_validated": 1630,
+      "market_snapshot_received": 101606,
+      "market_batch_validated": 1800,
       "market_data_rejected": 232,
-      "market_snapshot": 90225,
-      "candle_closed": 15808,
-      "timeframe_bar_closed": 20442,
-      "decision": 15371,
+      "market_snapshot": 99575,
+      "candle_closed": 17458,
+      "timeframe_bar_closed": 22587,
+      "decision": 17003,
       "timeframe_bar_incomplete": 126,
-      "session_heartbeat": 56,
+      "session_heartbeat": 62,
       "session_trades_reset": 1,
       "candle_gap_detected": 2,
-      "multi_timeframe_context_built": 880,
-      "candidate_detected": 437,
-      "candidate_economics": 173,
-      "candidate_tp_feasibility": 173,
-      "pending_entry_registered": 187,
-      "candidate_selection": 173,
-      "pending_entry_invalidated": 135,
-      "pending_entry_expired": 52,
-      "pending_entry_retest_detected": 82,
-      "pending_entry_updated": 39,
+      "multi_timeframe_context_built": 916,
+      "candidate_detected": 455,
+      "candidate_economics": 187,
+      "candidate_tp_feasibility": 187,
+      "pending_entry_registered": 192,
+      "candidate_selection": 187,
+      "pending_entry_invalidated": 137,
+      "pending_entry_expired": 55,
+      "pending_entry_retest_detected": 88,
+      "pending_entry_updated": 40,
       "pending_entry_confirmed": 4,
-      "error": 1
+      "error": 3
     }
   },
   "market_data": {
-    "snapshots": 90225,
-    "candles_closed": 15808,
-    "received": 92086,
-    "accepted": 91853,
+    "snapshots": 99575,
+    "candles_closed": 17458,
+    "received": 101606,
+    "accepted": 101373,
     "quarantined": 0,
     "rejected": 232,
     "rejections_by_reason": {
       "snapshot_from_future": 116,
       "non_positive_last": 116
     },
-    "trading_snapshots_processed": 90225,
-    "context_snapshots_accepted": 1628
+    "trading_snapshots_processed": 99575,
+    "context_snapshots_accepted": 1798
   },
   "market_context": {
     "by_regime": {
-      "risk_on": 60,
-      "mixed": 377
+      "risk_on": 76,
+      "mixed": 379
     }
   },
   "multi_timeframe": {
-    "closed_total": 20442,
+    "closed_total": 22587,
     "closed_by_timeframe": {
-      "m1": 15808,
-      "m5": 3043,
-      "m15": 933,
-      "m30": 439,
+      "m1": 17458,
+      "m5": 3373,
+      "m15": 1043,
+      "m30": 494,
       "h1": 219
     },
     "incomplete_total": 126,
@@ -79,77 +79,77 @@
       "SCHW": 2
     },
     "alignment": {
-      "aligned": 777,
-      "unknown": 80,
+      "aligned": 812,
+      "unknown": 81,
       "opposed": 9,
       "mixed": 14
     },
     "features_ready_by_timeframe": {
-      "m1": 880,
-      "m5": 500
+      "m1": 916,
+      "m5": 536
     },
     "features_unavailable_by_timeframe": {
       "m5": 380,
-      "m15": 880,
-      "m30": 880,
-      "h1": 880
+      "m15": 916,
+      "m30": 916,
+      "h1": 916
     },
     "opening_range_statuses": {
-      "15m:ready": 858,
-      "30m:ready": 858,
-      "15m:incomplete": 22,
-      "30m:incomplete": 22
+      "15m:ready": 893,
+      "30m:ready": 893,
+      "15m:incomplete": 23,
+      "30m:incomplete": 23
     }
   },
   "entry_decisions": {
     "enter_now": 1,
-    "wait_for_retest": 226,
-    "skip": 210,
+    "wait_for_retest": 232,
+    "skip": 222,
     "by_reason": {
-      "better_entry_required_at_structure": 226,
-      "severe_feasibility_penalty_without_useful_retest": 160,
-      "market_context_opposed": 42,
+      "better_entry_required_at_structure": 232,
+      "severe_feasibility_penalty_without_useful_retest": 162,
+      "market_context_opposed": 52,
       "price_too_extended_for_entry": 8,
       "entry_conditions_satisfied": 1
     }
   },
   "decisions": {
-    "total": 15371,
-    "hold_total": 15371,
-    "candidate_total": 437,
+    "total": 17003,
+    "hold_total": 17003,
+    "candidate_total": 455,
     "selected_total": 0,
-    "rejected_total": 437,
+    "rejected_total": 455,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "wait_confirmation_total": 0,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {},
-    "pre_entry_router_tradable_total": 437
+    "pre_entry_router_tradable_total": 455
   },
   "hold_reasons": {
     "warming_up_candles": 3270,
-    "market_regime_dead_market": 4779,
-    "bullish_breakout_not_confirmed": 1815,
-    "market_regime_ranging": 2444,
-    "bearish_trend_not_confirmed": 429,
-    "bearish_breakdown_not_confirmed": 1661,
+    "market_regime_dead_market": 5738,
+    "bullish_breakout_not_confirmed": 1966,
+    "market_regime_ranging": 2723,
+    "bearish_trend_not_confirmed": 457,
+    "bearish_breakdown_not_confirmed": 1799,
     "short_candle_not_red": 16,
     "market_regime_volatile_noisy": 5,
-    "bullish_trend_not_confirmed": 450,
-    "snapshot_bearish_momentum_not_confirmed": 214,
-    "snapshot_bullish_momentum_not_confirmed": 162,
-    "long_candle_not_green": 19,
-    "short_close_not_near_low": 50,
-    "long_close_not_near_high": 42,
-    "candle_range_too_small": 15
+    "bullish_trend_not_confirmed": 458,
+    "snapshot_bearish_momentum_not_confirmed": 240,
+    "snapshot_bullish_momentum_not_confirmed": 194,
+    "long_candle_not_green": 20,
+    "short_close_not_near_low": 54,
+    "long_close_not_near_high": 46,
+    "candle_range_too_small": 17
   },
   "rejections": {
-    "total": 437,
+    "total": 455,
     "by_reason": {
-      "better_entry_required_at_structure": 226,
-      "severe_feasibility_penalty_without_useful_retest": 160,
-      "market_context_opposed": 42,
+      "better_entry_required_at_structure": 232,
+      "severe_feasibility_penalty_without_useful_retest": 162,
+      "market_context_opposed": 52,
       "price_too_extended_for_entry": 8,
       "candidate_selection_score_too_low": 1
     },
@@ -173,6 +173,13 @@
         "symbol": "INTC",
         "side": "SELL",
         "score": 117.1491,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
+        "candidate_id": "675fed2f2b4efa6cdb6a95cc56f396b4b6aa79e7cdee926476c018a119ce22bc",
+        "symbol": "UBER",
+        "side": "SELL",
+        "score": 114.1068,
         "reason": "better_entry_required_at_structure"
       },
       {
@@ -216,13 +223,6 @@
         "side": "SELL",
         "score": 110.0,
         "reason": "price_too_extended_for_entry"
-      },
-      {
-        "candidate_id": "7eed96010f31a67577c31053fa995001c4b20551f953d53d53aa9956afcac173",
-        "symbol": "PLTR",
-        "side": "BUY",
-        "score": 110.0,
-        "reason": "better_entry_required_at_structure"
       }
     ]
   },
@@ -241,12 +241,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 187,
+    "registered": 192,
     "confirmed": 4,
-    "expired": 52,
-    "invalidated": 135,
-    "updated": 39,
-    "retest_detected": 82
+    "expired": 55,
+    "invalidated": 137,
+    "updated": 40,
+    "retest_detected": 88
   },
   "pnl": {
     "gross_estimated": 0.0,
@@ -334,11 +334,21 @@
     ]
   },
   "errors": {
-    "total": 1,
+    "total": 3,
     "by_type": {
-      "error": 1
+      "error": 3
     },
     "samples": [
+      {
+        "event_type": "error",
+        "symbol": null,
+        "message": "HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError(\"HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)\"))"
+      },
+      {
+        "event_type": "error",
+        "symbol": null,
+        "message": "HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=1001,1004,1137,1005,1003,6434,1111,4236,1832,1127,1126,1839,1135,1706,1021,1485,1130,1906,1634,7991,1186,4260,1567,1460,1009,1467,1023,1011,1012,1526,1138,1493,1017,1341,1469,1010,1042,1142,1481,1661,1465,1027,1563,1592,1450,1914,1510,1036,1033,4254,1495,1802,1143,1016,1043 (Caused by NameResolutionError(\"HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)\"))"
+      },
       {
         "event_type": "error",
         "symbol": null,
@@ -348,28 +358,28 @@
   },
   "tp_feasibility": {
     "penalty_components": {
-      "tp_too_far_vs_atr_soft": 68,
-      "cost_to_tp_too_high_hard": 225,
-      "near_recent_extreme": 437,
+      "tp_too_far_vs_atr_soft": 69,
+      "cost_to_tp_too_high_hard": 229,
+      "near_recent_extreme": 455,
       "movement_already_consumed_hard": 28,
-      "cost_to_tp_too_high_soft": 208,
-      "tp_too_far_vs_atr_hard": 116,
-      "movement_already_consumed_soft": 164,
+      "cost_to_tp_too_high_soft": 222,
+      "tp_too_far_vs_atr_hard": 119,
+      "movement_already_consumed_soft": 173,
       "cost_to_tp_too_high_severe": 4,
-      "tp_too_far_vs_atr_severe": 253
+      "tp_too_far_vs_atr_severe": 267
     },
     "cap_components": {
-      "cost_to_tp_moderate_cap": 225,
+      "cost_to_tp_moderate_cap": 229,
       "movement_already_consumed_moderate_cap": 28,
-      "tp_atr_moderate_cap": 116,
+      "tp_atr_moderate_cap": 119,
       "cost_to_tp_severe_cap": 4,
-      "tp_atr_severe_cap": 253
+      "tp_atr_severe_cap": 267
     },
     "hard_rejection_components": {}
   },
   "effective_sl_tp": {
     "by_source": {
-      "dynamic_floor": 432,
+      "dynamic_floor": 450,
       "dynamic_raw": 1,
       "pending_structural": 4
     },
