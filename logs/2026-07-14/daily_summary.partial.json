@@ -11,86 +11,210 @@
       "runtime_started": 1,
       "session_started": 115,
       "session_state_changed": 309,
-      "market_snapshot_received": 15176,
-      "market_batch_validated": 256,
-      "market_data_rejected": 181,
-      "market_snapshot": 14706,
-      "candle_closed": 2499,
-      "timeframe_bar_closed": 2957,
-      "decision": 2499,
-      "timeframe_bar_incomplete": 122,
-      "session_heartbeat": 8,
+      "market_snapshot_received": 24830,
+      "market_batch_validated": 429,
+      "market_data_rejected": 232,
+      "market_snapshot": 24170,
+      "candle_closed": 4148,
+      "timeframe_bar_closed": 5098,
+      "decision": 4079,
+      "timeframe_bar_incomplete": 125,
+      "session_heartbeat": 14,
       "session_trades_reset": 1,
-      "candle_gap_detected": 1
+      "candle_gap_detected": 2,
+      "multi_timeframe_context_built": 113,
+      "candidate_detected": 69,
+      "candidate_economics": 14,
+      "candidate_tp_feasibility": 14,
+      "pending_entry_registered": 36,
+      "candidate_selection": 14,
+      "pending_entry_invalidated": 29,
+      "pending_entry_expired": 2,
+      "pending_entry_retest_detected": 10
     }
   },
   "market_data": {
-    "snapshots": 14706,
-    "candles_closed": 2499,
-    "received": 15176,
-    "accepted": 14960,
+    "snapshots": 24170,
+    "candles_closed": 4148,
+    "received": 24830,
+    "accepted": 24597,
     "quarantined": 0,
-    "rejected": 181,
+    "rejected": 232,
     "rejections_by_reason": {
       "snapshot_from_future": 116,
-      "non_positive_last": 65
+      "non_positive_last": 116
     },
-    "trading_snapshots_processed": 14706,
-    "context_snapshots_accepted": 254
+    "trading_snapshots_processed": 24170,
+    "context_snapshots_accepted": 427
   },
   "market_context": {
-    "by_regime": {}
+    "by_regime": {
+      "risk_on": 12,
+      "mixed": 57
+    }
   },
   "multi_timeframe": {
-    "closed_total": 2957,
+    "closed_total": 5098,
     "closed_by_timeframe": {
-      "m1": 2499,
-      "m5": 404,
-      "m15": 54
+      "m1": 4148,
+      "m5": 733,
+      "m15": 163,
+      "m30": 54
     },
-    "incomplete_total": 122,
+    "incomplete_total": 125,
     "incomplete_by_timeframe": {
-      "m5": 61,
-      "m15": 61
+      "m5": 62,
+      "m15": 62,
+      "m30": 1
     },
     "partial_total": 0,
     "partial_by_timeframe": {},
-    "gap_total": 1,
+    "gap_total": 2,
     "gaps_by_symbol": {
-      "SCHW": 1
+      "SCHW": 2
     },
-    "alignment": {},
-    "features_ready_by_timeframe": {},
-    "features_unavailable_by_timeframe": {},
-    "opening_range_statuses": {}
+    "alignment": {
+      "aligned": 93,
+      "unknown": 18,
+      "opposed": 2
+    },
+    "features_ready_by_timeframe": {
+      "m1": 113
+    },
+    "features_unavailable_by_timeframe": {
+      "m5": 113,
+      "m15": 113,
+      "m30": 113,
+      "h1": 113
+    },
+    "opening_range_statuses": {
+      "15m:ready": 107,
+      "30m:ready": 107,
+      "15m:incomplete": 6,
+      "30m:incomplete": 6
+    }
   },
   "entry_decisions": {
     "enter_now": 0,
-    "wait_for_retest": 0,
-    "skip": 0,
-    "by_reason": {}
+    "wait_for_retest": 36,
+    "skip": 33,
+    "by_reason": {
+      "better_entry_required_at_structure": 36,
+      "severe_feasibility_penalty_without_useful_retest": 26,
+      "market_context_opposed": 4,
+      "price_too_extended_for_entry": 3
+    }
   },
   "decisions": {
-    "total": 2499,
-    "hold_total": 2499,
-    "candidate_total": 0,
+    "total": 4079,
+    "hold_total": 4079,
+    "candidate_total": 69,
     "selected_total": 0,
-    "rejected_total": 0,
+    "rejected_total": 69,
     "orders_submitted": 0,
     "orders_failed": 0,
     "orders_filled": 0,
     "wait_confirmation_total": 0,
     "rejected_by_feasibility_total": 0,
     "wait_confirmation_by_reason": {},
-    "pre_entry_router_tradable_total": 0
+    "pre_entry_router_tradable_total": 69
   },
   "hold_reasons": {
-    "warming_up_candles": 2499
+    "warming_up_candles": 3270,
+    "market_regime_dead_market": 160,
+    "bullish_breakout_not_confirmed": 158,
+    "market_regime_ranging": 159,
+    "bearish_trend_not_confirmed": 46,
+    "bearish_breakdown_not_confirmed": 144,
+    "short_candle_not_red": 4,
+    "market_regime_volatile_noisy": 1,
+    "bullish_trend_not_confirmed": 99,
+    "snapshot_bearish_momentum_not_confirmed": 12,
+    "snapshot_bullish_momentum_not_confirmed": 9,
+    "long_candle_not_green": 2,
+    "short_close_not_near_low": 13,
+    "long_close_not_near_high": 2
   },
   "rejections": {
-    "total": 0,
-    "by_reason": {},
-    "top_rejected_candidates": []
+    "total": 69,
+    "by_reason": {
+      "better_entry_required_at_structure": 36,
+      "severe_feasibility_penalty_without_useful_retest": 26,
+      "market_context_opposed": 4,
+      "price_too_extended_for_entry": 3
+    },
+    "top_rejected_candidates": [
+      {
+        "candidate_id": "7446508ebd6f173f31f06c3b0a9c8ad41eb18f79a04b96f823591b7009f1dc35",
+        "symbol": "INTC",
+        "side": "SELL",
+        "score": 123.6865,
+        "reason": "price_too_extended_for_entry"
+      },
+      {
+        "candidate_id": "7941ae057a73fb8fd4943c1fbbd3c1e2e5af479a61b6c85d692f6d8a99bc262a",
+        "symbol": "INTC",
+        "side": "SELL",
+        "score": 117.1491,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
+        "candidate_id": "2ee66c927c3005e87def88424d320e6f43b838332853d619ca566f7360852e14",
+        "symbol": "WFC",
+        "side": "BUY",
+        "score": 110.0,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
+        "candidate_id": "90999b73fb9fa1744f8cf28ef2a478b426c502f86d7d11cde3af66c761d2a389",
+        "symbol": "WFC",
+        "side": "BUY",
+        "score": 110.0,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
+        "candidate_id": "f43d6db101a9281a36ed1c421625f9d771c6f11368696305c5676a1aa7f142f9",
+        "symbol": "INTC",
+        "side": "SELL",
+        "score": 110.0,
+        "reason": "severe_feasibility_penalty_without_useful_retest"
+      },
+      {
+        "candidate_id": "90a6fb5846fb79d87c350fc3dfa91639c772bb9a3e25058df3eb8ddf6a5d339b",
+        "symbol": "PLTR",
+        "side": "BUY",
+        "score": 110.0,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
+        "candidate_id": "df726324848ebbb9342356806c25d009321f0f6b401b43c48654d786fd2d080a",
+        "symbol": "QCOM",
+        "side": "SELL",
+        "score": 109.8959,
+        "reason": "price_too_extended_for_entry"
+      },
+      {
+        "candidate_id": "555f9fe4364ee472a60a5b90a218d99c8e02b2db085acaf0214d4065aaae77ee",
+        "symbol": "QCOM",
+        "side": "SELL",
+        "score": 109.3956,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
+        "candidate_id": "c45aec3c5da8c989396f81bda84f4c3006de67d36a0d3e127841cde4964815df",
+        "symbol": "INTC",
+        "side": "SELL",
+        "score": 109.3548,
+        "reason": "severe_feasibility_penalty_without_useful_retest"
+      },
+      {
+        "candidate_id": "3337deb39fe0664b15053785058ef66e9f81fd620219fc3685fd1734ec56e98d",
+        "symbol": "NKE",
+        "side": "SELL",
+        "score": 109.2979,
+        "reason": "better_entry_required_at_structure"
+      }
+    ]
   },
   "selected_candidates": [],
   "orders": {
@@ -107,12 +231,12 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "registered": 0,
+    "registered": 36,
     "confirmed": 0,
-    "expired": 0,
-    "invalidated": 0,
+    "expired": 2,
+    "invalidated": 29,
     "updated": 0,
-    "retest_detected": 0
+    "retest_detected": 10
   },
   "pnl": {
     "gross_estimated": 0.0,
@@ -205,12 +329,31 @@
     "samples": []
   },
   "tp_feasibility": {
-    "penalty_components": {},
-    "cap_components": {},
+    "penalty_components": {
+      "tp_too_far_vs_atr_soft": 39,
+      "cost_to_tp_too_high_hard": 48,
+      "near_recent_extreme": 69,
+      "movement_already_consumed_hard": 19,
+      "cost_to_tp_too_high_soft": 20,
+      "tp_too_far_vs_atr_hard": 20,
+      "movement_already_consumed_soft": 37,
+      "cost_to_tp_too_high_severe": 1,
+      "tp_too_far_vs_atr_severe": 10
+    },
+    "cap_components": {
+      "cost_to_tp_moderate_cap": 48,
+      "movement_already_consumed_moderate_cap": 19,
+      "tp_atr_moderate_cap": 20,
+      "cost_to_tp_severe_cap": 1,
+      "tp_atr_severe_cap": 10
+    },
     "hard_rejection_components": {}
   },
   "effective_sl_tp": {
-    "by_source": {},
+    "by_source": {
+      "dynamic_floor": 68,
+      "dynamic_raw": 1
+    },
     "adaptations": {}
   }
 }
