@@ -1,18 +1,18 @@
 {
   "schema_version": 3,
-  "run_id": "run_20260714T021450_246323Z",
+  "run_id": "run_20260714T130138_599118Z",
   "status": "running",
-  "started_at": "2026-07-14T02:14:50.246323+00:00",
+  "started_at": "2026-07-14T13:01:38.599118+00:00",
   "ended_at": null,
   "code": {
-    "git_commit": null,
-    "source_sha256": "98cc86b5dadcc5b16d0dd60f0e8acf8c0b9000ecda38572126c811189ae75fbf",
+    "git_commit": "ae1f88d83ae3be7862c149315e5879449885b8b0",
+    "source_sha256": "8a52aeeac0a8e2272e69cde4041fcac8a57a5916df992e91e2304ba613100b8c",
     "python_version": "3.12.13"
   },
   "models": {
     "market_context": "market_context_v2",
     "multi_timeframe": "multi_timeframe_features_v1",
-    "entry_decision": "entry_router_v1",
+    "entry_decision": "entry_router_v2",
     "tp_probability": "heuristic_v1"
   },
   "strategy": {
@@ -2809,7 +2809,7 @@
     }
   },
   "analysis_sources": {
-    "run_id": "run_20260714T021450_246323Z",
+    "run_id": "run_20260714T130138_599118Z",
     "market_stream": "data/logs/market.jsonl",
     "candle_stream": "data/logs/candles.jsonl",
     "trade_stream": "data/logs/trades.jsonl",
@@ -2819,12 +2819,29 @@
     "multi_timeframe_bars_retained": true,
     "multi_timeframe_candidate_snapshots_retained": true,
     "candidate_id_enabled": true,
-    "entry_decisions_retained": true
+    "entry_decisions_retained": true,
+    "analysis_ready_entry_fields": [
+      "candidate_id",
+      "origin_candidate_id",
+      "candidate_timestamp",
+      "symbol",
+      "side",
+      "entry_reference_price",
+      "effective_stop_loss_percent",
+      "effective_take_profit_percent",
+      "estimated_total_cost_percent",
+      "score",
+      "base_score",
+      "entry_action",
+      "entry_reason",
+      "selection_outcome",
+      "selection_reason"
+    ]
   },
   "files": {
-    "manifest": "data/logs/runs/run_20260714T021450_246323Z/run_manifest.json",
+    "manifest": "data/logs/runs/run_20260714T130138_599118Z/run_manifest.json",
     "latest_manifest": "data/logs/run_manifest.json",
-    "summary": "data/logs/runs/run_20260714T021450_246323Z/daily_summary.json",
+    "summary": "data/logs/runs/run_20260714T130138_599118Z/daily_summary.json",
     "latest_summary": "data/logs/daily_summary.json",
     "partial_summary": "data/logs/daily_summary.partial.json",
     "trades": "data/logs/trades.jsonl",
