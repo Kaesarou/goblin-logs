@@ -3439,3 +3439,19 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-15 19:50:04,295 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=579.71
 2026-07-15 19:50:04,331 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=FDX | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=311.55
 2026-07-15 19:50:04,376 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ACN | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=136.48
+2026-07-15 19:52:10,616 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=CAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=915.54
+2026-07-15 19:52:42,418 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=312313 | candles=55406 | candidates=989 | orders=7 | open_positions=0 | errors=2
+2026-07-15 19:55:09,481 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=WFC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=87.26
+2026-07-15 19:56:01,885 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=132.82
+2026-07-15 19:56:01,891 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMAT | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=581.18
+2026-07-15 19:56:01,905 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=301.4
+2026-07-15 19:56:01,973 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BKNG | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=182.62
+2026-07-15 19:57:10,351 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BKNG | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=182.85
+2026-07-15 19:57:52,831 | INFO | __main__ | Runtime heartbeat | active_symbols=55 | snapshots=313908 | candles=55681 | candidates=989 | orders=7 | open_positions=0 | errors=2
+2026-07-15 19:58:03,172 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=103.3
+2026-07-15 19:58:03,235 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BKNG | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=183.05
+2026-07-15 19:59:05,893 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LLY | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=1155.82
+2026-07-15 20:02:58,888 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=314568 | candles=55791 | candidates=989 | orders=7 | open_positions=0 | errors=2
+2026-07-15 20:07:59,135 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=314568 | candles=55791 | candidates=989 | orders=7 | open_positions=0 | errors=2
+2026-07-15 20:12:59,337 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=314568 | candles=55791 | candidates=989 | orders=7 | open_positions=0 | errors=2
+2026-07-15 20:17:59,500 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=314568 | candles=55791 | candidates=989 | orders=7 | open_positions=0 | errors=2
