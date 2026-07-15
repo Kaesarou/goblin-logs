@@ -178,3 +178,13 @@
 2026-07-15 05:15:05,371 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'ETH', 'reason': 'better_entry_required_at_structure'}, {'symbol': 'XLM', 'reason': 'better_entry_required_at_structure'}]
 2026-07-15 05:15:56,890 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=34751 | candles=5985 | candidates=24 | orders=0 | open_positions=0 | errors=0
 2026-07-15 05:20:57,177 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=35302 | candles=6080 | candidates=24 | orders=0 | open_positions=0 | errors=0
+2026-07-15 05:26:07,213 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=35872 | candles=6194 | candidates=24 | orders=0 | open_positions=0 | errors=0
+2026-07-15 05:31:17,236 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=36442 | candles=6289 | candidates=24 | orders=0 | open_positions=0 | errors=0
+2026-07-15 05:36:27,422 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=37012 | candles=6384 | candidates=24 | orders=0 | open_positions=0 | errors=0
+2026-07-15 05:41:27,445 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=37563 | candles=6479 | candidates=24 | orders=0 | open_positions=0 | errors=0
+2026-07-15 05:46:09,387 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=45.32
+2026-07-15 05:46:09,393 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=0a9a04418f15e5c0c8a22044080b3f8bd3a82e43001284d29b0b6df67e859536 | symbol=LTC | action=BUY | score=110.923 | reason=score=110.923 | base_score=110.923 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.3543 | trend_strength=0.1491 | breakout=0.1104 | breakdown=0.0 | candle_range=0.1104 | close_position=100.0 | spread=0.0662
+2026-07-15 05:46:10,196 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
+2026-07-15 05:46:10,213 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'LTC', 'reason': 'candidate_selection_score_too_low'}]
+2026-07-15 05:46:30,749 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=38114 | candles=6574 | candidates=25 | orders=0 | open_positions=0 | errors=0
+2026-07-15 05:51:32,524 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=38665 | candles=6669 | candidates=25 | orders=0 | open_positions=0 | errors=0
