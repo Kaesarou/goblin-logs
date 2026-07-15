@@ -126,3 +126,9 @@
 2026-07-15 03:52:08,818 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=f8f4156dc33354faf0b0337e91bf4e70bd77a5bc7230daf0751a678af9057484 | symbol=NEAR | action=BUY | score=119.3236 | reason=score=119.3236 | base_score=119.3236 | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.3638 | trend_strength=0.2449 | breakout=0.1053 | breakdown=0.0 | candle_range=0.1089 | close_position=92.1364 | spread=0.0495
 2026-07-15 03:52:09,642 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99226.84
 2026-07-15 03:52:09,652 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NEAR', 'reason': 'candidate_selection_score_too_low'}]
+2026-07-15 03:55:05,271 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=25878 | candles=4465 | candidates=15 | orders=0 | open_positions=0 | errors=0
+2026-07-15 04:00:05,506 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=26429 | candles=4560 | candidates=15 | orders=0 | open_positions=0 | errors=0
+2026-07-15 04:05:15,623 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=26999 | candles=4655 | candidates=15 | orders=0 | open_positions=0 | errors=0
+2026-07-15 04:10:25,607 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=27569 | candles=4750 | candidates=15 | orders=0 | open_positions=0 | errors=0
+2026-07-15 04:15:27,557 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=28120 | candles=4845 | candidates=15 | orders=0 | open_positions=0 | errors=0
+2026-07-15 04:20:28,590 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=28671 | candles=4940 | candidates=15 | orders=0 | open_positions=0 | errors=0
