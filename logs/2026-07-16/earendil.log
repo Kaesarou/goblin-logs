@@ -2,3 +2,9 @@
 2026-07-15 22:09:17,963 | INFO | app.runtime.position_lifecycle | No persisted open positions to restore
 2026-07-15 22:14:18,185 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-15 22:19:18,393 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 22:24:18,626 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 22:29:18,846 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 22:34:19,063 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 22:39:19,284 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 22:44:19,523 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 22:49:19,751 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
