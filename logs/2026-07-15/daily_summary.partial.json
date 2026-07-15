@@ -9,50 +9,53 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_state_changed": 153,
-      "market_batch_validated": 2355,
-      "session_started": 19,
-      "market_snapshot_received": 46621,
-      "market_snapshot": 44289,
-      "candle_closed": 7638,
-      "timeframe_bar_closed": 10013,
-      "decision": 7601,
-      "session_heartbeat": 80,
-      "multi_timeframe_context_built": 127,
-      "candidate_detected": 37,
-      "candidate_economics": 32,
-      "candidate_tp_feasibility": 32,
-      "pending_entry_registered": 21,
-      "candidate_selection": 32,
+      "session_state_changed": 213,
+      "market_batch_validated": 2527,
+      "session_started": 79,
+      "market_snapshot_received": 54575,
+      "market_snapshot": 51918,
+      "candle_closed": 9007,
+      "timeframe_bar_closed": 11692,
+      "decision": 8968,
+      "session_heartbeat": 86,
+      "multi_timeframe_context_built": 133,
+      "candidate_detected": 39,
+      "candidate_economics": 34,
+      "candidate_tp_feasibility": 34,
+      "pending_entry_registered": 22,
+      "candidate_selection": 34,
       "pending_entry_retest_detected": 23,
       "pending_entry_invalidated": 3,
-      "pending_entry_expired": 18,
+      "pending_entry_expired": 19,
       "pending_entry_updated": 3,
-      "pending_entry_confirmed": 1
+      "pending_entry_confirmed": 1,
+      "market_data_rejected": 81
     }
   },
   "market_data": {
-    "snapshots": 44289,
-    "candles_closed": 7638,
-    "received": 46621,
-    "accepted": 46620,
+    "snapshots": 51918,
+    "candles_closed": 9007,
+    "received": 54575,
+    "accepted": 54493,
     "quarantined": 0,
-    "rejected": 0,
-    "rejections_by_reason": {},
-    "trading_snapshots_processed": 44289,
-    "context_snapshots_accepted": 2331
+    "rejected": 81,
+    "rejections_by_reason": {
+      "snapshot_from_future": 81
+    },
+    "trading_snapshots_processed": 51918,
+    "context_snapshots_accepted": 2575
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 10013,
+    "closed_total": 11692,
     "closed_by_timeframe": {
-      "m1": 7638,
-      "m5": 1520,
-      "m15": 494,
-      "m30": 247,
-      "h1": 114
+      "m1": 9007,
+      "m5": 1754,
+      "m15": 532,
+      "m30": 266,
+      "h1": 133
     },
     "incomplete_total": 0,
     "incomplete_by_timeframe": {},
@@ -62,90 +65,90 @@
     "gaps_by_symbol": {},
     "maturity_by_timeframe": {
       "m1": {
-        "ready": 127
+        "ready": 133
       },
       "m5": {
         "unavailable": 13,
         "provisional": 3,
-        "ready": 111
+        "ready": 117
       },
       "m15": {
         "unavailable": 16,
         "provisional": 30,
-        "ready": 81
+        "ready": 87
       },
       "m30": {
         "unavailable": 40,
         "provisional": 31,
-        "ready": 56
+        "ready": 62
       },
       "h1": {
         "unavailable": 71,
-        "provisional": 56
+        "provisional": 62
       }
     },
     "ready_alignment": {
-      "aligned": 89,
+      "aligned": 95,
       "unknown": 5,
       "mixed": 33
     },
     "alignment_including_provisional": {
-      "aligned": 77,
+      "aligned": 83,
       "unknown": 3,
       "mixed": 46,
       "opposed": 1
     },
     "opening_range_statuses": {
-      "15m:ready": 127,
-      "30m:ready": 127
+      "15m:ready": 133,
+      "30m:ready": 133
     }
   },
   "entry_routing": {
-    "ready_for_selection": 12,
-    "wait_for_retest": 25,
+    "ready_for_selection": 13,
+    "wait_for_retest": 26,
     "skip": 0,
     "by_reason": {
-      "better_entry_required_at_structure": 25,
-      "entry_conditions_satisfied": 12
+      "better_entry_required_at_structure": 26,
+      "entry_conditions_satisfied": 13
     }
   },
   "decision_pipeline": {
-    "unique_candidates": 37,
-    "candidates_detected": 37,
+    "unique_candidates": 39,
+    "candidates_detected": 39,
     "selection_selected": 0,
-    "selection_rejected": 37,
+    "selection_rejected": 39,
     "risk_approved": 0,
-    "risk_rejected": 7601,
+    "risk_rejected": 8968,
     "orders_submitted": 0,
     "orders_filled": 0,
     "orders_failed": 0
   },
   "strategy_decisions": {
-    "total": 7601,
-    "hold_total": 7601,
+    "total": 8968,
+    "hold_total": 8968,
     "rejected_total": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 570,
-    "market_regime_dead_market": 5196,
-    "market_regime_ranging": 1145,
+    "warming_up_candles": 1350,
+    "market_regime_dead_market": 5511,
+    "market_regime_ranging": 1304,
     "bullish_breakout_not_confirmed": 316,
-    "short_candle_not_red": 2,
-    "bearish_breakdown_not_confirmed": 197,
+    "short_candle_not_red": 4,
+    "bearish_breakdown_not_confirmed": 290,
     "snapshot_bullish_momentum_not_confirmed": 78,
     "long_close_not_near_high": 8,
-    "bullish_trend_not_confirmed": 25,
+    "bullish_trend_not_confirmed": 26,
     "short_close_not_near_low": 5,
-    "snapshot_bearish_momentum_not_confirmed": 40,
+    "snapshot_bearish_momentum_not_confirmed": 56,
     "long_candle_not_green": 4,
     "candle_range_too_small": 4,
-    "bearish_trend_not_confirmed": 11
+    "bearish_trend_not_confirmed": 12
   },
   "rejections": {
-    "total": 37,
+    "total": 39,
     "by_reason": {
-      "better_entry_required_at_structure": 25,
-      "candidate_selection_score_too_low": 12
+      "better_entry_required_at_structure": 26,
+      "candidate_selection_score_too_low": 13
     },
     "top_rejected_candidates": [
       {
@@ -255,11 +258,11 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "unique": 21,
-    "registered_events": 21,
+    "unique": 22,
+    "registered_events": 22,
     "confirmed_unique": 1,
     "confirmed_events": 1,
-    "expired_events": 18,
+    "expired_events": 19,
     "invalidated_events": 3,
     "updated_events": 3,
     "retest_unique": 10,
@@ -375,18 +378,18 @@
   },
   "tp_feasibility": {
     "penalty_components": {
-      "tp_too_far_vs_atr_severe": 37,
+      "tp_too_far_vs_atr_severe": 39,
       "tp_too_far_vs_momentum_hard": 15,
       "cost_to_tp_too_high_severe": 1,
-      "movement_already_consumed_soft": 6,
-      "tp_too_far_vs_momentum_soft": 22,
-      "cost_to_tp_too_high_hard": 36
+      "movement_already_consumed_soft": 8,
+      "tp_too_far_vs_momentum_soft": 24,
+      "cost_to_tp_too_high_hard": 38
     },
     "hard_rejection_components": {}
   },
   "effective_sl_tp": {
     "by_source": {
-      "fixed": 37
+      "fixed": 39
     },
     "adaptations": {}
   }
