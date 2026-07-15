@@ -1,0 +1,218 @@
+{
+  "schema_version": 6,
+  "run_id": "run_20260714T235601_189148Z",
+  "strategy": "TrendStrategy",
+  "profile": "balanced",
+  "journal_detail_level": "normal",
+  "started_at": "2026-07-14T23:56:01.266669+00:00",
+  "ended_at": null,
+  "events": {
+    "by_type": {
+      "runtime_started": 1,
+      "session_state_changed": 153,
+      "market_batch_validated": 88,
+      "session_started": 19,
+      "market_snapshot_received": 1281,
+      "market_snapshot": 1216,
+      "candle_closed": 190,
+      "timeframe_bar_closed": 228,
+      "decision": 190,
+      "session_heartbeat": 2
+    }
+  },
+  "market_data": {
+    "snapshots": 1216,
+    "candles_closed": 190,
+    "received": 1281,
+    "accepted": 1280,
+    "quarantined": 0,
+    "rejected": 0,
+    "rejections_by_reason": {},
+    "trading_snapshots_processed": 1216,
+    "context_snapshots_accepted": 64
+  },
+  "market_context": {
+    "by_regime": {}
+  },
+  "multi_timeframe": {
+    "closed_total": 228,
+    "closed_by_timeframe": {
+      "m1": 190,
+      "m5": 38
+    },
+    "incomplete_total": 0,
+    "incomplete_by_timeframe": {},
+    "partial_total": 0,
+    "partial_by_timeframe": {},
+    "gap_total": 0,
+    "gaps_by_symbol": {},
+    "maturity_by_timeframe": {},
+    "ready_alignment": {},
+    "alignment_including_provisional": {},
+    "opening_range_statuses": {}
+  },
+  "entry_routing": {
+    "ready_for_selection": 0,
+    "wait_for_retest": 0,
+    "skip": 0,
+    "by_reason": {}
+  },
+  "decision_pipeline": {
+    "unique_candidates": 0,
+    "candidates_detected": 0,
+    "selection_selected": 0,
+    "selection_rejected": 0,
+    "risk_approved": 0,
+    "risk_rejected": 190,
+    "orders_submitted": 0,
+    "orders_filled": 0,
+    "orders_failed": 0
+  },
+  "strategy_decisions": {
+    "total": 190,
+    "hold_total": 190,
+    "rejected_total": 0
+  },
+  "hold_reasons": {
+    "warming_up_candles": 190
+  },
+  "rejections": {
+    "total": 0,
+    "by_reason": {},
+    "top_rejected_candidates": []
+  },
+  "selected_candidates": [],
+  "orders": {
+    "submitted": 0,
+    "filled": 0,
+    "failed": 0,
+    "by_symbol": {},
+    "from_pending": 0
+  },
+  "positions": {
+    "opened": 0,
+    "closed": 0,
+    "restored": 0,
+    "force_closed": 0
+  },
+  "pending_entries": {
+    "unique": 0,
+    "registered_events": 0,
+    "confirmed_unique": 0,
+    "confirmed_events": 0,
+    "expired_events": 0,
+    "invalidated_events": 0,
+    "updated_events": 0,
+    "retest_unique": 0,
+    "retest_events": 0,
+    "confirmation_blocked_events": 0,
+    "invalidations_by_reason": {},
+    "invalidations_by_symbol": {},
+    "confirmation_blocks_by_reason": {},
+    "confirmation_blocks_by_symbol": {},
+    "confirmation_blocks_before_first_candle": 0,
+    "blocked_spread_observations": {
+      "count": 0,
+      "average": null,
+      "maximum": null
+    }
+  },
+  "pnl": {
+    "gross_estimated": 0.0,
+    "estimated_costs": 0.0,
+    "net_estimated": 0.0,
+    "net_estimated_available": true,
+    "from_pending": 0.0
+  },
+  "cooldown": {
+    "blocked_total": 0,
+    "by_symbol": {}
+  },
+  "runtime": {
+    "session_transitions": [
+      {
+        "symbol": "BTC",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "ETH",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "SOL",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "XRP",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "ADA",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "DOGE",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "AVAX",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "LINK",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "DOT",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      },
+      {
+        "symbol": "LTC",
+        "from": null,
+        "to": "closed",
+        "reason": "session_closed",
+        "session_key": null
+      }
+    ]
+  },
+  "errors": {
+    "total": 0,
+    "by_type": {},
+    "samples": []
+  },
+  "tp_feasibility": {
+    "penalty_components": {},
+    "hard_rejection_components": {}
+  },
+  "effective_sl_tp": {
+    "by_source": {},
+    "adaptations": {}
+  }
+}
