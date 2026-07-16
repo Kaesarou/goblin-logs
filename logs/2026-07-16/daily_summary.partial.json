@@ -10,23 +10,23 @@
     "by_type": {
       "runtime_started": 1,
       "session_state_changed": 153,
-      "market_batch_validated": 1416,
-      "session_heartbeat": 47,
+      "market_batch_validated": 1588,
+      "session_heartbeat": 53,
       "session_started": 19,
-      "market_snapshot_received": 15041,
-      "market_snapshot": 14288,
-      "candle_closed": 2470,
-      "timeframe_bar_closed": 3230,
-      "decision": 2450,
-      "multi_timeframe_context_built": 77,
-      "candidate_detected": 21,
-      "candidate_economics": 16,
-      "candidate_tp_feasibility": 16,
-      "pending_entry_registered": 14,
-      "candidate_selection": 16,
-      "pending_entry_retest_detected": 11,
-      "pending_entry_updated": 5,
-      "pending_entry_expired": 10,
+      "market_snapshot_received": 18481,
+      "market_snapshot": 17556,
+      "candle_closed": 3040,
+      "timeframe_bar_closed": 3971,
+      "decision": 3018,
+      "multi_timeframe_context_built": 83,
+      "candidate_detected": 23,
+      "candidate_economics": 18,
+      "candidate_tp_feasibility": 18,
+      "pending_entry_registered": 15,
+      "candidate_selection": 18,
+      "pending_entry_retest_detected": 13,
+      "pending_entry_updated": 6,
+      "pending_entry_expired": 11,
       "error": 1,
       "pending_entry_invalidated": 4,
       "candidate_ranking": 1,
@@ -36,26 +36,26 @@
     }
   },
   "market_data": {
-    "snapshots": 14288,
-    "candles_closed": 2470,
-    "received": 15041,
-    "accepted": 15040,
+    "snapshots": 17556,
+    "candles_closed": 3040,
+    "received": 18481,
+    "accepted": 18480,
     "quarantined": 0,
     "rejected": 0,
     "rejections_by_reason": {},
-    "trading_snapshots_processed": 14288,
-    "context_snapshots_accepted": 752
+    "trading_snapshots_processed": 17556,
+    "context_snapshots_accepted": 924
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 3230,
+    "closed_total": 3971,
     "closed_by_timeframe": {
-      "m1": 2470,
-      "m5": 494,
-      "m15": 152,
-      "m30": 76,
+      "m1": 3040,
+      "m5": 608,
+      "m15": 190,
+      "m30": 95,
       "h1": 38
     },
     "incomplete_total": 0,
@@ -66,81 +66,82 @@
     "gaps_by_symbol": {},
     "maturity_by_timeframe": {
       "m1": {
-        "ready": 77
+        "ready": 83
       },
       "m5": {
         "unavailable": 6,
         "provisional": 12,
-        "ready": 59
+        "ready": 65
       },
       "m15": {
         "unavailable": 36,
-        "provisional": 41
+        "provisional": 47
       },
       "m30": {
-        "unavailable": 77
+        "unavailable": 83
       },
       "h1": {
-        "unavailable": 77
+        "unavailable": 83
       }
     },
     "ready_alignment": {
-      "aligned": 70,
+      "aligned": 76,
       "unknown": 5,
       "mixed": 2
     },
     "alignment_including_provisional": {
-      "aligned": 73,
+      "aligned": 79,
       "unknown": 2,
       "mixed": 2
     },
     "opening_range_statuses": {
-      "15m:ready": 77,
-      "30m:ready": 77
+      "15m:ready": 83,
+      "30m:ready": 83
     }
   },
   "entry_routing": {
     "ready_for_selection": 2,
-    "wait_for_retest": 19,
+    "wait_for_retest": 21,
     "skip": 0,
     "by_reason": {
-      "better_entry_required_at_structure": 19,
+      "better_entry_required_at_structure": 21,
       "entry_conditions_satisfied": 2
     }
   },
   "decision_pipeline": {
-    "unique_candidates": 21,
-    "candidates_detected": 21,
+    "unique_candidates": 23,
+    "candidates_detected": 23,
     "selection_selected": 1,
-    "selection_rejected": 20,
+    "selection_rejected": 22,
     "risk_approved": 1,
-    "risk_rejected": 2449,
+    "risk_rejected": 3017,
     "orders_submitted": 1,
     "orders_filled": 1,
     "orders_failed": 0
   },
   "strategy_decisions": {
-    "total": 2450,
-    "hold_total": 2449,
+    "total": 3018,
+    "hold_total": 3017,
     "rejected_total": 0
   },
   "hold_reasons": {
     "warming_up_candles": 570,
-    "market_regime_dead_market": 1268,
-    "bearish_breakdown_not_confirmed": 79,
-    "market_regime_ranging": 356,
-    "snapshot_bearish_momentum_not_confirmed": 21,
+    "market_regime_dead_market": 1694,
+    "bearish_breakdown_not_confirmed": 92,
+    "market_regime_ranging": 445,
+    "snapshot_bearish_momentum_not_confirmed": 23,
     "candle_range_too_small": 1,
     "short_candle_not_red": 1,
-    "bullish_breakout_not_confirmed": 118,
-    "snapshot_bullish_momentum_not_confirmed": 23,
+    "bullish_breakout_not_confirmed": 136,
+    "snapshot_bullish_momentum_not_confirmed": 25,
     "bearish_trend_not_confirmed": 11,
-    "long_close_not_near_high": 1
+    "long_close_not_near_high": 2,
+    "bullish_trend_not_confirmed": 17
   },
   "rejections": {
-    "total": 20,
+    "total": 22,
     "by_reason": {
-      "better_entry_required_at_structure": 19,
+      "better_entry_required_at_structure": 21,
       "candidate_selection_score_too_low": 1
     },
     "top_rejected_candidates": [
@@ -208,6 +209,15 @@
         "reason": "better_entry_required_at_structure"
       },
       {
+        "candidate_id": "c7716491e0e39914fbffac0e444963295ac316afd776b93c3b3b93ad17ea4989",
+        "origin_candidate_id": "c7716491e0e39914fbffac0e444963295ac316afd776b93c3b3b93ad17ea4989",
+        "pending_entry_id": null,
+        "symbol": "NEAR",
+        "side": "BUY",
+        "score": 134.7046,
+        "reason": "better_entry_required_at_structure"
+      },
+      {
         "candidate_id": "f227f9f36549e6d19d802f516dffc34f25c9dbd3f2b42f1eb52df3c9a0e1a9ab",
         "origin_candidate_id": "f227f9f36549e6d19d802f516dffc34f25c9dbd3f2b42f1eb52df3c9a0e1a9ab",
         "pending_entry_id": null,
@@ -217,21 +227,12 @@
         "reason": "better_entry_required_at_structure"
       },
       {
-        "candidate_id": "969edb79db06eada595592a5e3a187059dd51ad3e0a389e0640d614bbd5d9599",
-        "origin_candidate_id": "969edb79db06eada595592a5e3a187059dd51ad3e0a389e0640d614bbd5d9599",
+        "candidate_id": "30f61ccbdb3e1796bc948d6e77e2f9bf645204c9391cca32d976db27115d8433",
+        "origin_candidate_id": "30f61ccbdb3e1796bc948d6e77e2f9bf645204c9391cca32d976db27115d8433",
         "pending_entry_id": null,
-        "symbol": "DOT",
-        "side": "SELL",
-        "score": 128.2762,
-        "reason": "better_entry_required_at_structure"
-      },
-      {
-        "candidate_id": "c8eae20bd087849f8f27d5386f3187a3fc9ae77199a5d7952e0f27d41aaacac2",
-        "origin_candidate_id": "c8eae20bd087849f8f27d5386f3187a3fc9ae77199a5d7952e0f27d41aaacac2",
-        "pending_entry_id": null,
-        "symbol": "XLM",
+        "symbol": "NEAR",
         "side": "BUY",
-        "score": 126.349,
+        "score": 128.7962,
         "reason": "better_entry_required_at_structure"
       }
     ]
@@ -263,15 +264,15 @@
     "force_closed": 0
   },
   "pending_entries": {
-    "unique": 14,
-    "registered_events": 14,
+    "unique": 15,
+    "registered_events": 15,
     "confirmed_unique": 0,
     "confirmed_events": 0,
-    "expired_events": 10,
+    "expired_events": 11,
     "invalidated_events": 4,
-    "updated_events": 5,
-    "retest_unique": 5,
-    "retest_events": 11,
+    "updated_events": 6,
+    "retest_unique": 6,
+    "retest_events": 13,
     "confirmation_blocked_events": 0,
     "invalidations_by_reason": {
       "structure_invalidated": 2,
@@ -391,26 +392,26 @@
   },
   "score_contributions": {
     "market_context": {
-      "[0.00,5.00)": 14,
+      "[0.00,5.00)": 16,
       "[-5.00,0.00)": 1,
       "[5.00,10.00)": 6
     },
     "multi_timeframe": {
       "[0.00,2.00)": 8,
-      "[4.00,6.00)": 13
+      "[4.00,6.00)": 15
     },
     "tp_feasibility_score": {
       "[20.00,30.00)": 8,
       "[30.00,40.00)": 9,
-      "[40.00,50.00)": 4
+      "[40.00,50.00)": 6
     },
     "tp_feasibility_contribution": {
       "[-10.00,-5.00)": 10,
-      "[-5.00,0.00)": 11
+      "[-5.00,0.00)": 13
     },
     "net_expected_value_percent": {
       "[-2.75,-2.50)": 12,
-      "[-2.50,-2.25)": 9
+      "[-2.50,-2.25)": 11
     }
   },
   "tp_feasibility": {
@@ -418,7 +419,7 @@
   },
   "effective_sl_tp": {
     "by_source": {
-      "fixed": 21
+      "fixed": 23
     }
   }
 }

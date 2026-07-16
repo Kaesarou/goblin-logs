@@ -242,3 +242,8 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-16 02:15:08,232 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NEAR', 'reason': 'better_entry_required_at_structure'}]
 2026-07-16 02:16:54,405 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=15029 | candles=2584 | candidates=23 | orders=1 | open_positions=1 | errors=1
 2026-07-16 02:21:58,824 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=15580 | candles=2679 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:27:06,007 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=16131 | candles=2793 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:32:11,675 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=16682 | candles=2888 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:37:14,700 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=17233 | candles=2983 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:42:19,288 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=17784 | candles=3078 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:47:27,498 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=18335 | candles=3173 | candidates=23 | orders=1 | open_positions=1 | errors=1
