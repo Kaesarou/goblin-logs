@@ -382,3 +382,9 @@ Traceback (most recent call last):
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.com', port=443): Max retries exceeded with url: /api/v1/market-data/instruments/rates?instrumentIds=100000,100001,100063,100003,100017,100043,100085,100040,100037,100005,100002,100020,100007,100041,100044,100047,100046,100337,100045 (Caused by NameResolutionError("HTTPSConnection(host='public-api.etoro.com', port=443): Failed to resolve 'public-api.etoro.com' ([Errno -3] Temporary failure in name resolution)"))
 2026-07-16 04:44:21,030 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=31122 | candles=5396 | candidates=26 | orders=1 | open_positions=0 | errors=2
 2026-07-16 04:49:21,230 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=31673 | candles=5491 | candidates=26 | orders=1 | open_positions=0 | errors=2
+2026-07-16 04:54:21,371 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=32224 | candles=5586 | candidates=26 | orders=1 | open_positions=0 | errors=2
+2026-07-16 04:59:30,581 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=32794 | candles=5681 | candidates=26 | orders=1 | open_positions=0 | errors=2
+2026-07-16 05:04:39,702 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=33364 | candles=5776 | candidates=26 | orders=1 | open_positions=0 | errors=2
+2026-07-16 05:09:49,590 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=33934 | candles=5871 | candidates=26 | orders=1 | open_positions=0 | errors=2
+2026-07-16 05:14:59,235 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=34504 | candles=5966 | candidates=26 | orders=1 | open_positions=0 | errors=2
+2026-07-16 05:20:09,116 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=35074 | candles=6080 | candidates=26 | orders=1 | open_positions=0 | errors=2
