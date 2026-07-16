@@ -247,3 +247,27 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-16 02:37:14,700 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=17233 | candles=2983 | candidates=23 | orders=1 | open_positions=1 | errors=1
 2026-07-16 02:42:19,288 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=17784 | candles=3078 | candidates=23 | orders=1 | open_positions=1 | errors=1
 2026-07-16 02:47:27,498 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=18335 | candles=3173 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:52:32,240 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=18886 | candles=3268 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 02:57:37,779 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=19437 | candles=3363 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 03:02:43,280 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=19988 | candles=3458 | candidates=23 | orders=1 | open_positions=1 | errors=1
+2026-07-16 03:06:14,288 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3562874813, 'instrumentID': 100020, 'orderID': 366525425, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-16T03:06:14.2405844Z', 'lastUpdate': '2026-07-16T03:06:14.2405844Z'}, 'token': 'd388ce7f-8654-4e43-bdbf-c1fff035d02a'}
+2026-07-16 03:06:14,358 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=1/10
+2026-07-16 03:06:15,487 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=2/10
+2026-07-16 03:06:16,578 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=3/10
+2026-07-16 03:06:17,678 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=4/10
+2026-07-16 03:06:18,793 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=5/10
+2026-07-16 03:06:19,875 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=6/10
+2026-07-16 03:06:20,950 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=7/10
+2026-07-16 03:06:22,053 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=8/10
+2026-07-16 03:06:23,129 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3562874813 | attempt=9/10
+2026-07-16 03:06:24,260 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3562874813 | attempt=10/10
+2026-07-16 03:06:24,260 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3562874813 | close_order_id=366525425 | response={'orderForClose': {'positionID': 3562874813, 'instrumentID': 100020, 'orderID': 366525425, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-16T03:06:14.2405844Z', 'lastUpdate': '2026-07-16T03:06:14.2405844Z'}, 'token': 'd388ce7f-8654-4e43-bdbf-c1fff035d02a'}
+2026-07-16 03:06:24,261 | INFO | app.execution.trade_executor | Position closed: 3562874813
+2026-07-16 03:06:24,270 | INFO | app.runtime.position_lifecycle | Trade cooldown registered | source=bot_close | symbol=XLM | side=BUY | reason=take_profit | lock_scope=symbol_side | expires_at=2026-07-16T03:36:13.633661+00:00
+2026-07-16 03:07:05,824 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NEAR | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=2.0786
+2026-07-16 03:07:05,829 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=0377b2be3e8403cfe53b25fba14fa96d38786c150ae0acff450566133a9eafa9 | symbol=NEAR | action=BUY | score=132.6975 | reason=score=132.6975 | base_score=118.0515 | directional_score=118.0515 | market_context_score=4.646 | market_context_components={'benchmark_session': 0.2234, 'benchmark_momentum': -0.0004, 'breadth': 0.3156, 'sector': 0.0, 'relative_strength': 4.1074} | multi_timeframe_score=10.0 | multi_timeframe_components={'m5': 4.0, 'm15': 6.0, 'm30': 0.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=0.3089 | trend_strength=0.1952 | breakout=0.1445 | breakdown=0.0 | candle_range=0.1397 | close_position=100.0 | spread=0.0481
+2026-07-16 03:07:06,021 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99206.63
+2026-07-16 03:07:06,032 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'NEAR', 'reason': 'better_entry_required_at_structure'}]
+2026-07-16 03:07:47,925 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=20520 | candles=3553 | candidates=24 | orders=1 | open_positions=0 | errors=1
+2026-07-16 03:12:57,815 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=21090 | candles=3648 | candidates=24 | orders=1 | open_positions=0 | errors=1
+2026-07-16 03:17:58,315 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=21641 | candles=3743 | candidates=24 | orders=1 | open_positions=0 | errors=1
