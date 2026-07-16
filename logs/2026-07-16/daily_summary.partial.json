@@ -9,28 +9,37 @@
   "events": {
     "by_type": {
       "runtime_started": 1,
-      "session_state_changed": 134,
-      "market_batch_validated": 541,
-      "session_heartbeat": 17
+      "session_state_changed": 153,
+      "market_batch_validated": 718,
+      "session_heartbeat": 23,
+      "session_started": 19,
+      "market_snapshot_received": 1081,
+      "market_snapshot": 1026,
+      "candle_closed": 171,
+      "timeframe_bar_closed": 190,
+      "decision": 171
     }
   },
   "market_data": {
-    "snapshots": 0,
-    "candles_closed": 0,
-    "received": 0,
-    "accepted": 0,
+    "snapshots": 1026,
+    "candles_closed": 171,
+    "received": 1081,
+    "accepted": 1080,
     "quarantined": 0,
     "rejected": 0,
     "rejections_by_reason": {},
-    "trading_snapshots_processed": 0,
-    "context_snapshots_accepted": 0
+    "trading_snapshots_processed": 1026,
+    "context_snapshots_accepted": 54
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 0,
-    "closed_by_timeframe": {},
+    "closed_total": 190,
+    "closed_by_timeframe": {
+      "m1": 171,
+      "m5": 19
+    },
     "incomplete_total": 0,
     "incomplete_by_timeframe": {},
     "partial_total": 0,
@@ -54,17 +63,19 @@
     "selection_selected": 0,
     "selection_rejected": 0,
     "risk_approved": 0,
-    "risk_rejected": 0,
+    "risk_rejected": 171,
     "orders_submitted": 0,
     "orders_filled": 0,
     "orders_failed": 0
   },
   "strategy_decisions": {
-    "total": 0,
-    "hold_total": 0,
+    "total": 171,
+    "hold_total": 171,
     "rejected_total": 0
   },
-  "hold_reasons": {},
+  "hold_reasons": {
+    "warming_up_candles": 171
+  },
   "rejections": {
     "total": 0,
     "by_reason": {},

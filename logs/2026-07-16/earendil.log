@@ -20,3 +20,29 @@
 2026-07-15 23:39:21,864 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-15 23:44:22,082 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-15 23:49:22,296 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 23:54:22,520 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-15 23:59:22,773 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=0 | candles=0 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-16 00:00:03,670 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BTC | instrument_id=100000
+2026-07-16 00:00:03,919 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ETH | instrument_id=100001
+2026-07-16 00:00:04,060 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SOL | instrument_id=100063
+2026-07-16 00:00:04,239 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=XRP | instrument_id=100003
+2026-07-16 00:00:04,519 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ADA | instrument_id=100017
+2026-07-16 00:00:04,690 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DOGE | instrument_id=100043
+2026-07-16 00:00:04,809 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AVAX | instrument_id=100085
+2026-07-16 00:00:04,928 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LINK | instrument_id=100040
+2026-07-16 00:00:05,091 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DOT | instrument_id=100037
+2026-07-16 00:00:05,381 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LTC | instrument_id=100005
+2026-07-16 00:00:05,633 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BCH | instrument_id=100002
+2026-07-16 00:00:05,801 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=XLM | instrument_id=100020
+2026-07-16 00:00:06,360 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ETC | instrument_id=100007
+2026-07-16 00:00:06,544 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UNI | instrument_id=100041
+2026-07-16 00:00:06,668 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AAVE | instrument_id=100044
+2026-07-16 00:00:06,809 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ATOM | instrument_id=100047
+2026-07-16 00:00:06,919 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALGO | instrument_id=100046
+2026-07-16 00:00:07,034 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NEAR | instrument_id=100337
+2026-07-16 00:00:07,149 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=FIL | instrument_id=100045
+2026-07-16 00:00:07,390 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CRYPTO10 | instrument_id=624
+2026-07-16 00:04:25,589 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=494 | candles=76 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-16 00:09:35,739 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=1064 | candles=171 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-16 00:14:37,696 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=1615 | candles=266 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-16 00:19:37,940 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=2166 | candles=361 | candidates=0 | orders=0 | open_positions=0 | errors=0
