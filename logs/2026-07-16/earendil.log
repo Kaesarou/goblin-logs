@@ -455,3 +455,74 @@ RuntimeError: eToro order rejected: order_id=366556067, error_code=747, error_me
 2026-07-16 06:41:53,930 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=44080 | candles=7619 | candidates=34 | orders=2 | open_positions=0 | errors=3
 2026-07-16 06:46:54,040 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=44631 | candles=7714 | candidates=34 | orders=2 | open_positions=0 | errors=3
 2026-07-16 06:51:54,126 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=45182 | candles=7809 | candidates=34 | orders=2 | open_positions=0 | errors=3
+2026-07-16 06:57:03,933 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=45750 | candles=7923 | candidates=34 | orders=2 | open_positions=0 | errors=3
+2026-07-16 06:59:08,377 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=UNI | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=3.706
+2026-07-16 06:59:08,382 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=5df81d1babc2d604aabb3bef505590c5643737c475f58992d214658a00e04128 | symbol=UNI | action=BUY | score=153.651 | reason=score=153.651 | base_score=151.1874 | directional_score=151.1874 | market_context_score=6.4636 | market_context_components={'benchmark_session': 0.2068, 'benchmark_momentum': -0.0486, 'breadth': -0.1052, 'sector': 0.0, 'relative_strength': 6.4106} | multi_timeframe_score=-4.0 | multi_timeframe_components={'m5': 4.0, 'm15': -6.0, 'm30': -2.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=BUY | session_move=1.036 | trend_strength=0.2669 | breakout=0.3792 | breakdown=0.0 | candle_range=0.352 | close_position=100.0 | spread=0.0243
+2026-07-16 06:59:08,958 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=99206.63
+2026-07-16 06:59:08,973 | INFO | app.runtime.candidate_flow | Candidate selection | profile=balanced | selected=[] | rejected=[{'symbol': 'UNI', 'reason': 'better_entry_required_at_structure'}]
+2026-07-16 07:00:00,611 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AC.PA | instrument_id=1231
+2026-07-16 07:00:00,733 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AI.PA | instrument_id=1233
+2026-07-16 07:00:00,869 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=AIR.PA | instrument_id=1234
+2026-07-16 07:00:01,014 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALO.PA | instrument_id=1235
+2026-07-16 07:00:01,160 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CS.PA | instrument_id=1241
+2026-07-16 07:00:01,429 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BNP.PA | instrument_id=1238
+2026-07-16 07:00:01,566 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CAP.PA | instrument_id=1240
+2026-07-16 07:00:01,699 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ACA.PA | instrument_id=1232
+2026-07-16 07:00:01,924 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DSY.PA | instrument_id=5001
+2026-07-16 07:00:02,070 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EDEN.PA | instrument_id=5761
+2026-07-16 07:00:02,289 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EL.PA | instrument_id=1244
+2026-07-16 07:00:02,534 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RMS.PA | instrument_id=1978
+2026-07-16 07:00:02,787 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=KER.PA | instrument_id=1250
+2026-07-16 07:00:03,026 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=OR.PA | instrument_id=1256
+2026-07-16 07:00:03,173 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=LR.PA | instrument_id=1252
+2026-07-16 07:00:03,395 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MC.PA | instrument_id=1253
+2026-07-16 07:00:03,645 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ML.PA | instrument_id=1254
+2026-07-16 07:00:03,784 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RI.PA | instrument_id=1259
+2026-07-16 07:00:04,012 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=PUB.PA | instrument_id=1258
+2026-07-16 07:00:04,160 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RNO.PA | instrument_id=1260
+2026-07-16 07:00:04,378 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAF.PA | instrument_id=1261
+2026-07-16 07:00:04,531 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SGO.PA | instrument_id=1263
+2026-07-16 07:00:04,677 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAN.PA | instrument_id=1262
+2026-07-16 07:00:04,869 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SU.PA | instrument_id=1265
+2026-07-16 07:00:05,018 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=GLE.PA | instrument_id=1248
+2026-07-16 07:00:05,169 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=WLN.PA | instrument_id=5779
+2026-07-16 07:00:05,484 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HO.PA | instrument_id=5040
+2026-07-16 07:00:05,628 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TTE.PA | instrument_id=1246
+2026-07-16 07:00:05,757 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=URW.PA | instrument_id=4548
+2026-07-16 07:00:05,983 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DG.PA | instrument_id=1242
+2026-07-16 07:00:06,124 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ADS.DE | instrument_id=1215
+2026-07-16 07:00:06,267 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALV.DE | instrument_id=1204
+2026-07-16 07:00:06,400 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BAS.DE | instrument_id=1201
+2026-07-16 07:00:06,534 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BAYN.DE | instrument_id=1203
+2026-07-16 07:00:06,838 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BMW.DE | instrument_id=1211
+2026-07-16 07:00:07,084 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CBK.DE | instrument_id=1223
+2026-07-16 07:00:07,243 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CON.DE | instrument_id=1228
+2026-07-16 07:00:07,449 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DBK.DE | instrument_id=1995
+2026-07-16 07:00:07,586 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=DB1.DE | instrument_id=1219
+2026-07-16 07:00:07,744 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=EOAN.DE | instrument_id=1205
+2026-07-16 07:00:07,941 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=HEI.DE | instrument_id=1226
+2026-07-16 07:00:08,190 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=IFX.DE | instrument_id=1221
+2026-07-16 07:00:08,434 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MBG.DE | instrument_id=1206
+2026-07-16 07:00:08,925 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=MUV2.DE | instrument_id=1212
+2026-07-16 07:00:09,079 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=RWE.DE | instrument_id=1213
+2026-07-16 07:00:09,212 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAP.DE | instrument_id=1202
+2026-07-16 07:00:09,416 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SIE.DE | instrument_id=1200
+2026-07-16 07:00:09,555 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=VOW3.DE | instrument_id=1210
+2026-07-16 07:00:09,711 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=BBVA.MC | instrument_id=1316
+2026-07-16 07:00:09,849 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CABK.MC | instrument_id=1320
+2026-07-16 07:00:09,983 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CLNX.MC | instrument_id=5838
+2026-07-16 07:00:10,097 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=IBE.MC | instrument_id=1330
+2026-07-16 07:00:10,242 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ITX.MC | instrument_id=1332
+2026-07-16 07:00:10,379 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=REP.MC | instrument_id=1339
+2026-07-16 07:00:10,515 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=SAN.MC | instrument_id=7615
+2026-07-16 07:00:10,742 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=TEF.MC | instrument_id=7622
+2026-07-16 07:00:11,015 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENEL.MI | instrument_id=1282
+2026-07-16 07:00:11,147 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ENI.MI | instrument_id=1283
+2026-07-16 07:00:11,278 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ISP.MI | instrument_id=1288
+2026-07-16 07:00:11,411 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=UCG.MI | instrument_id=1307
+2026-07-16 07:00:11,873 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=FRA40 | instrument_id=31
+2026-07-16 07:02:06,857 | INFO | __main__ | Runtime heartbeat | active_symbols=79 | snapshots=46953 | candles=8138 | candidates=35 | orders=2 | open_positions=0 | errors=3
+2026-07-16 07:07:09,157 | INFO | __main__ | Runtime heartbeat | active_symbols=79 | snapshots=49244 | candles=8533 | candidates=35 | orders=2 | open_positions=0 | errors=3
+2026-07-16 07:12:12,049 | INFO | __main__ | Runtime heartbeat | active_symbols=79 | snapshots=51535 | candles=8928 | candidates=35 | orders=2 | open_positions=0 | errors=3
+2026-07-16 07:17:14,037 | INFO | __main__ | Runtime heartbeat | active_symbols=79 | snapshots=53826 | candles=9323 | candidates=35 | orders=2 | open_positions=0 | errors=3
+2026-07-16 07:22:17,866 | INFO | __main__ | Runtime heartbeat | active_symbols=79 | snapshots=56117 | candles=9718 | candidates=35 | orders=2 | open_positions=0 | errors=3
