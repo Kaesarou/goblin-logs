@@ -398,3 +398,9 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-16 05:40:38,563 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=37335 | candles=6460 | candidates=27 | orders=1 | open_positions=0 | errors=2
 2026-07-16 05:45:48,556 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=37905 | candles=6555 | candidates=27 | orders=1 | open_positions=0 | errors=2
 2026-07-16 05:50:58,072 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=38475 | candles=6650 | candidates=27 | orders=1 | open_positions=0 | errors=2
+2026-07-16 05:56:08,070 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=39045 | candles=6764 | candidates=27 | orders=1 | open_positions=0 | errors=2
+2026-07-16 06:01:18,116 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=39615 | candles=6859 | candidates=27 | orders=1 | open_positions=0 | errors=2
+2026-07-16 06:06:26,997 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=40185 | candles=6954 | candidates=27 | orders=1 | open_positions=0 | errors=2
+2026-07-16 06:11:36,576 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=40755 | candles=7049 | candidates=27 | orders=1 | open_positions=0 | errors=2
+2026-07-16 06:16:38,982 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=41306 | candles=7144 | candidates=27 | orders=1 | open_positions=0 | errors=2
+2026-07-16 06:21:39,147 | INFO | __main__ | Runtime heartbeat | active_symbols=19 | snapshots=41857 | candles=7239 | candidates=27 | orders=1 | open_positions=0 | errors=2
