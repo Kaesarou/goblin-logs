@@ -10,8 +10,8 @@
     "by_type": {
       "runtime_started": 1,
       "session_state_changed": 115,
-      "market_batch_validated": 1171,
-      "session_heartbeat": 38
+      "market_batch_validated": 1351,
+      "session_heartbeat": 44
     }
   },
   "market_data": {
