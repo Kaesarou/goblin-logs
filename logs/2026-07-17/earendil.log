@@ -4413,3 +4413,9 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='public-api.etoro.
 2026-07-17 19:58:15,564 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=XOM | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=147.87
 2026-07-17 20:00:00,269 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=849.84
 2026-07-17 20:02:10,515 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
+2026-07-17 20:07:10,702 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
+2026-07-17 20:12:10,920 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
+2026-07-17 20:17:11,112 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
+2026-07-17 20:22:11,259 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
+2026-07-17 20:27:11,440 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
+2026-07-17 20:32:11,635 | INFO | __main__ | Runtime heartbeat | active_symbols=0 | snapshots=257914 | candles=50730 | candidates=855 | orders=41 | open_positions=0 | errors=8
