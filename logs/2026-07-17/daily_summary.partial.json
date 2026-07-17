@@ -10,30 +10,30 @@
     "by_type": {
       "runtime_started": 1,
       "session_state_changed": 175,
-      "market_batch_validated": 3664,
-      "session_heartbeat": 128,
+      "market_batch_validated": 3814,
+      "session_heartbeat": 134,
       "session_started": 60,
-      "market_snapshot_received": 82961,
-      "market_snapshot": 81599,
-      "candle_closed": 15840,
-      "timeframe_bar_closed": 20640,
-      "decision": 15674,
+      "market_snapshot_received": 92111,
+      "market_snapshot": 90599,
+      "candle_closed": 17640,
+      "timeframe_bar_closed": 23040,
+      "decision": 17465,
       "market_data_quarantined": 1,
-      "multi_timeframe_context_built": 618,
-      "candidate_detected": 209,
-      "candidate_economics": 106,
-      "candidate_tp_feasibility": 106,
-      "pending_entry_registered": 96,
-      "candidate_selection": 106,
+      "multi_timeframe_context_built": 656,
+      "candidate_detected": 219,
+      "candidate_economics": 115,
+      "candidate_tp_feasibility": 115,
+      "pending_entry_registered": 102,
+      "candidate_selection": 115,
       "pending_entry_updated": 24,
       "pending_entry_confirmation_blocked": 32,
-      "candidate_ranking": 43,
-      "order_submitted": 18,
-      "order_filled": 17,
-      "position_opened": 17,
-      "pending_entry_expired": 75,
-      "pending_entry_invalidated": 20,
-      "pending_entry_retest_detected": 67,
+      "candidate_ranking": 44,
+      "order_submitted": 19,
+      "order_filled": 18,
+      "position_opened": 18,
+      "pending_entry_expired": 80,
+      "pending_entry_invalidated": 22,
+      "pending_entry_retest_detected": 70,
       "managed_stop_updated": 19,
       "trade_cooldown_registered": 13,
       "position_closed": 12,
@@ -45,33 +45,34 @@
       "position_close_error": 2,
       "position_reconciled_closed": 1,
       "order_failed": 1,
-      "candidate_execution_error": 1
+      "candidate_execution_error": 1,
+      "entry_horizon_rejected": 1
     }
   },
   "market_data": {
-    "snapshots": 81599,
-    "candles_closed": 15840,
-    "received": 82961,
-    "accepted": 82959,
+    "snapshots": 90599,
+    "candles_closed": 17640,
+    "received": 92111,
+    "accepted": 92109,
     "quarantined": 1,
     "rejected": 0,
     "rejections_by_reason": {
       "unconfirmed_price_jump": 1
     },
-    "trading_snapshots_processed": 81599,
-    "context_snapshots_accepted": 1360
+    "trading_snapshots_processed": 90599,
+    "context_snapshots_accepted": 1510
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 20640,
+    "closed_total": 23040,
     "closed_by_timeframe": {
-      "m1": 15840,
-      "m5": 3120,
-      "m15": 1020,
-      "m30": 480,
-      "h1": 180
+      "m1": 17640,
+      "m5": 3480,
+      "m15": 1140,
+      "m30": 540,
+      "h1": 240
     },
     "incomplete_total": 360,
     "incomplete_by_timeframe": {
@@ -147,90 +148,90 @@
     },
     "maturity_by_timeframe": {
       "m1": {
-        "ready": 618
+        "ready": 656
       },
       "m5": {
         "unavailable": 19,
         "provisional": 171,
-        "ready": 428
+        "ready": 466
       },
       "m15": {
         "unavailable": 308,
         "provisional": 228,
-        "ready": 82
+        "ready": 120
       },
       "m30": {
         "unavailable": 452,
-        "provisional": 166
+        "provisional": 204
       },
       "h1": {
-        "unavailable": 618
+        "unavailable": 656
       }
     },
     "ready_alignment": {
-      "aligned": 532,
-      "unknown": 53,
+      "aligned": 563,
+      "unknown": 54,
       "opposed": 6,
-      "mixed": 27
+      "mixed": 33
     },
     "alignment_including_provisional": {
-      "aligned": 518,
-      "unknown": 8,
-      "mixed": 89,
+      "aligned": 547,
+      "unknown": 9,
+      "mixed": 97,
       "opposed": 3
     },
     "opening_range_statuses": {
-      "15m:ready": 618,
-      "30m:ready": 618
+      "15m:ready": 656,
+      "30m:ready": 656
     }
   },
   "entry_routing": {
-    "ready_for_selection": 78,
-    "wait_for_retest": 120,
+    "ready_for_selection": 82,
+    "wait_for_retest": 126,
     "skip": 0,
     "by_reason": {
-      "better_entry_required_at_structure": 120,
-      "entry_conditions_satisfied": 75,
+      "better_entry_required_at_structure": 126,
+      "entry_conditions_satisfied": 79,
       "pending_structural_confirmation_satisfied": 3
     }
   },
   "decision_pipeline": {
-    "unique_candidates": 209,
-    "candidates_detected": 209,
-    "selection_selected": 43,
-    "selection_rejected": 155,
-    "risk_approved": 18,
+    "unique_candidates": 219,
+    "candidates_detected": 219,
+    "selection_selected": 44,
+    "selection_rejected": 164,
+    "risk_approved": 19,
     "risk_rejected": 25,
-    "orders_submitted": 18,
-    "orders_filled": 17,
+    "orders_submitted": 19,
+    "orders_filled": 18,
     "orders_failed": 1
   },
   "strategy_decisions": {
-    "total": 15674,
-    "hold_total": 15631,
+    "total": 17465,
+    "hold_total": 17421,
     "rejected_total": 25
   },
   "hold_reasons": {
     "warming_up_candles": 1800,
-    "market_regime_ranging": 2836,
-    "market_regime_dead_market": 6599,
-    "bullish_breakout_not_confirmed": 1205,
-    "bearish_breakdown_not_confirmed": 1544,
-    "bearish_trend_not_confirmed": 340,
-    "bullish_trend_not_confirmed": 332,
-    "snapshot_bullish_momentum_not_confirmed": 398,
-    "snapshot_bearish_momentum_not_confirmed": 487,
+    "market_regime_ranging": 3226,
+    "market_regime_dead_market": 7504,
+    "bullish_breakout_not_confirmed": 1401,
+    "bearish_breakdown_not_confirmed": 1637,
+    "bearish_trend_not_confirmed": 349,
+    "bullish_trend_not_confirmed": 357,
+    "snapshot_bullish_momentum_not_confirmed": 516,
+    "snapshot_bearish_momentum_not_confirmed": 532,
     "long_candle_not_green": 12,
     "long_close_not_near_high": 22,
-    "candle_range_too_small": 19,
-    "short_close_not_near_low": 25,
-    "short_candle_not_red": 12
+    "candle_range_too_small": 23,
+    "short_close_not_near_low": 28,
+    "short_candle_not_red": 14
   },
   "rejections": {
-    "total": 191,
+    "total": 200,
     "by_reason": {
-      "better_entry_required_at_structure": 120,
-      "candidate_selection_score_too_low": 27,
+      "better_entry_required_at_structure": 126,
+      "candidate_selection_score_too_low": 30,
       "candidate_selection_outside_top_n": 8,
       "max_open_positions_per_symbol_reached": 7,
       "cooldown_after_take_profit": 5,
@@ -422,8 +423,8 @@
     }
   ],
   "orders": {
-    "submitted": 18,
-    "filled": 17,
+    "submitted": 19,
+    "filled": 18,
     "failed": 1,
     "by_symbol": {
       "DG.PA": 2,
@@ -432,7 +433,7 @@
       "SAP.DE": 2,
       "MBG.DE": 2,
       "AIR.PA": 2,
-      "IFX.DE": 4,
+      "IFX.DE": 6,
       "RMS.PA": 2,
       "MC.PA": 2,
       "SGO.PA": 2,
@@ -447,28 +448,29 @@
     "from_pending": 0
   },
   "positions": {
-    "opened": 17,
+    "opened": 18,
     "closed": 12,
     "restored": 0,
     "force_closed": 0
   },
   "pending_entries": {
-    "unique": 96,
-    "registered_events": 96,
+    "unique": 102,
+    "registered_events": 102,
     "confirmed_unique": 3,
     "confirmed_events": 3,
-    "expired_events": 75,
-    "invalidated_events": 20,
+    "expired_events": 80,
+    "invalidated_events": 22,
     "updated_events": 24,
-    "retest_unique": 34,
-    "retest_events": 67,
+    "retest_unique": 36,
+    "retest_events": 70,
     "confirmation_blocked_events": 32,
     "invalidations_by_reason": {
-      "momentum_inverted": 9,
+      "momentum_inverted": 10,
       "cooldown_registered": 2,
       "risk_reject:max_open_positions_per_symbol_reached": 1,
       "structure_invalidated": 6,
-      "risk_reject:max_open_positions_reached": 2
+      "risk_reject:max_open_positions_reached": 2,
+      "insufficient_session_time_for_trade_horizon": 1
     },
     "invalidations_by_symbol": {
       "DG.PA": 1,
@@ -479,7 +481,7 @@
       "ALO.PA": 1,
       "ADS.DE": 1,
       "PUB.PA": 1,
-      "EL.PA": 1,
+      "EL.PA": 2,
       "AIR.PA": 1,
       "IFX.DE": 1,
       "RNO.PA": 1,
@@ -487,7 +489,8 @@
       "ML.PA": 1,
       "BAS.DE": 1,
       "ITX.MC": 1,
-      "ALV.DE": 1
+      "ALV.DE": 1,
+      "REP.MC": 1
     },
     "confirmation_blocks_by_reason": {
       "spread_too_high": 32
@@ -632,36 +635,37 @@
   },
   "score_contributions": {
     "market_context": {
-      "[0.00,5.00)": 114,
+      "[0.00,5.00)": 122,
       "[5.00,10.00)": 26,
       "[-10.00,-5.00)": 15,
-      "[-5.00,0.00)": 43
+      "[-5.00,0.00)": 45
     },
     "multi_timeframe": {
-      "[0.00,2.00)": 99,
-      "[4.00,6.00)": 78,
+      "[0.00,2.00)": 100,
+      "[4.00,6.00)": 81,
       "[-4.00,-2.00)": 4,
-      "[10.00,12.00)": 11,
-      "[-2.00,0.00)": 5,
-      "[-6.00,-4.00)": 1
+      "[10.00,12.00)": 14,
+      "[-2.00,0.00)": 7,
+      "[-6.00,-4.00)": 1,
+      "[6.00,8.00)": 1
     },
     "tp_feasibility_score": {
-      "[60.00,70.00)": 55,
-      "[50.00,60.00)": 132,
-      "[40.00,50.00)": 10,
+      "[60.00,70.00)": 56,
+      "[50.00,60.00)": 140,
+      "[40.00,50.00)": 11,
       "[30.00,40.00)": 1
     },
     "tp_feasibility_contribution": {
-      "[0.00,5.00)": 184,
-      "[-5.00,0.00)": 11,
+      "[0.00,5.00)": 193,
+      "[-5.00,0.00)": 12,
       "[5.00,10.00)": 3
     },
     "entry_freshness_score": {
-      "[100.00,110.00)": 108,
+      "[100.00,110.00)": 116,
       "[60.00,70.00)": 12,
-      "[90.00,100.00)": 28,
+      "[90.00,100.00)": 29,
       "[20.00,30.00)": 3,
-      "[80.00,90.00)": 19,
+      "[80.00,90.00)": 20,
       "[70.00,80.00)": 10,
       "[50.00,60.00)": 11,
       "[40.00,50.00)": 5,
@@ -669,7 +673,7 @@
       "[10.00,20.00)": 1
     },
     "net_expected_value_percent": {
-      "[-0.50,-0.25)": 179,
+      "[-0.50,-0.25)": 189,
       "[-1.00,-0.75)": 3,
       "[-0.75,-0.50)": 14,
       "[-0.25,0.00)": 2
@@ -680,20 +684,24 @@
   },
   "effective_sl_tp": {
     "by_source": {
-      "eu_trend_buy_v1": 94,
-      "eu_intraday_fixed_v1": 101,
+      "eu_trend_buy_v1": 98,
+      "eu_intraday_fixed_v1": 107,
       "pending_structural": 3
     }
   },
   "tp_probability": {
     "by_calibration_profile": {
-      "eu_trend_buy_v1:BUY": 95,
-      "eu_intraday_fixed_v1:SELL": 103
+      "eu_trend_buy_v1:BUY": 99,
+      "eu_intraday_fixed_v1:SELL": 109
     }
   },
   "entry_horizon": {
-    "rejections_by_reason": {},
-    "rejections_by_profile": {}
+    "rejections_by_reason": {
+      "insufficient_session_time_for_trade_horizon": 1
+    },
+    "rejections_by_profile": {
+      "eu_trend_buy_v1": 1
+    }
   },
   "managed_stops": {
     "updates_by_type": {
