@@ -20,3 +20,9 @@
 2026-07-20 23:12:09,400 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=ALGO | instrument_id=100046
 2026-07-20 23:12:10,853 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=NEAR | instrument_id=100337
 2026-07-20 23:12:12,080 | INFO | app.brokers.etoro.etoro_client | Selected eToro instrument | symbol=CRYPTO10 | instrument_id=624
+2026-07-20 23:16:48,437 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=1418 | candles=72 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-20 23:21:48,476 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=2999 | candles=162 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-20 23:26:48,570 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=4267 | candles=252 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-20 23:31:48,590 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=5609 | candles=342 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-20 23:36:48,615 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=6953 | candles=432 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-20 23:41:48,656 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=8162 | candles=522 | candidates=0 | orders=0 | open_positions=0 | errors=0
