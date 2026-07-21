@@ -12,43 +12,45 @@
       "session_state_changed": 18,
       "session_started": 18,
       "market_data_runtime_started": 1,
-      "market_data_event_received": 33864,
-      "market_price_changed": 8162,
-      "decision": 522,
-      "candle_finalized": 522,
-      "decision_window_finalized": 29,
-      "rest_control_completed": 29,
-      "timeframe_bar_incomplete": 54,
-      "session_heartbeat": 6,
-      "timeframe_bar_closed": 108,
+      "market_data_event_received": 68207,
+      "market_price_changed": 20451,
+      "decision": 1062,
+      "candle_finalized": 1062,
+      "decision_window_finalized": 59,
+      "rest_control_completed": 59,
+      "timeframe_bar_incomplete": 72,
+      "session_heartbeat": 11,
+      "timeframe_bar_closed": 270,
       "market_data_event_ignored": 4
     }
   },
   "market_data": {
-    "snapshots": 8162,
-    "candles_closed": 522,
-    "received": 33864,
-    "accepted": 8162,
+    "snapshots": 20451,
+    "candles_closed": 1062,
+    "received": 68207,
+    "accepted": 20451,
     "quarantined": 0,
     "rejected": 0,
     "rejections_by_reason": {},
-    "trading_snapshots_processed": 8162,
+    "trading_snapshots_processed": 20451,
     "context_snapshots_accepted": 0
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 108,
+    "closed_total": 270,
     "closed_by_timeframe": {
-      "m5": 90,
-      "m15": 18
+      "m5": 198,
+      "m15": 54,
+      "m30": 18
     },
-    "incomplete_total": 54,
+    "incomplete_total": 72,
     "incomplete_by_timeframe": {
       "m5": 18,
       "m15": 18,
-      "m30": 18
+      "m30": 18,
+      "h1": 18
     },
     "partial_total": 0,
     "partial_by_timeframe": {},
@@ -77,12 +79,18 @@
     "orders_failed": 0
   },
   "strategy_decisions": {
-    "total": 522,
-    "hold_total": 522,
+    "total": 1062,
+    "hold_total": 1062,
     "rejected_total": 0
   },
   "hold_reasons": {
-    "warming_up_candles": 522
+    "warming_up_candles": 540,
+    "market_regime_dead_market": 451,
+    "market_regime_ranging": 53,
+    "bullish_trend_not_confirmed": 2,
+    "bearish_breakdown_not_confirmed": 12,
+    "snapshot_bearish_momentum_not_confirmed": 3,
+    "short_close_not_near_low": 1
   },
   "rejections": {
     "total": 0,
