@@ -12,18 +12,18 @@
       "session_state_changed": 18,
       "session_started": 18,
       "market_data_runtime_started": 1,
-      "market_data_event_received": 342934,
-      "market_price_changed": 116665,
-      "decision": 5365,
-      "candle_finalized": 5382,
-      "decision_window_finalized": 299,
-      "rest_control_completed": 299,
+      "market_data_event_received": 377074,
+      "market_price_changed": 127122,
+      "decision": 5904,
+      "candle_finalized": 5922,
+      "decision_window_finalized": 329,
+      "rest_control_completed": 329,
       "timeframe_bar_incomplete": 72,
-      "session_heartbeat": 59,
-      "timeframe_bar_closed": 1638,
-      "market_data_event_ignored": 147,
-      "multi_timeframe_context_built": 41,
-      "candidate_detected": 36,
+      "session_heartbeat": 65,
+      "timeframe_bar_closed": 1800,
+      "market_data_event_ignored": 165,
+      "multi_timeframe_context_built": 42,
+      "candidate_detected": 37,
       "candidate_economics": 23,
       "candidate_tp_feasibility": 23,
       "candidate_selection": 23,
@@ -34,34 +34,34 @@
       "pending_entry_registered": 1,
       "position_reconciliation_grace": 6,
       "pending_entry_expired": 1,
-      "position_close_pending": 11,
+      "position_close_pending": 13,
       "position_reconciliation_suspect": 2,
-      "trade_cooldown_registered": 7,
-      "position_closed": 7,
-      "cooldown_blocked": 5,
-      "position_close_error": 4
+      "trade_cooldown_registered": 8,
+      "position_closed": 8,
+      "cooldown_blocked": 6,
+      "position_close_error": 5
     }
   },
   "market_data": {
-    "snapshots": 116665,
-    "candles_closed": 5382,
-    "received": 342934,
-    "accepted": 116665,
+    "snapshots": 127122,
+    "candles_closed": 5922,
+    "received": 377074,
+    "accepted": 127122,
     "quarantined": 0,
     "rejected": 0,
     "rejections_by_reason": {},
-    "trading_snapshots_processed": 116665,
+    "trading_snapshots_processed": 127122,
     "context_snapshots_accepted": 0
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 1638,
+    "closed_total": 1800,
     "closed_by_timeframe": {
-      "m5": 1062,
-      "m15": 342,
-      "m30": 162,
+      "m5": 1170,
+      "m15": 378,
+      "m30": 180,
       "h1": 72
     },
     "incomplete_total": 72,
@@ -77,35 +77,35 @@
     "gaps_by_symbol": {},
     "maturity_by_timeframe": {
       "m1": {
-        "ready": 41
+        "ready": 42
       },
       "m5": {
         "provisional": 1,
-        "ready": 40
+        "ready": 41
       },
       "m15": {
         "unavailable": 10,
         "provisional": 5,
-        "ready": 26
+        "ready": 27
       },
       "m30": {
         "unavailable": 15,
-        "provisional": 26
+        "provisional": 27
       },
       "h1": {
-        "unavailable": 41
+        "unavailable": 42
       }
     },
     "ready_alignment": {
-      "aligned": 41
+      "aligned": 42
     },
     "alignment_including_provisional": {
-      "aligned": 40,
+      "aligned": 41,
       "mixed": 1
     },
     "opening_range_statuses": {
-      "15m:not_applicable": 41,
-      "30m:not_applicable": 41
+      "15m:not_applicable": 42,
+      "30m:not_applicable": 42
     }
   },
   "entry_routing": {
@@ -118,8 +118,8 @@
     }
   },
   "decision_pipeline": {
-    "unique_candidates": 36,
-    "candidates_detected": 36,
+    "unique_candidates": 37,
+    "candidates_detected": 37,
     "selection_selected": 19,
     "selection_rejected": 12,
     "risk_approved": 10,
@@ -129,31 +129,32 @@
     "orders_failed": 0
   },
   "strategy_decisions": {
-    "total": 5365,
-    "hold_total": 5346,
+    "total": 5904,
+    "hold_total": 5885,
     "rejected_total": 9
   },
   "hold_reasons": {
     "warming_up_candles": 540,
-    "market_regime_dead_market": 3242,
-    "market_regime_ranging": 945,
-    "bullish_trend_not_confirmed": 27,
-    "bearish_breakdown_not_confirmed": 105,
-    "snapshot_bearish_momentum_not_confirmed": 15,
-    "short_close_not_near_low": 4,
-    "bearish_trend_not_confirmed": 4,
-    "bullish_breakout_not_confirmed": 403,
+    "market_regime_dead_market": 3629,
+    "market_regime_ranging": 1048,
+    "bullish_trend_not_confirmed": 38,
+    "bearish_breakdown_not_confirmed": 123,
+    "snapshot_bearish_momentum_not_confirmed": 16,
+    "short_close_not_near_low": 5,
+    "bearish_trend_not_confirmed": 10,
+    "bullish_breakout_not_confirmed": 414,
     "snapshot_bullish_momentum_not_confirmed": 43,
-    "long_close_not_near_high": 18
+    "long_close_not_near_high": 19
   },
   "rejections": {
-    "total": 26,
+    "total": 27,
     "by_reason": {
       "candidate_selection_score_too_low": 8,
       "pending_execution_capacity_reserved": 9,
       "better_entry_required_at_structure": 1,
       "consumed_move_after_take_profit": 5,
-      "candidate_selection_outside_top_n": 3
+      "candidate_selection_outside_top_n": 3,
+      "cooldown_after_take_profit": 1
     },
     "top_rejected_candidates": [
       {
@@ -337,7 +338,7 @@
   },
   "positions": {
     "opened": 10,
-    "closed": 7,
+    "closed": 8,
     "restored": 0,
     "force_closed": 0
   },
@@ -364,17 +365,18 @@
     }
   },
   "pnl": {
-    "gross_estimated": 6.0502,
-    "estimated_costs": 104.8606,
-    "net_estimated": -98.8104,
+    "gross_estimated": 0.4478,
+    "estimated_costs": 119.6363,
+    "net_estimated": -119.1885,
     "net_estimated_available": true,
     "from_pending": 0.0
   },
   "cooldown": {
-    "blocked_total": 5,
+    "blocked_total": 6,
     "by_symbol": {
       "UNI": 3,
-      "AAVE": 2
+      "AAVE": 2,
+      "NEAR": 1
     }
   },
   "runtime": {
@@ -452,9 +454,9 @@
     ]
   },
   "errors": {
-    "total": 4,
+    "total": 5,
     "by_type": {
-      "position_close_error": 4
+      "position_close_error": 5
     },
     "samples": [
       {
@@ -476,6 +478,11 @@
         "event_type": "position_close_error",
         "symbol": "BCH",
         "message": "eToro position still appears open after close confirmation: position_id=3565248043, last_lookup_error=None"
+      },
+      {
+        "event_type": "position_close_error",
+        "symbol": "UNI",
+        "message": "eToro position still appears open after close confirmation: position_id=3565248498, last_lookup_error=None"
       }
     ]
   },
