@@ -18,3 +18,9 @@
 2026-07-21 21:10:13,114 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=18239 | candles=1170 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-21 21:15:13,167 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=19709 | candles=1260 | candidates=0 | orders=0 | open_positions=0 | errors=0
 2026-07-21 21:20:13,207 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=20895 | candles=1350 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 21:25:13,213 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=22088 | candles=1440 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 21:30:13,219 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=22681 | candles=1530 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 21:35:13,270 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=23796 | candles=1620 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 21:40:13,356 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=25122 | candles=1710 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 21:45:13,384 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=26548 | candles=1800 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 21:50:13,413 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=18 | snapshots=28059 | candles=1890 | candidates=0 | orders=0 | open_positions=0 | errors=0
