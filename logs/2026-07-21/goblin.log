@@ -2425,3 +2425,43 @@ ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T
 2026-07-21 19:20:01,101 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=BA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=204.1
 2026-07-21 19:21:25,088 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=466516 | candles=26342 | candidates=315 | orders=20 | open_positions=0 | errors=2
 2026-07-21 19:22:00,876 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ACN | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=141.56
+2026-07-21 19:24:01,043 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DHR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=177.92
+2026-07-21 19:26:00,909 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=SCHW | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=99.73
+2026-07-21 19:26:00,927 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=META | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=649.72
+2026-07-21 19:26:25,165 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=471403 | candles=26617 | candidates=315 | orders=20 | open_positions=0 | errors=2
+2026-07-21 19:28:00,465 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NFLX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=67.98
+2026-07-21 19:29:00,836 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=104.73
+2026-07-21 19:30:00,963 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=104.66
+2026-07-21 19:30:01,020 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TSLA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=376.9
+2026-07-21 19:30:01,028 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AMD | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=539.85
+2026-07-21 19:30:01,060 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=291.88
+2026-07-21 19:31:00,929 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=TXN | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=291.66
+2026-07-21 19:31:25,204 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=477031 | candles=26892 | candidates=315 | orders=20 | open_positions=0 | errors=2
+2026-07-21 19:32:00,533 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=126.54
+2026-07-21 19:34:01,008 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=META | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=645.32
+2026-07-21 19:36:01,054 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=105.55
+2026-07-21 19:36:25,276 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=482820 | candles=27167 | candidates=315 | orders=20 | open_positions=0 | errors=2
+2026-07-21 19:38:01,077 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=970.18
+2026-07-21 19:40:01,009 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=CRM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=170.09
+2026-07-21 19:41:00,971 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ORCL | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=126.99
+2026-07-21 19:41:01,009 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=ADBE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=226.86
+2026-07-21 19:41:25,305 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=488741 | candles=27442 | candidates=315 | orders=20 | open_positions=0 | errors=2
+2026-07-21 19:42:01,082 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=CRM | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=169.87
+2026-07-21 19:43:00,514 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NFLX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=68.29
+2026-07-21 19:45:01,090 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NFLX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=68.4
+2026-07-21 19:45:01,119 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=MU | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=972.43
+2026-07-21 19:45:01,152 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DHR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=177.51
+2026-07-21 19:46:01,020 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NFLX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=68.51
+2026-07-21 19:46:01,066 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DHR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=176.58
+2026-07-21 19:46:25,344 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=494490 | candles=27717 | candidates=315 | orders=20 | open_positions=0 | errors=2
+2026-07-21 19:47:00,941 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=COF | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=205.76
+2026-07-21 19:48:01,118 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=DHR | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=176.25
+2026-07-21 19:51:00,531 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NFLX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=68.64
+2026-07-21 19:51:00,898 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=INTC | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=105.84
+2026-07-21 19:51:00,910 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=NKE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=42.98
+2026-07-21 19:51:01,038 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=QCOM | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=173.35
+2026-07-21 19:51:01,045 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=323.41
+2026-07-21 19:51:01,071 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=SCHW | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=100.76
+2026-07-21 19:51:25,401 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=55 | snapshots=501145 | candles=27992 | candidates=315 | orders=20 | open_positions=0 | errors=2
+2026-07-21 19:53:01,082 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=LRCX | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=323.94
+2026-07-21 19:53:01,104 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=AXP | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=350.19
