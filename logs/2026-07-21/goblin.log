@@ -738,3 +738,393 @@
 2026-07-21 13:12:01,125 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=bc7b08a1db1b1384acfb44d7723d8f836fc955689a8bcb0b5f720da62ec957df | symbol=DSY.PA | action=SELL | score=103.1487 | reason=score=103.1487 | base_score=109.6487 | directional_score=99.6487 | market_context_score=0.5 | market_context_components={'benchmark_session': 0.0072, 'benchmark_momentum': -0.0599, 'breadth': -0.6, 'sector': 0.0, 'market_background': -0.6527, 'relative_strength_raw': 5.796, 'relative_strength_adjustment': 2.6527, 'raw_market_context_score': 2.0, 'effective_market_context_contribution': 0.5} | multi_timeframe_score=3.0 | multi_timeframe_components={'m5': 3.0, 'm15': 0.0, 'm30': 0.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | sell_specific_penalty=10.0 | sell_components=['breakdown_ok', 'short_snapshot_momentum_ok', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | breakdown_strength=0.1118 | short_snapshot_momentum=0.3345 | sell_close_quality=80.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.584 | trend_strength=-0.1042 | breakout=0.0 | breakdown=0.1118 | candle_range=0.1397 | close_position=20.0 | spread=0.0559
 2026-07-21 13:12:01,315 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=95820.92
 2026-07-21 13:15:44,715 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=60 | snapshots=197132 | candles=22498 | candidates=156 | orders=16 | open_positions=4 | errors=3
+2026-07-21 13:20:44,733 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=60 | snapshots=198946 | candles=22798 | candidates=156 | orders=16 | open_positions=4 | errors=3
+2026-07-21 13:21:01,073 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PUB.PA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=86.72
+2026-07-21 13:21:01,086 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=48685ced2bfa573868b9693cf1bc50218ba0da7b466db1b7453350b20c372764 | symbol=PUB.PA | action=SELL | score=92.0714 | reason=score=92.0714 | base_score=116.5714 | directional_score=88.5714 | market_context_score=0.5 | market_context_components={'benchmark_session': 0.024, 'benchmark_momentum': -0.0192, 'breadth': -0.6, 'sector': 0.0, 'market_background': -0.5952, 'relative_strength_raw': 4.6583, 'relative_strength_adjustment': 2.5952, 'raw_market_context_score': 2.0, 'effective_market_context_contribution': 0.5} | multi_timeframe_score=3.0 | multi_timeframe_components={'m5': 3.0, 'm15': 0.0, 'm30': 0.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | sell_specific_penalty=28.0 | sell_components=['breakdown_ok', 'weak_short_snapshot_momentum', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | breakdown_strength=0.1612 | short_snapshot_momentum=0.2071 | sell_close_quality=87.5 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.3905 | trend_strength=-0.1624 | breakout=0.0 | breakdown=0.1612 | candle_range=0.1842 | close_position=12.5 | spread=0.0461
+2026-07-21 13:21:01,255 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=95820.92
+2026-07-21 13:22:01,131 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=PUB.PA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=86.66
+2026-07-21 13:22:01,143 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=1b13c336ba3650b83580cb4609e5264c614fc3af6e0439a1177e1acf662334b0 | symbol=PUB.PA | action=SELL | score=104.1941 | reason=score=104.1941 | base_score=114.6941 | directional_score=100.6941 | market_context_score=0.5 | market_context_components={'benchmark_session': 0.036, 'benchmark_momentum': 0.0048, 'breadth': -0.6, 'sector': 0.0, 'market_background': -0.5592, 'relative_strength_raw': 4.9158, 'relative_strength_adjustment': 2.5592, 'raw_market_context_score': 2.0, 'effective_market_context_contribution': 0.5} | multi_timeframe_score=3.0 | multi_timeframe_components={'m5': 3.0, 'm15': 0.0, 'm30': 0.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | sell_specific_penalty=14.0 | sell_components=['weak_breakdown', 'short_snapshot_momentum_ok', 'sell_close_quality_ok'] | breakdown_strength=0.0461 | short_snapshot_momentum=0.2762 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.4366 | trend_strength=-0.1932 | breakout=0.0 | breakdown=0.0461 | candle_range=0.0692 | close_position=0.0 | spread=0.0462
+2026-07-21 13:22:01,259 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=95820.92
+2026-07-21 13:25:44,762 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=60 | snapshots=201076 | candles=23098 | candidates=158 | orders=16 | open_positions=4 | errors=3
+2026-07-21 13:28:01,116 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=HO.PA | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=223.6
+2026-07-21 13:28:01,128 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=8be1a439ec0fd15162aaa3350e9c52fe067ee63503ff30f0a99d62b34d73a8a4 | symbol=HO.PA | action=SELL | score=89.5549 | reason=score=89.5549 | base_score=107.5948 | directional_score=89.5948 | market_context_score=-0.0399 | market_context_components={'benchmark_session': 0.1795, 'benchmark_momentum': 0.0719, 'breadth': -0.1998, 'sector': 0.0, 'market_background': 0.0516, 'relative_strength_raw': -0.2114, 'relative_strength_adjustment': -0.2114, 'raw_market_context_score': -0.1598, 'effective_market_context_contribution': -0.0399} | multi_timeframe_score=0.0 | multi_timeframe_components={'m5': 0.0, 'm15': 0.0, 'm30': 0.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | sell_specific_penalty=18.0 | sell_components=['breakdown_ok', 'weak_short_snapshot_momentum', 'sell_close_quality_ok'] | breakdown_strength=0.134 | short_snapshot_momentum=0.2231 | sell_close_quality=100.0 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.3121 | trend_strength=-0.0655 | breakout=0.0 | breakdown=0.134 | candle_range=0.134 | close_position=0.0 | spread=0.0447
+2026-07-21 13:28:01,232 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=95820.92
+2026-07-21 13:29:01,097 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=SAP.DE | action=SELL | setup_quality=0.8 | reason=trend_bearish_breakdown | candle_close=135.5
+2026-07-21 13:29:01,103 | INFO | app.runtime.symbol_flow | Trade candidate detected | candidate_id=73d81e23996e01aebe9f702c339b6974eaf54ccee4435dc1e45c88bcc5cd21f2 | symbol=SAP.DE | action=SELL | score=83.0204 | reason=score=83.0204 | base_score=109.9791 | directional_score=81.9791 | market_context_score=1.0413 | market_context_components={'benchmark_session': 0.2268, 'benchmark_momentum': 0.1383, 'breadth': -0.1998, 'sector': 0.0, 'market_background': 0.1653, 'relative_strength_raw': 6.41, 'relative_strength_adjustment': 4.0, 'raw_market_context_score': 4.1653, 'effective_market_context_contribution': 1.0413} | multi_timeframe_score=0.0 | multi_timeframe_components={'m5': 0.0, 'm15': 0.0, 'm30': 0.0} | setup_quality=0.8 | setup_quality_bonus=80.0 | exhaustion_penalty=0.0 | late_entry_risk=0.0 | late_entry_severity=LOW | sell_specific_penalty=28.0 | sell_components=['breakdown_ok', 'weak_short_snapshot_momentum', 'sell_close_quality_ok', 'weak_snapshot_breakdown'] | breakdown_strength=0.1032 | short_snapshot_momentum=0.2356 | sell_close_quality=93.3333 | remaining_move_quality=GOOD | exhaustion_components=('near_trade_extreme',) | action=SELL | session_move=-0.3237 | trend_strength=-0.0765 | breakout=0.0 | breakdown=0.1032 | candle_range=0.2209 | close_position=6.6667 | spread=0.0295
+2026-07-21 13:29:01,194 | INFO | app.brokers.etoro.etoro_client | Account equity resolved | env=demo | equity=95820.92
+2026-07-21 13:30:01,132 | INFO | app.runtime.symbol_flow | Strategy candidate signal | symbol=IFX.DE | action=BUY | setup_quality=0.8 | reason=trend_bullish_breakout | candle_close=66.77
+2026-07-21 13:30:01,370 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:05,071 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:05,075 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133005_003780Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133005_003780Z
+2026-07-21 13:30:05,076 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:05,160 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:05,161 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:05,162 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:05,163 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:06,005 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:06,706 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367796765, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:06.681841Z', 'lastUpdate': '2026-07-21T13:30:06.681841Z'}, 'token': '57b20abf-d04b-4945-98b0-f0930ab56f36'}
+2026-07-21 13:30:07,036 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:08,116 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565416271 | attempt=2/10
+2026-07-21 13:30:09,204 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565416271 | attempt=3/10
+2026-07-21 13:30:10,367 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=4/10
+2026-07-21 13:30:10,368 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367796765 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367796765, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:06.681841Z', 'lastUpdate': '2026-07-21T13:30:06.681841Z'}, 'token': '57b20abf-d04b-4945-98b0-f0930ab56f36'}
+2026-07-21 13:30:10,368 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:12,150 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:12,155 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133012_083786Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133012_083786Z
+2026-07-21 13:30:12,156 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:12,429 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:12,431 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:12,432 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:12,433 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:13,236 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:13,387 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367786967, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:13.3625136Z', 'lastUpdate': '2026-07-21T13:30:13.3625136Z'}, 'token': '5bdb5f7b-9a1a-4e34-b71f-7cc577d4ab70'}
+2026-07-21 13:30:13,534 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:13,534 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367786967 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367786967, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:13.3625136Z', 'lastUpdate': '2026-07-21T13:30:13.3625136Z'}, 'token': '5bdb5f7b-9a1a-4e34-b71f-7cc577d4ab70'}
+2026-07-21 13:30:13,535 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:15,531 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:15,535 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133015_467053Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133015_467053Z
+2026-07-21 13:30:15,536 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:15,632 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:15,633 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:15,634 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:15,635 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:16,393 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367789262, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:16.3707711Z', 'lastUpdate': '2026-07-21T13:30:16.3707711Z'}, 'token': '9b600718-5cd5-478e-be3e-7aac1d38d750'}
+2026-07-21 13:30:16,406 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:16,516 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:16,517 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367789262 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367789262, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:16.3707711Z', 'lastUpdate': '2026-07-21T13:30:16.3707711Z'}, 'token': '9b600718-5cd5-478e-be3e-7aac1d38d750'}
+2026-07-21 13:30:16,517 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:18,906 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:18,911 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133018_840977Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133018_840977Z
+2026-07-21 13:30:18,912 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:18,989 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:18,991 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:18,992 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:18,993 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:19,802 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367789265, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:19.7348782Z', 'lastUpdate': '2026-07-21T13:30:19.7348782Z'}, 'token': 'edef39c5-64b5-4316-9419-3dcbeeac5047'}
+2026-07-21 13:30:19,847 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:20,051 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:20,052 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367789265 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367789265, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:19.7348782Z', 'lastUpdate': '2026-07-21T13:30:19.7348782Z'}, 'token': 'edef39c5-64b5-4316-9419-3dcbeeac5047'}
+2026-07-21 13:30:20,053 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:23,211 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:23,216 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133023_146869Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133023_146869Z
+2026-07-21 13:30:23,218 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:23,364 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:23,366 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:23,367 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:23,368 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:24,226 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785086, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:24.1476794Z', 'lastUpdate': '2026-07-21T13:30:24.1476794Z'}, 'token': 'cd799411-7497-4006-8ab7-4f6be8f12fdc'}
+2026-07-21 13:30:24,368 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:24,368 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367785086 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785086, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:24.1476794Z', 'lastUpdate': '2026-07-21T13:30:24.1476794Z'}, 'token': 'cd799411-7497-4006-8ab7-4f6be8f12fdc'}
+2026-07-21 13:30:24,368 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:24,461 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:29,283 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:29,288 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133029_218885Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133029_218885Z
+2026-07-21 13:30:29,289 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:29,373 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:29,375 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:29,376 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:29,377 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:30,246 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785089, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:30.1497469Z', 'lastUpdate': '2026-07-21T13:30:30.1497469Z'}, 'token': 'e9d89692-c686-4a61-bf75-ca717343bfaa'}
+2026-07-21 13:30:30,292 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:30,343 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:30,344 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367785089 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785089, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:30.1497469Z', 'lastUpdate': '2026-07-21T13:30:30.1497469Z'}, 'token': 'e9d89692-c686-4a61-bf75-ca717343bfaa'}
+2026-07-21 13:30:30,344 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:38,315 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:38,319 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133038_251164Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133038_251164Z
+2026-07-21 13:30:38,320 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:38,461 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:38,463 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:38,464 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:38,465 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:39,325 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:39,384 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785093, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:39.3623197Z', 'lastUpdate': '2026-07-21T13:30:39.3623197Z'}, 'token': '6efabe4c-af0a-4817-8896-9ebd56990aae'}
+2026-07-21 13:30:39,474 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:39,475 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367785093 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785093, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:39.3623197Z', 'lastUpdate': '2026-07-21T13:30:39.3623197Z'}, 'token': '6efabe4c-af0a-4817-8896-9ebd56990aae'}
+2026-07-21 13:30:39,475 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:30:53,838 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:30:53,843 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133053_773857Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133053_773857Z
+2026-07-21 13:30:53,843 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:30:54,085 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:30:54,086 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:30:54,087 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:30:54,088 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:30:54,783 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367796776, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:54.7588558Z', 'lastUpdate': '2026-07-21T13:30:54.7588558Z'}, 'token': 'd26acc0b-00f9-40d4-ae29-bd77ca370b26'}
+2026-07-21 13:30:54,814 | ERROR | __main__ | Goblin runtime failed: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+Traceback (most recent call last):
+  File "/app/app/main.py", line 293, in main
+    run_status = runtime.run()
+                 ^^^^^^^^^^^^^
+  File "/app/app/runtime/market_data_runtime.py", line 232, in run
+    self._finalize_clocked_candles(now)
+  File "/app/app/runtime/clocked_candle_flow.py", line 35, in _finalize_clocked_candles
+    self._process_candle_result(
+  File "/app/app/runtime/clocked_candle_flow.py", line 82, in _process_candle_result
+    candidate = process_closed_candle(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/runtime/symbol_flow.py", line 151, in process_closed_candle
+    update = multi_timeframe_service.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/session_timeframe_service.py", line 84, in on_base_candle
+    update = engine.on_base_candle(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 292, in on_base_candle
+    self._add_to_timeframe(
+  File "/app/app/market/multi_timeframe.py", line 321, in _add_to_timeframe
+    bucket_start, bucket_end = _bucket_bounds(
+                               ^^^^^^^^^^^^^^^
+  File "/app/app/market/multi_timeframe.py", line 765, in _bucket_bounds
+    raise ValueError(
+ValueError: Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00.
+2026-07-21 13:30:54,867 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:30:54,868 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367796776 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367796776, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:30:54.7588558Z', 'lastUpdate': '2026-07-21T13:30:54.7588558Z'}, 'token': 'd26acc0b-00f9-40d4-ae29-bd77ca370b26'}
+2026-07-21 13:30:54,869 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:31:22,033 | INFO | app.brokers.etoro.market_data_client | Loaded eToro instrument cache | path=data/etoro_instrument_ids.json | instruments=136
+2026-07-21 13:31:22,038 | INFO | __main__ | Starting Goblin! | run_id=run_20260721T133121_968189Z | broker=etoro_demo | market_data=auto | strategy_profile=balanced | watchlist=['AC.PA', 'AI.PA', 'AIR.PA', 'ALO.PA', 'CS.PA', 'BNP.PA', 'CAP.PA', 'ACA.PA', 'DSY.PA', 'EDEN.PA', 'EL.PA', 'RMS.PA', 'KER.PA', 'OR.PA', 'LR.PA', 'MC.PA', 'ML.PA', 'RI.PA', 'PUB.PA', 'RNO.PA', 'SAF.PA', 'SGO.PA', 'SAN.PA', 'SU.PA', 'GLE.PA', 'WLN.PA', 'HO.PA', 'TTE.PA', 'URW.PA', 'DG.PA', 'ADS.DE', 'ALV.DE', 'BAS.DE', 'BAYN.DE', 'BMW.DE', 'CBK.DE', 'CON.DE', 'DBK.DE', 'DB1.DE', 'EOAN.DE', 'HEI.DE', 'IFX.DE', 'MBG.DE', 'MUV2.DE', 'RWE.DE', 'SAP.DE', 'SIE.DE', 'VOW3.DE', 'BBVA.MC', 'CABK.MC', 'CLNX.MC', 'IBE.MC', 'ITX.MC', 'REP.MC', 'SAN.MC', 'TEF.MC', 'ENEL.MI', 'ENI.MI', 'ISP.MI', 'UCG.MI', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'META', 'GOOGL', 'TSLA', 'AVGO', 'AMD', 'NFLX', 'ADBE', 'CRM', 'ORCL', 'AMAT', 'INTC', 'QCOM', 'MU', 'LRCX', 'TXN', 'PLTR', 'UBER', 'NOW', 'LLY', 'COF', 'AXP', 'GS', 'JPM', 'BAC', 'CAT', 'DE', 'FDX', 'UPS', 'GE', 'GEV', 'HON', 'BA', 'NKE', 'SBUX', 'BKNG', 'BLK', 'GILD', 'MRK', 'DHR', 'TMO', 'ACN', 'INTU', 'COP', 'XOM', 'RTX', 'TMUS', 'WFC', 'SCHW', 'AMGN', 'DIS', 'PEP'] | run_logs=data/logs/runs/run_20260721T133121_968189Z
+2026-07-21 13:31:22,038 | WARNING | app.runtime.startup_position_restore | Restoring persisted open positions | count=4
+2026-07-21 13:31:22,347 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565416271 | symbol=HO.PA | instrument_id=5040
+2026-07-21 13:31:22,349 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565569232 | symbol=KER.PA | instrument_id=1250
+2026-07-21 13:31:22,350 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565570230 | symbol=SAP.DE | instrument_id=1202
+2026-07-21 13:31:22,351 | INFO | app.brokers.etoro.etoro_client | eToro restored position instrument | position_id=3565579477 | symbol=CAP.PA | instrument_id=1240
+2026-07-21 13:31:23,103 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785115, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:31:23.0817541Z', 'lastUpdate': '2026-07-21T13:31:23.0817541Z'}, 'token': '40cead47-7de3-4c9a-918d-5b1b81064fed'}
+2026-07-21 13:31:23,190 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565416271 | attempt=1/10
+2026-07-21 13:31:23,190 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565416271 | close_order_id=367785115 | response={'orderForClose': {'positionID': 3565416271, 'instrumentID': 5040, 'orderID': 367785115, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:31:23.0817541Z', 'lastUpdate': '2026-07-21T13:31:23.0817541Z'}, 'token': '40cead47-7de3-4c9a-918d-5b1b81064fed'}
+2026-07-21 13:31:23,191 | INFO | app.execution.trade_executor | Position closed: 3565416271
+2026-07-21 13:31:23,235 | INFO | app.runtime.position_lifecycle | Trade cooldown registered | source=bot_close | symbol=HO.PA | side=SELL | reason=take_profit | lock_scope=symbol_side | expires_at=2026-07-21T14:01:20.725315+00:00
+2026-07-21 13:32:13,303 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565570230, 'instrumentID': 1202, 'orderID': 367785131, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:32:13.2795487Z', 'lastUpdate': '2026-07-21T13:32:13.2795487Z'}, 'token': 'fd1c340b-0ff6-4a82-b368-6671ca024721'}
+2026-07-21 13:32:13,434 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=1/10
+2026-07-21 13:32:14,527 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=2/10
+2026-07-21 13:32:15,654 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=3/10
+2026-07-21 13:32:19,041 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=4/10
+2026-07-21 13:32:20,199 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=5/10
+2026-07-21 13:32:21,870 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=6/10
+2026-07-21 13:32:22,954 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565570230 | attempt=7/10
+2026-07-21 13:32:24,096 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565570230 | attempt=8/10
+2026-07-21 13:32:24,097 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565570230 | close_order_id=367785131 | response={'orderForClose': {'positionID': 3565570230, 'instrumentID': 1202, 'orderID': 367785131, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:32:13.2795487Z', 'lastUpdate': '2026-07-21T13:32:13.2795487Z'}, 'token': 'fd1c340b-0ff6-4a82-b368-6671ca024721'}
+2026-07-21 13:32:24,097 | INFO | app.execution.trade_executor | Position closed: 3565570230
+2026-07-21 13:32:24,114 | INFO | app.runtime.position_lifecycle | Trade cooldown registered | source=bot_close | symbol=SAP.DE | side=SELL | reason=stop_loss | lock_scope=symbol_both_sides | expires_at=2026-07-21T14:17:11.233028+00:00
+2026-07-21 13:33:16,916 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565579477, 'instrumentID': 1240, 'orderID': 367796828, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:33:16.8930669Z', 'lastUpdate': '2026-07-21T13:33:16.8930669Z'}, 'token': '7cbcfda8-d440-45ec-86da-30ff86550955'}
+2026-07-21 13:33:16,999 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565579477 | attempt=1/10
+2026-07-21 13:33:18,083 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565579477 | attempt=2/10
+2026-07-21 13:33:19,163 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565579477 | attempt=3/10
+2026-07-21 13:33:20,250 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565579477 | attempt=4/10
+2026-07-21 13:33:21,332 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565579477 | attempt=5/10
+2026-07-21 13:33:22,525 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565579477 | attempt=6/10
+2026-07-21 13:33:23,623 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565579477 | attempt=7/10
+2026-07-21 13:33:23,623 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565579477 | close_order_id=367796828 | response={'orderForClose': {'positionID': 3565579477, 'instrumentID': 1240, 'orderID': 367796828, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:33:16.8930669Z', 'lastUpdate': '2026-07-21T13:33:16.8930669Z'}, 'token': '7cbcfda8-d440-45ec-86da-30ff86550955'}
+2026-07-21 13:33:23,623 | INFO | app.execution.trade_executor | Position closed: 3565579477
+2026-07-21 13:33:23,650 | INFO | app.runtime.position_lifecycle | Trade cooldown registered | source=bot_close | symbol=CAP.PA | side=SELL | reason=stop_loss | lock_scope=symbol_both_sides | expires_at=2026-07-21T14:18:16.357770+00:00
+2026-07-21 13:36:06,368 | INFO | app.brokers.etoro.etoro_client | eToro close position response: {'orderForClose': {'positionID': 3565569232, 'instrumentID': 1250, 'orderID': 367787069, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:36:06.3471225Z', 'lastUpdate': '2026-07-21T13:36:06.3471225Z'}, 'token': '348e8ae2-2899-4d65-903e-a72eba2ad16c'}
+2026-07-21 13:36:06,453 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=1/10
+2026-07-21 13:36:07,534 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=2/10
+2026-07-21 13:36:08,674 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=3/10
+2026-07-21 13:36:09,841 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=4/10
+2026-07-21 13:36:10,999 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=5/10
+2026-07-21 13:36:12,136 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=6/10
+2026-07-21 13:36:13,249 | INFO | app.brokers.etoro.etoro_client | eToro position still open | position_id=3565569232 | attempt=7/10
+2026-07-21 13:36:14,395 | INFO | app.brokers.etoro.etoro_client | eToro position closure confirmed | position_id=3565569232 | attempt=8/10
+2026-07-21 13:36:14,396 | INFO | app.brokers.etoro.etoro_client | eToro close confirmed by portfolio | position_id=3565569232 | close_order_id=367787069 | response={'orderForClose': {'positionID': 3565569232, 'instrumentID': 1250, 'orderID': 367787069, 'orderType': 19, 'statusID': 1, 'CID': 8444401, 'openDateTime': '2026-07-21T13:36:06.3471225Z', 'lastUpdate': '2026-07-21T13:36:06.3471225Z'}, 'token': '348e8ae2-2899-4d65-903e-a72eba2ad16c'}
+2026-07-21 13:36:14,400 | INFO | app.execution.trade_executor | Position closed: 3565569232
+2026-07-21 13:36:14,410 | INFO | app.runtime.position_lifecycle | Trade cooldown registered | source=bot_close | symbol=KER.PA | side=SELL | reason=take_profit | lock_scope=symbol_side | expires_at=2026-07-21T14:06:04.753384+00:00
+2026-07-21 13:36:22,087 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=115 | snapshots=14154 | candles=587 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 13:41:22,096 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=115 | snapshots=28140 | candles=1162 | candidates=0 | orders=0 | open_positions=0 | errors=0
+2026-07-21 13:46:22,096 | INFO | app.runtime.market_data_runtime | Runtime heartbeat | active_symbols=115 | snapshots=42020 | candles=1737 | candidates=0 | orders=0 | open_positions=0 | errors=0

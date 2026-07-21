@@ -1,8 +1,8 @@
 {
   "schema_version": 11,
-  "run_id": "run_20260721T065541_019280Z",
+  "run_id": "run_20260721T133121_968189Z",
   "status": "running",
-  "started_at": "2026-07-21T06:55:41.019280+00:00",
+  "started_at": "2026-07-21T13:31:21.968189+00:00",
   "ended_at": null,
   "code": {
     "git_commit": "4101dd048fe83ba8ecc5ff13a5e6e4509789ce9b",
@@ -7939,14 +7939,14 @@
       "position_reconciliation_required_misses": 3
     },
     "journals": {
-      "run_root": "data/logs/runs/run_20260721T065541_019280Z",
+      "run_root": "data/logs/runs/run_20260721T133121_968189Z",
       "compressed": true,
       "max_runs": 30,
       "removed_runs": []
     }
   },
   "analysis_sources": {
-    "run_id": "run_20260721T065541_019280Z",
+    "run_id": "run_20260721T133121_968189Z",
     "market_stream": "data/logs/market.jsonl",
     "candle_stream": "data/logs/candles.jsonl",
     "trade_stream": "data/logs/trades.jsonl",
@@ -8000,9 +8000,9 @@
     ]
   },
   "files": {
-    "manifest": "data/logs/runs/run_20260721T065541_019280Z/manifest.json",
+    "manifest": "data/logs/runs/run_20260721T133121_968189Z/manifest.json",
     "latest_manifest": "data/logs/run_manifest.json",
-    "summary": "data/logs/runs/run_20260721T065541_019280Z/summary.json",
+    "summary": "data/logs/runs/run_20260721T133121_968189Z/summary.json",
     "latest_summary": "data/logs/daily_summary.json",
     "partial_summary": "data/logs/daily_summary.partial.json",
     "trades": "data/logs/trades.jsonl",

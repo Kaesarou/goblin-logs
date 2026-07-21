@@ -1,0 +1,239 @@
+{
+  "schema_version": 8,
+  "run_id": "run_20260721T133053_773857Z",
+  "strategy": "TrendStrategy",
+  "profile": "balanced",
+  "journal_detail_level": "normal",
+  "started_at": "2026-07-21T13:30:53.842162+00:00",
+  "ended_at": "2026-07-21T13:30:54.817459+00:00",
+  "events": {
+    "by_type": {
+      "runtime_started": 1,
+      "position_restored": 4,
+      "position_reconciliation_suspect": 1,
+      "session_state_changed": 115,
+      "session_started": 115,
+      "market_data_runtime_started": 1,
+      "market_data_event_received": 102,
+      "market_price_changed": 102,
+      "position_close_pending": 1,
+      "market_data_runtime_stopped": 1,
+      "error": 1,
+      "runtime_stopped": 1
+    }
+  },
+  "market_data": {
+    "snapshots": 102,
+    "candles_closed": 0,
+    "received": 102,
+    "accepted": 102,
+    "quarantined": 0,
+    "rejected": 0,
+    "rejections_by_reason": {},
+    "trading_snapshots_processed": 102,
+    "context_snapshots_accepted": 0
+  },
+  "market_context": {
+    "by_regime": {}
+  },
+  "multi_timeframe": {
+    "closed_total": 0,
+    "closed_by_timeframe": {},
+    "incomplete_total": 0,
+    "incomplete_by_timeframe": {},
+    "partial_total": 0,
+    "partial_by_timeframe": {},
+    "gap_total": 0,
+    "gaps_by_symbol": {},
+    "maturity_by_timeframe": {},
+    "ready_alignment": {},
+    "alignment_including_provisional": {},
+    "opening_range_statuses": {}
+  },
+  "entry_routing": {
+    "ready_for_selection": 0,
+    "wait_for_retest": 0,
+    "skip": 0,
+    "by_reason": {}
+  },
+  "decision_pipeline": {
+    "unique_candidates": 0,
+    "candidates_detected": 0,
+    "selection_selected": 0,
+    "selection_rejected": 0,
+    "risk_approved": 0,
+    "risk_rejected": 0,
+    "orders_submitted": 0,
+    "orders_filled": 0,
+    "orders_failed": 0
+  },
+  "strategy_decisions": {
+    "total": 0,
+    "hold_total": 0,
+    "rejected_total": 0
+  },
+  "hold_reasons": {},
+  "rejections": {
+    "total": 0,
+    "by_reason": {},
+    "top_rejected_candidates": []
+  },
+  "selected_candidates": [],
+  "orders": {
+    "submitted": 0,
+    "filled": 0,
+    "failed": 0,
+    "by_symbol": {},
+    "from_pending": 0
+  },
+  "positions": {
+    "opened": 0,
+    "closed": 0,
+    "restored": 4,
+    "force_closed": 0
+  },
+  "pending_entries": {
+    "unique": 0,
+    "registered_events": 0,
+    "confirmed_unique": 0,
+    "confirmed_events": 0,
+    "expired_events": 0,
+    "invalidated_events": 0,
+    "updated_events": 0,
+    "retest_unique": 0,
+    "retest_events": 0,
+    "confirmation_blocked_events": 0,
+    "invalidations_by_reason": {},
+    "invalidations_by_symbol": {},
+    "confirmation_blocks_by_reason": {},
+    "confirmation_blocks_by_symbol": {},
+    "confirmation_blocks_before_first_candle": 0,
+    "blocked_spread_observations": {
+      "count": 0,
+      "average": null,
+      "maximum": null
+    }
+  },
+  "pnl": {
+    "gross_estimated": 0.0,
+    "estimated_costs": 0.0,
+    "net_estimated": 0.0,
+    "net_estimated_available": true,
+    "from_pending": 0.0
+  },
+  "cooldown": {
+    "blocked_total": 0,
+    "by_symbol": {}
+  },
+  "runtime": {
+    "session_transitions": [
+      {
+        "symbol": "AC.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "AI.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "AIR.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "ALO.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "CS.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "BNP.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "CAP.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "ACA.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "DSY.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      },
+      {
+        "symbol": "EDEN.PA",
+        "from": null,
+        "to": "active",
+        "reason": "session_tradable",
+        "session_key": "EQUITY_EU:2026-07-21T09:00:00+02:00:2026-07-21T17:30:00+02:00"
+      }
+    ]
+  },
+  "errors": {
+    "total": 1,
+    "by_type": {
+      "error": 1
+    },
+    "samples": [
+      {
+        "event_type": "error",
+        "symbol": null,
+        "message": "Candle 2026-07-21T13:29:00+00:00 precedes session anchor 2026-07-21T13:30:00+00:00."
+      }
+    ]
+  },
+  "score_contributions": {
+    "market_context": {},
+    "multi_timeframe": {},
+    "tp_feasibility_score": {},
+    "tp_feasibility_contribution": {},
+    "entry_freshness_score": {},
+    "net_expected_value_percent": {}
+  },
+  "tp_feasibility": {
+    "hard_rejection_components": {}
+  },
+  "effective_sl_tp": {
+    "by_source": {}
+  },
+  "tp_probability": {
+    "by_calibration_profile": {}
+  },
+  "entry_horizon": {
+    "rejections_by_reason": {},
+    "rejections_by_profile": {}
+  },
+  "managed_stops": {
+    "updates_by_type": {}
+  }
+}

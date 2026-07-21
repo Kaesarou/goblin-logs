@@ -1,9 +1,9 @@
 {
   "schema_version": 11,
   "run_id": "run_20260721T065541_019280Z",
-  "status": "running",
+  "status": "failed",
   "started_at": "2026-07-21T06:55:41.019280+00:00",
-  "ended_at": null,
+  "ended_at": "2026-07-21T13:30:01.416143+00:00",
   "code": {
     "git_commit": "4101dd048fe83ba8ecc5ff13a5e6e4509789ce9b",
     "source_sha256": "d995eb112cd839f06faf69c4185d168a393186c853daaa09808d6f916fa6be24",
@@ -8010,5 +8010,20 @@
     "market": "data/logs/market.jsonl",
     "candles": "data/logs/candles.jsonl",
     "debug_decisions": "data/logs/debug_decisions.jsonl.gz"
+  },
+  "result": {
+    "market_snapshots": 203606,
+    "market_data_rejected": 141,
+    "market_data_quarantined": 0,
+    "candles_closed": 23398,
+    "timeframe_bars_closed": 7137,
+    "timeframe_bars_incomplete": 243,
+    "ready_for_selection": 140,
+    "wait_for_retest": 18,
+    "skip": 0,
+    "orders_submitted": 16,
+    "positions_opened": 16,
+    "positions_closed": 12,
+    "errors": 4
   }
 }
