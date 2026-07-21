@@ -12,43 +12,45 @@
       "session_state_changed": 18,
       "session_started": 18,
       "market_data_runtime_started": 1,
-      "market_data_event_received": 51377,
-      "market_price_changed": 12284,
-      "decision": 810,
-      "candle_finalized": 810,
-      "decision_window_finalized": 45,
-      "rest_control_completed": 44,
-      "timeframe_bar_closed": 194,
-      "session_heartbeat": 8,
-      "market_data_event_ignored": 8,
-      "timeframe_bar_incomplete": 40
+      "market_data_event_received": 85480,
+      "market_price_changed": 20892,
+      "decision": 1350,
+      "candle_finalized": 1350,
+      "decision_window_finalized": 75,
+      "rest_control_completed": 74,
+      "timeframe_bar_closed": 355,
+      "session_heartbeat": 14,
+      "market_data_event_ignored": 18,
+      "timeframe_bar_incomplete": 59
     }
   },
   "market_data": {
-    "snapshots": 12284,
-    "candles_closed": 810,
-    "received": 51377,
-    "accepted": 12284,
+    "snapshots": 20892,
+    "candles_closed": 1350,
+    "received": 85480,
+    "accepted": 20892,
     "quarantined": 0,
     "rejected": 0,
     "rejections_by_reason": {},
-    "trading_snapshots_processed": 12284,
+    "trading_snapshots_processed": 20892,
     "context_snapshots_accepted": 0
   },
   "market_context": {
     "by_regime": {}
   },
   "multi_timeframe": {
-    "closed_total": 194,
+    "closed_total": 355,
     "closed_by_timeframe": {
-      "m5": 160,
-      "m15": 34
+      "m5": 268,
+      "m15": 70,
+      "m30": 17
     },
-    "incomplete_total": 40,
+    "incomplete_total": 59,
     "incomplete_by_timeframe": {
       "m15": 20,
-      "m30": 18,
-      "m5": 2
+      "m30": 19,
+      "m5": 2,
+      "h1": 18
     },
     "partial_total": 0,
     "partial_by_timeframe": {},
@@ -77,15 +79,17 @@
     "orders_failed": 0
   },
   "strategy_decisions": {
-    "total": 810,
-    "hold_total": 810,
+    "total": 1350,
+    "hold_total": 1350,
     "rejected_total": 0
   },
   "hold_reasons": {
     "warming_up_candles": 540,
-    "market_regime_dead_market": 235,
-    "market_regime_ranging": 34,
-    "bullish_breakout_not_confirmed": 1
+    "market_regime_dead_market": 716,
+    "market_regime_ranging": 82,
+    "bullish_breakout_not_confirmed": 3,
+    "snapshot_bullish_momentum_not_confirmed": 1,
+    "bearish_breakdown_not_confirmed": 8
   },
   "rejections": {
     "total": 0,
